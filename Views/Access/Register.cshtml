@@ -1,0 +1,146 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from easybook.kwst.net/contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:19:48 GMT -->
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>Easybook - Hotel Booking Directory Listing Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/color.css">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--loader-->
+    <div class="loader-wrap">
+        <div class="pin">
+            <div class="pulse"></div>
+        </div>
+    </div>
+    <!--loader end-->
+    <!-- Main  -->
+    <div id="main">
+        <!-- header-->
+        @await Html.PartialAsync("_PatialHeader")
+        <!--  header end -->
+        <!--  wrapper  -->
+        <div id="wrapper">
+            <!-- content-->
+            <div class="content">
+                <section id="sec1" class="grey-b lue-bg middle-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="list-single-main-item fl-wrap">
+                                    <div class="list-single-main-item-title fl-wrap">
+                                        <h3>Đăng ký</h3>
+                                    </div>
+                                    <div id="contact-form">
+                                        <div id="message"></div>
+                                        <form class="custom-form" method="post" name="registerform" id="registerform">
+                                            <fieldset>
+                                                <div class="clearfix"></div>
+                                                <label for="TenDangNhap"><i class="fal fa-envelope"></i></label>
+                                                <input type="text" name="TenDangNhap" id="email" placeholder="Tài khoản" value="" />
+                                                <span id="email-error" style="color: red; padding-bottom: 10px; float: left;" class="text-danger error-message">@TempData["Error"]</span>
+
+                                                <div class="clearfix"></div>
+                                                <label for="MatKhau"><i class="fal fa-lock"></i></label>
+                                                <input type="password" name="MatKhau" id="newpassword" placeholder="Mật khẩu" value="" />
+                                                <span id="newpassword-error" style="color: red; padding-bottom: 10px; float: left;" class="text-danger error-message"></span>
+
+                                                <div class="clearfix"></div>
+                                                <label for="XacNhanMatKhau"><i class="fal fa-lock"></i></label>
+                                                <input type="password" name="XacNhanMatKhau" id="confirmpassword" placeholder="Xác nhận mật khẩu" value="" />
+                                                <span id="confirmpassword-error" style="color: red; padding-bottom: 10px; float: left;" class="text-danger error-message"></span>
+                                            </fieldset>
+                                            <button href="/Access/Register" class="btn float-btn color2-bg" style="margin-top:15px;" type="submit">Đăng ký <i class="fal fa-angle-right"></i></button>
+                                        </form>
+                                    </div>
+                                    <!-- contact form  end-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-decor"></div>
+                </section>
+                <!-- section end -->
+            </div>
+            <!-- content end-->
+        </div>
+        <!--wrapper end -->
+        <!--footer -->
+        @await Html.PartialAsync("_PatialFooter")
+        <!--footer end -->
+        <!--register form -->
+       
+        <!--register form end -->
+        <a class="to-top"><i class="fas fa-caret-up"></i></a>
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins.js"></script>
+    <script type="text/javascript" src="../assets/js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo&amp;libraries=places&amp;callback=initAutocomplete"></script>
+    <script type="text/javascript" src="../assets/js/map-single.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('form').submit(function (event) {
+                event.preventDefault();
+                $('.error-message').text('');
+
+                // Lấy giá trị từ các trường input
+                var tenDangNhap = $('#email').val();
+                var matKhau = $('#newpassword').val();
+                var xacNhanMatKhau = $('#confirmpassword').val();
+
+                var isValid = true;
+
+                // Kiểm tra xem các trường có được nhập không
+                if (tenDangNhap == '') {
+                    $('#email-error').text('Vui lòng nhập tên đăng nhập.');
+                    isValid = false;
+                }
+
+                if (matKhau == '') {
+                    $('#newpassword-error').text('Vui lòng nhập mật khẩu.');
+                    isValid = false;
+                }
+
+                if (xacNhanMatKhau == '') {
+                    $('#confirmpassword-error').text('Vui lòng nhập xác nhận mật khẩu.');
+                    isValid = false;
+                }
+
+                // Kiểm tra xác nhận mật khẩu
+                if (matKhau != xacNhanMatKhau) {
+                    $('#confirmpassword-error').text('Mật khẩu và xác nhận mật khẩu không trùng khớp.');
+                    isValid = false;
+                }
+
+                // Nếu không có lỗi, submit form
+                if (isValid) {
+                    $('form')[0].submit();
+                }
+            });
+        });
+    </script>
+</body>
+
+<!-- Mirrored from easybook.kwst.net/contacts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:19:48 GMT -->
+</html>

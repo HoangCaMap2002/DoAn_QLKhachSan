@@ -1,0 +1,1042 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Phong theo khach san";
+}
+@using DoAn_QLKhachSan.ViewModels
+@model List<PhongModel>
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from easybook.kwst.net/listing-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:18:13 GMT -->
+
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>Easybook - Hotel Booking Directory Listing Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/color.css">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js"></script>
+    <style>
+        .rooms-media img{
+	        width:100%;
+	        max-height:181px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!--loader-->
+    <div class="loader-wrap">
+        <div class="pin">
+            <div class="pulse"></div>
+        </div>
+    </div>
+    <!--loader end-->
+    <!-- Main  -->
+    <div id="main">
+        <!-- header-->
+        @await Html.PartialAsync("_PatialHeader")
+        <!--  header end -->
+        <!--  wrapper  -->
+        <div id="wrapper">
+            <!-- content-->
+            <div class="content">
+                <!--  section  -->
+                <section class="list-single-hero" data-scrollax-parent="true" id="sec1">
+                    <div class="bg par-elem " data-bg="../assets/images/bg/9.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+                    <div class="list-single-hero-title fl-wrap">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="listing-rating-wrap">
+                                        <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                    </div>
+                                    <h2><span>Premium Plaza Hotel</span></h2>
+                                    <div class="list-single-header-contacts fl-wrap">
+                                        <ul>
+                                            <li><i class="far fa-phone"></i><a href="#">+7(111)123456789</a></li>
+                                            <li><i class="far fa-map-marker-alt"></i><a href="#">USA 27TH Brooklyn NY</a></li>
+                                            <li><i class="far fa-envelope"></i><a href="#">yourmail@domain.com</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <!--  list-single-hero-details-->
+                                    <div class="list-single-hero-details fl-wrap">
+                                        <!--  list-single-hero-rating-->
+                                        <div class="list-single-hero-rating">
+                                            <div class="rate-class-name">
+                                                <div class="score"><strong>Very Good</strong>2 Reviews </div>
+                                                <span>4.5</span>
+                                            </div>
+                                            <!-- list-single-hero-rating-list-->
+                                            <div class="list-single-hero-rating-list">
+                                                <!-- rate item-->
+                                                <div class="rate-item fl-wrap">
+                                                    <div class="rate-item-title fl-wrap"><span>Cleanliness</span></div>
+                                                    <div class="rate-item-bg" data-percent="100%">
+                                                        <div class="rate-item-line color-bg"></div>
+                                                    </div>
+                                                    <div class="rate-item-percent">5.0</div>
+                                                </div>
+                                                <!-- rate item end-->
+                                                <!-- rate item-->
+                                                <div class="rate-item fl-wrap">
+                                                    <div class="rate-item-title fl-wrap"><span>Comfort</span></div>
+                                                    <div class="rate-item-bg" data-percent="90%">
+                                                        <div class="rate-item-line color-bg"></div>
+                                                    </div>
+                                                    <div class="rate-item-percent">5.0</div>
+                                                </div>
+                                                <!-- rate item end-->
+                                                <!-- rate item-->
+                                                <div class="rate-item fl-wrap">
+                                                    <div class="rate-item-title fl-wrap"><span>Staf</span></div>
+                                                    <div class="rate-item-bg" data-percent="80%">
+                                                        <div class="rate-item-line color-bg"></div>
+                                                    </div>
+                                                    <div class="rate-item-percent">4.0</div>
+                                                </div>
+                                                <!-- rate item end-->
+                                                <!-- rate item-->
+                                                <div class="rate-item fl-wrap">
+                                                    <div class="rate-item-title fl-wrap"><span>Facilities</span></div>
+                                                    <div class="rate-item-bg" data-percent="90%">
+                                                        <div class="rate-item-line color-bg"></div>
+                                                    </div>
+                                                    <div class="rate-item-percent">4.5</div>
+                                                </div>
+                                                <!-- rate item end-->
+                                            </div>
+                                            <!-- list-single-hero-rating-list end-->
+                                        </div>
+                                        <!--  list-single-hero-rating  end-->
+                                        <div class="clearfix"></div>
+                                        <!-- list-single-hero-links-->
+                                        <div class="list-single-hero-links">
+                                            <a class="lisd-link" href="booking-single.html"><i class="fal fa-bookmark"></i> Book Now</a>
+                                            <a class="custom-scroll-link lisd-link" href="#sec6"><i class="fal fa-comment-alt-check"></i> Add review</a>
+                                        </div>
+                                        <!--  list-single-hero-links end-->
+                                    </div>
+                                    <!--  list-single-hero-details  end-->
+                                </div>
+                            </div>
+                            <div class="breadcrumbs-hero-buttom fl-wrap">
+                                <div class="breadcrumbs"><a href="#">Home</a><a href="#">Listings</a><a href="#">New York</a><span>Listing Single</span></div>
+                                <div class="list-single-hero-price">AWG/NIGHT<span>$ 320</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--  section  end-->
+                <!--  section  -->
+                <section class="grey-blue-bg small-padding scroll-nav-container" id="sec2">
+                    <!--  scroll-nav-wrapper  -->
+                    <div class="scroll-nav-wrapper fl-wrap">
+                        <div class="hidden-map-container fl-wrap">
+                            <input id="pac-input" class="controls fl-wrap controls-mapwn" type="text" placeholder="What Nearby ?   Bar , Gym , Restaurant ">
+                            <div class="map-container">
+                                <div id="singleMap" data-latitude="40.7427837" data-longitude="-73.11445617675781"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="container">
+                            <nav class="scroll-nav scroll-init">
+                                <ul>
+                                    <li><a class="act-scrlink" href="#sec1">Top</a></li>
+                                    <li><a href="#sec2">Chi tiết</a></li>
+                                    <li><a href="#sec3">Tiện nghi</a></li>
+                                    <li><a href="#sec4">Phòng</a></li>
+                                    <li><a href="#sec5">Đánh giá</a></li>
+                                </ul>
+                            </nav>
+                            <a href="#" class="show-hidden-map"> <span>On The Map</span> <i class="fal fa-map-marked-alt"></i></a>
+                        </div>
+                    </div>
+                    <!--  scroll-nav-wrapper end  -->
+                    <!--   container  -->
+                    <div class="container">
+                        <!--   row  -->
+                        <div class="row">
+                            <!--   datails -->
+                            <div class="col-md-8">
+                                <div class="list-single-main-container ">
+                                    <!-- fixed-scroll-column  -->
+                                    <div class="fixed-scroll-column">
+                                        <div class="fixed-scroll-column-item fl-wrap">
+                                            <div class="showshare sfcs fc-button"><i class="far fa-share-alt"></i><span>Share </span></div>
+                                            <div class="share-holder fixed-scroll-column-share-container">
+                                                <div class="share-container  isShare"></div>
+                                            </div>
+                                            <a class="fc-button custom-scroll-link" href="#sec6"><i class="far fa-comment-alt-check"></i> <span>  Add review </span></a>
+                                            <a class="fc-button" href="#"><i class="far fa-heart"></i> <span>Save</span></a>
+                                            <a class="fc-button" href="booking-single.html"><i class="far fa-bookmark"></i> <span> Book Now </span></a>
+                                        </div>
+                                    </div>
+                                    <!-- fixed-scroll-column end   -->
+                                    <div class="list-single-main-media fl-wrap">
+                                        <!-- gallery-items   -->
+                                        <div class="gallery-items grid-small-pad  list-single-gallery three-coulms lightgallery">
+                                            <!-- 1 -->
+                                            <div class="gallery-item ">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/9.jpg" alt="">
+                                                        <a href="../assets/images/gal/9.jpg" class="gal-link popup-image"><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 1 end -->
+                                            <!-- 2 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/7.jpg" alt="">
+                                                        <a href="../assets/images/gal/7.jpg" class="gal-link popup-image"><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 2 end -->
+                                            <!-- 3 -->
+                                            <div class="gallery-item gallery-item-second">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/3.jpg" alt="">
+                                                        <a href="../assets/images/gal/3.jpg" class="gal-link popup-image"><i class="fa fa-search"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 3 end -->
+                                            <!-- 4 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/4.jpg" alt="">
+                                                        <a href="../assets/images/gal/4.jpg" class="gal-link popup-image"><i class="fa fa-search"  ></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 4 end -->
+                                            <!-- 5 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/5.jpg" alt="">
+                                                        <a href="../assets/images/gal/5.jpg" class="gal-link popup-image"><i class="fa fa-search"  ></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 5 end -->
+                                            <!-- 7 -->
+                                            <div class="gallery-item">
+                                                <div class="grid-item-holder">
+                                                    <div class="box-item">
+                                                        <img src="../assets/images/gal/6.jpg" alt="">
+                                                        <div class="more-photos-button dynamic-gal" data-dynamicPath="[{'src': '../assets/images/gal/2.jpg'}, {'src': '../assets/images/gal/8.jpg'},{'src': '../assets/images/gal/1.jpg'}]">Other <span>4 photos</span><i class="far fa-long-arrow-right"></i></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 7 end -->
+                                        </div>
+                                        <!-- end gallery items -->
+                                    </div>
+                                    <!-- list-single-header end -->
+                                    <div class="list-single-facts fl-wrap">
+                                        <!-- inline-facts -->
+                                        <div class="inline-facts-wrap">
+                                            <div class="inline-facts">
+                                                <i class="fal fa-bed"></i>
+                                                <div class="milestone-counter">
+                                                    <div class="stats animaper">
+                                                        45
+                                                    </div>
+                                                </div>
+                                                <h6>Phòng</h6>
+                                            </div>
+                                        </div>
+                                        <!-- inline-facts end -->
+                                        <!-- inline-facts  -->
+                                        <div class="inline-facts-wrap">
+                                            <div class="inline-facts">
+                                                <i class="fal fa-users"></i>
+                                                <div class="milestone-counter">
+                                                    <div class="stats animaper">
+                                                        2557
+                                                    </div>
+                                                </div>
+                                                <h6>Khách hàng hằng năm</h6>
+                                            </div>
+                                        </div>
+                                        <!-- inline-facts end -->
+                                        <!-- inline-facts -->
+                                        <div class="inline-facts-wrap">
+                                            <div class="inline-facts">
+                                                <i class="fal fa-taxi"></i>
+                                                <div class="milestone-counter">
+                                                    <div class="stats animaper">
+                                                        15
+                                                    </div>
+                                                </div>
+                                                <h6>Cách trung tâm</h6>
+                                            </div>
+                                        </div>
+                                        <!-- inline-facts end -->
+                                        <!-- inline-facts -->
+                                        <div class="inline-facts-wrap">
+                                            <div class="inline-facts">
+                                                <i class="fal fa-cocktail"></i>
+                                                <div class="milestone-counter">
+                                                    <div class="stats animaper">
+                                                        4
+                                                    </div>
+                                                </div>
+                                                <h6>Nhà hàng bên trong</h6>
+                                            </div>
+                                        </div>
+                                        <!-- inline-facts end -->
+                                    </div>
+                                    <!--   list-single-main-item -->
+                                    <div class="list-single-main-item fl-wrap">
+                                        <div class="list-single-main-item-title fl-wrap">
+                                            <h3>Giới thiệu về khách sạn </h3>
+                                        </div>
+                                        <p>Chào mừng bạn đến với khách sạn Sang Trọng - nơi kết hợp hoàn hảo giữa tiện nghi hiện đại và dịch vụ chăm sóc khách hàng tận tâm.
+                                            Với vị trí đắc địa giữa trung tâm thành phố, chúng tôi hân hạnh đưa đến bạn không gian nghỉ dưỡng sang trọng, thoải mái và đẳng cấp.
+                                        </p>
+                                        <p>Khách sạn của chúng tôi sở hữu phòng nghỉ đa dạng, từ phòng tiêu chuẩn đến suite cao cấp, đều được trang bị đầy đủ tiện nghi và trang thiết bị hiện đại.
+                                            Khám phá không gian nghỉ tại đây, bạn sẽ trải nghiệm sự ấm cúng và thoải mái ngay từ khoảnh khắc đầu tiên.
+                                         </p>
+                                         <p>Nhân viên chúng tôi luôn sẵn sàng phục vụ bạn 24/7, với tinh thần phục vụ tận tâm và chuyên nghiệp.
+                                             Những đầu bếp tài năng tại nhà hàng của chúng tôi sẽ mang đến cho bạn trải nghiệm ẩm thực độc đáo và ngon miệng.
+                                         </p>
+                                        <a href="https://vimeo.com/70851162" class="btn flat-btn color-bg big-btn float-btn image-popup">Video Presentation <i class="fal fa-play"></i></a>
+                                    </div>
+                                    <!--   list-single-main-item end -->
+                                    <!--   list-single-main-item -->
+                                    <div class="list-single-main-item fl-wrap" id="sec3">
+                                        <div class="list-single-main-item-title fl-wrap">
+                                            <h3>Tiện nghi</h3>
+                                        </div>
+                                        <div class="listing-features fl-wrap">
+                                            <ul>
+                                                <li><i class="fal fa-rocket"></i> Thang máy</li>
+                                                <li><i class="fal fa-wifi"></i> Free Wi Fi</li>
+                                                <li><i class="fal fa-parking"></i>Gửi xe miễn phí</li>
+                                                <li><i class="fal fa-snowflake"></i>Điều hoà</li>
+                                                <li><i class="fal fa-plane"></i>Máy bay đưa đón</li>
+                                                <li><i class="fal fa-paw"></i>Thú cưng</li>
+                                                <li><i class="fal fa-utensils"></i> Nhà hàng bên trong</li>
+                                                <li><i class="fal fa-wheelchair"></i>Xe lăn</li>
+                                            </ul>
+                                        </div>
+                                        <span class="fw-separator"></span>                                
+                                    </div>
+                                    <!--   list-single-main-item end -->
+                                    <!--   list-single-main-item -->
+                                    <div class="list-single-main-item fl-wrap" id="sec4">
+                                        <div class="list-single-main-item-title fl-wrap">
+                                            <h3>Danh sách phòng trống</h3>
+                                        </div>
+                                        <!--   rooms-container -->
+                                        <div class="rooms-container fl-wrap">                                         
+                                            @if(Model != null){
+                                                @foreach(var item in Model){
+                                                <!--  rooms-item -->
+                                                string rs = string.Join(",", item.ImagePaths);
+                                                <div class="rooms-item fl-wrap">
+                                                    <div class="rooms-media">
+                                                        <img src="../assets/images/phong/@item.Phong.AnhDaiDien" alt="">
+                                                        <div class="dynamic-gal more-photos-button" data-dynamicPath="[@rs]"> Ảnh phòng <span>4 ảnh</span> <i class="far fa-long-arrow-right"></i> </div>
+                                                    </div>
+                                                    <div class="rooms-details">
+                                                        <div class="rooms-details-header fl-wrap">
+                                                            <span class="rooms-price">@item.Phong.GiaPhong.Value.ToString("N0")₫<strong> / đêm</strong></span>
+                                                            <h3>Deluxe Single Room</h3>
+                                                            <h5>Max Guests: <span>2 persons</span></h5>
+                                                        </div>
+                                                        <p>Morbi varius, nulla sit amet rutrum elementum, est elit finibus tellus, ut tristique elit risus at metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                        <div class="facilities-list fl-wrap">
+                                                            <ul>
+                                                                <li><i class="fal fa-wifi"></i><span>Free WiFi</span></li>
+                                                                <li><i class="fal fa-parking"></i><span>Parking</span></li>
+                                                                <li><i class="fal fa-smoking-ban"></i><span>Non-smoking Rooms</span></li>
+                                                                <li><i class="fal fa-utensils"></i><span> Restaurant</span></li>
+                                                            </ul>
+                                                            <a href="/Phong/ChiTietPhong?idphong=@item.Phong.Id" class="btn color-bg ajax-link">Details<i class="fas fa-caret-right"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--  rooms-item end -->
+                                                }
+                                            }
+                                            else
+                                            {
+                                                <h1 class="text-white bg-danger">Không có phòng</h1>
+                                            }
+                                        </div>
+                                        <!--   rooms-container end -->
+                                    </div>
+                                    <!-- list-single-main-item end -->
+                                    <!-- list-single-main-item -->
+                                    <div class="list-single-main-item fl-wrap" id="sec5">
+                                        <div class="list-single-main-item-title fl-wrap">
+                                            <h3>Item Reviews - <span> 2 </span></h3>
+                                        </div>
+                                        <!--reviews-score-wrap-->
+                                        <div class="reviews-score-wrap fl-wrap">
+                                            <div class="review-score-total">
+                                                <span>
+                                                    4.5
+                                                    <strong>Very Good</strong>
+                                                    </span>
+                                                <a href="#" class="color2-bg">Add Review</a>
+                                            </div>
+                                            <div class="review-score-detail">
+                                                <!-- review-score-detail-list-->
+                                                <div class="review-score-detail-list">
+                                                    <!-- rate item-->
+                                                    <div class="rate-item fl-wrap">
+                                                        <div class="rate-item-title fl-wrap"><span>Cleanliness</span></div>
+                                                        <div class="rate-item-bg" data-percent="100%">
+                                                            <div class="rate-item-line color-bg"></div>
+                                                        </div>
+                                                        <div class="rate-item-percent">5.0</div>
+                                                    </div>
+                                                    <!-- rate item end-->
+                                                    <!-- rate item-->
+                                                    <div class="rate-item fl-wrap">
+                                                        <div class="rate-item-title fl-wrap"><span>Comfort</span></div>
+                                                        <div class="rate-item-bg" data-percent="90%">
+                                                            <div class="rate-item-line color-bg"></div>
+                                                        </div>
+                                                        <div class="rate-item-percent">5.0</div>
+                                                    </div>
+                                                    <!-- rate item end-->
+                                                    <!-- rate item-->
+                                                    <div class="rate-item fl-wrap">
+                                                        <div class="rate-item-title fl-wrap"><span>Staf</span></div>
+                                                        <div class="rate-item-bg" data-percent="80%">
+                                                            <div class="rate-item-line color-bg"></div>
+                                                        </div>
+                                                        <div class="rate-item-percent">4.0</div>
+                                                    </div>
+                                                    <!-- rate item end-->
+                                                    <!-- rate item-->
+                                                    <div class="rate-item fl-wrap">
+                                                        <div class="rate-item-title fl-wrap"><span>Facilities</span></div>
+                                                        <div class="rate-item-bg" data-percent="90%">
+                                                            <div class="rate-item-line color-bg"></div>
+                                                        </div>
+                                                        <div class="rate-item-percent">4.5</div>
+                                                    </div>
+                                                    <!-- rate item end-->
+                                                </div>
+                                                <!-- review-score-detail-list end-->
+                                            </div>
+                                        </div>
+                                        <!-- reviews-score-wrap end -->
+                                        <div class="reviews-comments-wrap">
+                                            <!-- reviews-comments-item -->
+                                            <div class="reviews-comments-item">
+                                                <div class="review-comments-avatar">
+                                                    <img src="../assets/images/avatar/2.jpg" alt="">
+                                                </div>
+                                                <div class="reviews-comments-item-text">
+                                                    <h4><a href="#">Liza Rose</a></h4>
+                                                    <div class="review-score-user">
+                                                        <span>4.4</span>
+                                                        <strong>Good</strong>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <p>" Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+                                                        imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. "</p>
+                                                    <div class="reviews-comments-item-date"><span><i class="far fa-calendar-check"></i>12 April 2018</span><a href="#"><i class="fal fa-reply"></i> Reply</a></div>
+                                                </div>
+                                            </div>
+                                            <!--reviews-comments-item end-->
+                                            <!-- reviews-comments-item -->
+                                            <div class="reviews-comments-item">
+                                                <div class="review-comments-avatar">
+                                                    <img src="../assets/images/avatar/5.jpg" alt="">
+                                                </div>
+                                                <div class="reviews-comments-item-text">
+                                                    <h4><a href="#">Adam Koncy</a></h4>
+                                                    <div class="review-score-user">
+                                                        <span>4.7</span>
+                                                        <strong>Very Good</strong>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere convallis purus non cursus. Cras metus neque, gravida sodales massa ut. "</p>
+                                                    <div class="reviews-comments-item-date"><span><i class="far fa-calendar-check"></i>03 December 2017</span><a href="#"><i class="fal fa-reply"></i> Reply</a></div>
+                                                </div>
+                                            </div>
+                                            <!--reviews-comments-item end-->
+                                        </div>
+                                    </div>
+                                    <!-- list-single-main-item end -->
+                                    <!-- list-single-main-item -->
+                                    <div class="list-single-main-item fl-wrap" id="sec6">
+                                        <div class="list-single-main-item-title fl-wrap">
+                                            <h3>Add Review</h3>
+                                        </div>
+                                        <!-- Add Review Box -->
+                                        <div id="add-review" class="add-review-box">
+                                            <!-- Review Comment -->
+                                            <form id="add-comment" class="add-comment  custom-form" name="rangeCalc">
+                                                <fieldset>
+                                                    <div class="review-score-form fl-wrap">
+                                                        <div class="review-range-container">
+                                                            <!-- review-range-item-->
+                                                            <div class="review-range-item">
+                                                                <div class="range-slider-title">Cleanliness</div>
+                                                                <div class="range-slider-wrap ">
+                                                                    <input type="text" class="rate-range" data-min="0" data-max="5" name="rgcl" data-step="1" value="4">
+                                                                </div>
+                                                            </div>
+                                                            <!-- review-range-item end -->
+                                                            <!-- review-range-item-->
+                                                            <div class="review-range-item">
+                                                                <div class="range-slider-title">Comfort</div>
+                                                                <div class="range-slider-wrap ">
+                                                                    <input type="text" class="rate-range" data-min="0" data-max="5" name="rgcl" data-step="1" value="1">
+                                                                </div>
+                                                            </div>
+                                                            <!-- review-range-item end -->
+                                                            <!-- review-range-item-->
+                                                            <div class="review-range-item">
+                                                                <div class="range-slider-title">Staf</div>
+                                                                <div class="range-slider-wrap ">
+                                                                    <input type="text" class="rate-range" data-min="0" data-max="5" name="rgcl" data-step="1" value="5">
+                                                                </div>
+                                                            </div>
+                                                            <!-- review-range-item end -->
+                                                            <!-- review-range-item-->
+                                                            <div class="review-range-item">
+                                                                <div class="range-slider-title">Facilities</div>
+                                                                <div class="range-slider-wrap">
+                                                                    <input type="text" class="rate-range" data-min="0" data-max="5" name="rgcl" data-step="1" value="3">
+                                                                </div>
+                                                            </div>
+                                                            <!-- review-range-item end -->
+                                                        </div>
+                                                        <div class="review-total">
+                                                            <span><input type="text" name="rg_total"  data-form="AVG({rgcl})" value="0"></span>
+                                                            <strong>Your Score</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <label><i class="fal fa-user"></i></label>
+                                                            <input type="text" placeholder="Your Name *" value="" />
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <label><i class="fal fa-envelope"></i>  </label>
+                                                            <input type="text" placeholder="Email Address*" value="" />
+                                                        </div>
+                                                    </div>
+                                                    <textarea cols="40" rows="3" placeholder="Your Review:"></textarea>
+                                                </fieldset>
+                                                <button class="btn  big-btn flat-btn float-btn color2-bg" style="margin-top:30px">Submit Review <i class="fal fa-paper-plane"></i></button>
+                                            </form>
+                                        </div>
+                                        <!-- Add Review Box / End -->
+                                    </div>
+                                    <!-- list-single-main-item end -->
+                                </div>
+                            </div>
+                            <!--   datails end  -->
+                            <!--   sidebar  -->
+                            <div class="col-md-4">
+                                <!--box-widget-wrap -->
+                                <div class="box-widget-wrap">
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget">
+                                            <div class="box-widget-content">
+                                                <div class="box-widget-item-header">
+                                                    <h3> Book This Hotel</h3>
+                                                </div>
+                                                <form name="bookFormCalc" class="book-form custom-form">
+                                                    <fieldset>
+                                                        <div class="cal-item">
+                                                            <div class="listsearch-input-item">
+                                                                <label>Room Type</label>
+                                                                <select data-placeholder="Room Type" name="repopt" class="chosen-select no-search-select">
+                                                                        <option value="0" selected>Select Room</option>
+                                                                        <option value="81">Standard Family Room - 81$</option>
+                                                                        <option value="122">Superior Double Room - 122$</option>
+                                                                        <option value="310">Deluxe Single Room - 310$</option>
+                                                                    </select>
+                                                                <!--data-formula -->
+                                                                <input type="text" name="item_total" class="hid-input" value="" data-form="{repopt}">
+                                                            </div>
+                                                        </div>
+                                                        <div class="cal-item">
+                                                            <div class="bookdate-container  fl-wrap">
+                                                                <label><i class="fal fa-calendar-check"></i> When </label>
+                                                                <input type="text" placeholder="Date In-Out" name="bookdates" value="" />
+                                                                <div class="bookdate-container-dayscounter"><i class="far fa-question-circle"></i><span>Days : <strong>0</strong></span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cal-item">
+                                                            <div class="quantity-item fl-wrap">
+                                                                <label> Adults</label>
+                                                                <div class="quantity">
+                                                                    <input type="number" name="qty3" min="0" max="3" step="1" value="0">
+                                                                    <input type="text" name="item_total" class="hid-input" value="0" data-form="{qty3} * {repopt} - {repopt}">
+                                                                </div>
+                                                            </div>
+                                                            <div class="quantity-item fl-wrap fcit">
+                                                                <label> Children</label>
+                                                                <div class="quantity">
+                                                                    <input type="number" name="qty2" min="0" max="3" step="1" value="0">
+                                                                    <select name="sale" class="hid-input">
+                                                                            <option value=".7"  selected>sale</option>
+                                                                        </select>
+                                                                    <input type="text" name="item_total" class="hid-input" value="0" data-form="({repopt} * {sale})*{qty2}">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                    <input type="number" id="totaldays" name="qty5" class="hid-input">
+                                                    <div class="total-coast fl-wrap"><strong>Total Cost</strong> <span>$ <input type="text" name="grand_total" value="" data-form="SUM({item_total}) * {qty5}"></span></div>
+                                                    <button class="btnaplly color2-bg book-btn">Book Now<i class="fal fa-paper-plane"></i></button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget counter-widget" data-countDate="09/12/2024">
+                                            <div class="banner-wdget fl-wrap">
+                                                <div class="overlay"></div>
+                                                <div class="bg" data-bg="../assets/images/bg/10.jpg"></div>
+                                                <div class="banner-wdget-content fl-wrap">
+                                                    <h4>Get a discount <span>20%</span> when ordering a room from three days.</h4>
+                                                    <div class="countdown fl-wrap">
+                                                        <div class="countdown-item">
+                                                            <span class="days rot">00</span>
+                                                            <p>days</p>
+                                                        </div>
+                                                        <div class="countdown-item">
+                                                            <span class="hours rot">00</span>
+                                                            <p>hours </p>
+                                                        </div>
+                                                        <div class="countdown-item">
+                                                            <span class="minutes rot">00</span>
+                                                            <p>minutes </p>
+                                                        </div>
+                                                        <div class="countdown-item">
+                                                            <span class="seconds rot">00</span>
+                                                            <p>seconds</p>
+                                                        </div>
+                                                    </div>
+                                                    <a href="#">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget">
+                                            <div class="box-widget-content">
+                                                <div class="box-widget-item-header">
+                                                    <h3> Contact Information</h3>
+                                                </div>
+                                                <div class="box-widget-list">
+                                                    <ul>
+                                                        <li><span><i class="fal fa-map-marker"></i> Adress :</span> <a href="#">USA 27TH Brooklyn NY</a></li>
+                                                        <li><span><i class="fal fa-phone"></i> Phone :</span> <a href="#">+7(123)987654</a></li>
+                                                        <li><span><i class="fal fa-envelope"></i> Mail :</span> <a href="#">AlisaNoory@domain.com</a></li>
+                                                        <li><span><i class="fal fa-browser"></i> Website :</span> <a href="#">themeforest.net</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="list-widget-social">
+                                                    <ul>
+                                                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                                        <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
+                                                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget">
+                                            <div class="box-widget-content">
+                                                <div class="box-widget-item-header">
+                                                    <h3> Price Range </h3>
+                                                </div>
+                                                <div class="claim-price-wdget fl-wrap">
+                                                    <div class="claim-price-wdget-content fl-wrap">
+                                                        <div class="pricerange fl-wrap"><span>Price : </span> 81$ - 320$ </div>
+                                                        <div class="claim-widget-link fl-wrap"><span>Own or work here?</span><a href="#">Claim Now!</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div id="weather-widget" class="gradient-bg ideaboxWeather" data-city="New York"></div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                   
+                                    <!--box-widget-item end -->
+                                    <!--box-widget-item -->
+                                    <div class="box-widget-item fl-wrap">
+                                        <div class="box-widget">
+                                            <div class="box-widget-content">
+                                                <div class="box-widget-item-header">
+                                                    <h3>Similar Listings</h3>
+                                                </div>
+                                                <div class="widget-posts fl-wrap">
+                                                    <ul>
+                                                        <li class="clearfix">
+                                                            <a href="#" class="widget-posts-img"><img src="../assets/images/gal/3.jpg" class="respimg" alt=""></a>
+                                                            <div class="widget-posts-descr">
+                                                                <a href="#" title="">Park Central</a>
+                                                                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
+                                                                <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> 40 JOURNAL SQUARE PLAZA, NJ, US</a></div>
+                                                                <span class="rooms-price">$80 <strong> /  Awg</strong></span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="#" class="widget-posts-img"><img src="../assets/images/gal/1.jpg" class="respimg" alt=""></a>
+                                                            <div class="widget-posts-descr">
+                                                                <a href="#" title="">Holiday Home</a>
+                                                                <div class="listing-rating card-popup-rainingvis" data-starrating2="3"></div>
+                                                                <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> 75 PRINCE ST, NY, USA</a></div>
+                                                                <span class="rooms-price">$50 <strong> /   Awg</strong></span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="clearfix">
+                                                            <a href="#" class="widget-posts-img"><img src="../assets/images/gal/2.jpg" class="respimg" alt=""></a>
+                                                            <div class="widget-posts-descr">
+                                                                <a href="#" title="">Moonlight Hotel</a>
+                                                                <div class="listing-rating card-popup-rainingvis" data-starrating2="4"></div>
+                                                                <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i>  70 BRIGHT ST NEW YORK, USA</a></div>
+                                                                <span class="rooms-price">$105 <strong> /  Awg</strong></span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                    <a class="widget-posts-link" href="#">See All Listing <i class="fal fa-long-arrow-right"></i> </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--box-widget-item end -->
+                                </div>
+                                <!--box-widget-wrap end -->
+                            </div>
+                            <!--   sidebar end  -->
+                        </div>
+                        <!--   row end  -->
+                    </div>
+                    <!--   container  end  -->
+                </section>
+                <!--  section  end-->
+            </div>
+            <!-- content end-->
+            <div class="limit-box fl-wrap"></div>
+        </div>
+        <!--wrapper end -->
+        <!--footer -->
+        @await Html.PartialAsync("_PatialFooter")
+        <!--footer end -->
+        <!--booking-modal-wrap -->
+        <div class="booking-modal-wrap">
+            <div class="booking-modal-container">
+                <div class="booking-modal-content fl-wrap">
+                    <div class="booking-modal-info">
+                        <div class="booking-modal-close color-bg"><i class="fa fa-times" aria-hidden="true"></i></div>
+                        <div class="bg" data-bg="../assets/images/bg/24.jpg"></div>
+                        <div class="overlay"></div>
+                        <div class="booking-modal-info_content fl-wrap">
+                            <h4>Luxury Hotel Spa</h4>
+                            <ul>
+                                <li>Date : <span>05.05.2020</span></li>
+                                <li>Persons : <span>2</span></li>
+                                <li>Price : <span>$120</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bookiing-form-wrap">
+                        <ul id="progressbar">
+                            <li class="active"><span>01.</span>Personal Info</li>
+                            <li><span>02.</span>Billing Address</li>
+                            <li><span>03.</span>Payment Method</li>
+                            <li><span>04.</span>Confirm</li>
+                        </ul>
+                        <!--   list-single-main-item -->
+                        <div class="list-single-main-item fl-wrap hidden-section tr-sec">
+                            <div class="profile-edit-container">
+                                <div class="custom-form">
+                                    <form>
+                                        <fieldset class="fl-wrap book_mdf">
+                                            <div class="list-single-main-item-title fl-wrap">
+                                                <h3>Your personal Information</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <label>First Name <i class="far fa-user"></i></label>
+                                                    <input type="text" placeholder="Your Name" value="" />
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <label>Last Name <i class="far fa-user"></i></label>
+                                                    <input type="text" placeholder="Your Last Name" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <label>Email Address<i class="far fa-envelope"></i>  </label>
+                                                    <input type="text" placeholder="yourmail@domain.com" value="" />
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <label>Phone<i class="far fa-phone"></i>  </label>
+                                                    <input type="text" placeholder="87945612233" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="log-massage">Existing Customer? <a href="#" class="modal-open">Click here to login</a></div>
+                                            <div class="log-separator fl-wrap"><span>or</span></div>
+                                            <div class="soc-log fl-wrap">
+                                                <p>For faster login or register use your social account.</p>
+                                                <a href="#" class="facebook-log"><i class="fab fa-facebook-f"></i>Connect with Facebook</a>
+                                            </div>
+                                            <div class="filter-tags">
+                                                <input id="check-a" type="checkbox" name="check">
+                                                <label for="check-a">By continuing, you agree to the<a href="#" target="_blank">Terms and Conditions</a>.</label>
+                                            </div>
+                                            <span class="fw-separator"></span>
+                                            <a href="#" class="next-form action-button btn no-shdow-btn color-bg">Billing Address <i class="fal fa-angle-right"></i></a>
+                                        </fieldset>
+                                        <fieldset class="fl-wrap book_mdf">
+                                            <div class="list-single-main-item-title fl-wrap">
+                                                <h3>Billing Address</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <label>City <i class="fal fa-globe-asia"></i></label>
+                                                    <input type="text" placeholder="Your city" value="" />
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <label>Country </label>
+                                                    <div class="listsearch-input-item ">
+                                                        <select data-placeholder="Your Country" class="chosen-select no-search-select">
+                                                                            <option>United states</option>
+                                                                            <option>Asia</option>
+                                                                            <option>Australia</option>
+                                                                            <option>Europe</option>
+                                                                            <option>South America</option>
+                                                                            <option>Africa</option>
+                                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <label>Street <i class="fal fa-road"></i> </label>
+                                                    <input type="text" placeholder="Your Street" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-8">
+                                                    <label>State<i class="fal fa-street-view"></i></label>
+                                                    <input type="text" placeholder="Your State" value="" />
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <label>Postal code<i class="fal fa-barcode"></i> </label>
+                                                    <input type="text" placeholder="123456" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="list-single-main-item-title fl-wrap">
+                                                <h3>Addtional Notes</h3>
+                                            </div>
+                                            <textarea cols="40" rows="3" placeholder="Notes"></textarea>
+                                            <span class="fw-separator"></span>
+                                            <a href="#" class="previous-form action-button back-form   color-bg"><i class="fal fa-angle-left"></i> Back</a>
+                                            <a href="#" class="next-form back-form action-button btn no-shdow-btn color-bg">Payment Step <i class="fal fa-angle-right"></i></a>
+                                        </fieldset>
+                                        <fieldset class="fl-wrap book_mdf">
+                                            <div class="list-single-main-item-title fl-wrap">
+                                                <h3>Payment method</h3>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <label>Cardholder's Name<i class="far fa-user"></i></label>
+                                                    <input type="text" placeholder="" value="Adam Kowalsky" />
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <label>Card Number <i class="fal fa-credit-card-front"></i></label>
+                                                    <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-3">
+                                                    <label>Expiry Month<i class="fal fa-calendar"></i></label>
+                                                    <input type="text" placeholder="MM" value="" />
+                                                </div>
+                                                <div class="col-sm-3">
+                                                    <label>Expiry Year<i class="fal fa-calendar"></i></label>
+                                                    <input type="text" placeholder="YY" value="" />
+                                                </div>
+                                                <div class="col-sm-2">
+                                                    <label>CVV / CVC *<i class="fal fa-credit-card"></i></label>
+                                                    <input type="password" placeholder="***" value="" />
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <p style="padding-top:20px;">*Three digits number on the back of your card</p>
+                                                </div>
+                                            </div>
+                                            <div class="log-separator fl-wrap"><span>or</span></div>
+                                            <div class="soc-log fl-wrap">
+                                                <p>Select Other Payment Method</p>
+                                                <a href="#" class="paypal-log"><i class="fab fa-paypal"></i>Pay With Paypal</a>
+                                            </div>
+                                            <span class="fw-separator"></span>
+                                            <a href="#" class="previous-form  back-form action-button    color-bg"><i class="fal fa-angle-left"></i> Back</a>
+                                            <a href="#" class="next-form  action-button btn color2-bg no-shdow-btn">Confirm and Pay<i class="fal fa-angle-right"></i></a>
+                                        </fieldset>
+                                        <fieldset class="fl-wrap book_mdf">
+                                            <div class="list-single-main-item-title fl-wrap">
+                                                <h3>Confirmation</h3>
+                                            </div>
+                                            <div class="success-table-container">
+                                                <div class="success-table-header fl-wrap">
+                                                    <i class="fal fa-check-circle decsth"></i>
+                                                    <h4>Thank you. Your reservation has been received.</h4>
+                                                    <div class="clearfix"></div>
+                                                    <p>Your payment has been processed successfully.</p>
+                                                    <br>
+                                                    <a href="invoice.html" target="_blank" class="color-bg">View Invoice</a>
+                                                </div>
+                                            </div>
+                                            <span class="fw-separator"></span>
+                                            <a href="#" class="previous-form action-button  back-form   color-bg"><i class="fal fa-angle-left"></i> Back</a>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--   list-single-main-item end -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bmw-overlay"></div>
+        <!--booking-modal-wrap end -->
+        <!--register form -->
+        <div class="main-register-wrap modal">
+            <div class="reg-overlay"></div>
+            <div class="main-register-holder">
+                <div class="main-register fl-wrap">
+                    <div class="close-reg color-bg"><i class="fal fa-times"></i></div>
+                    <ul class="tabs-menu">
+                        <li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> Login</a></li>
+                        <li><a href="#tab-2"><i class="fal fa-user-plus"></i> Register</a></li>
+                    </ul>
+                    <!--tabs -->
+                    <div id="tabs-container">
+                        <div class="tab">
+                            <!--tab -->
+                            <div id="tab-1" class="tab-content">
+                                <h3>Sign In <span>Easy<strong>Book</strong></span></h3>
+                                <div class="custom-form">
+                                    <form method="post" name="registerform">
+                                        <label>Username or Email Address <span>*</span> </label>
+                                        <input name="email" type="text" onClick="this.select()" value="">
+                                        <label>Password <span>*</span> </label>
+                                        <input name="password" type="password" onClick="this.select()" value="">
+                                        <button type="submit" class="log-submit-btn"><span>Log In</span></button>
+                                        <div class="clearfix"></div>
+                                        <div class="filter-tags">
+                                            <input id="check-a" type="checkbox" name="check">
+                                            <label for="check-a">Remember me</label>
+                                        </div>
+                                    </form>
+                                    <div class="lost_password">
+                                        <a href="#">Lost Your Password?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end -->
+                            <!--tab -->
+                            <div class="tab">
+                                <div id="tab-2" class="tab-content">
+                                    <h3>Sign Up <span>Easy<strong>Book</strong></span></h3>
+                                    <div class="custom-form">
+                                        <form method="post" name="registerform" class="main-register-form" id="main-register-form2">
+                                            <label>Full Name <span>*</span> </label>
+                                            <input name="name" type="text" onClick="this.select()" value="">
+                                            <label>Email Address <span>*</span></label>
+                                            <input name="email" type="text" onClick="this.select()" value="">
+                                            <label>Password <span>*</span></label>
+                                            <input name="password" type="password" onClick="this.select()" value="">
+                                            <button type="submit" class="log-submit-btn"><span>Register</span></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--tab end -->
+                        </div>
+                        <!--tabs end -->
+                        <div class="log-separator fl-wrap"><span>or</span></div>
+                        <div class="soc-log fl-wrap">
+                            <p>For faster login or register use your social account.</p>
+                            <a href="#" class="facebook-log"><i class="fab fa-facebook-f"></i>Connect with Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--register form end -->
+        <a class="to-top"><i class="fas fa-caret-up"></i></a>
+        <!--ajax-modal-container-->
+        <div class="ajax-modal-overlay"></div>
+        <div class="ajax-modal-container">
+            <!--ajax-modal -->
+            <div class='ajax-loader'>
+                <div class='ajax-loader-cirle'></div>
+            </div>
+            <div id="ajax-modal" class="fl-wrap">
+            </div>
+            <!--ajax-modal-container end -->
+        </div>
+        <!--ajax-modal-container end -->
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins.js"></script>
+    <script type="text/javascript" src="../assets/js/scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwJSRi0zFjDemECmFl9JtRj1FY7TiTRRo&amp;libraries=places&amp;callback=initAutocomplete"></script>
+    <script type="text/javascript" src="../assets/js/map-single.js"></script>
+</body>
+
+<!-- Mirrored from easybook.kwst.net/listing-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:19:03 GMT -->
+
+</html>

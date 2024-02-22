@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+@model List<TinhThanh>
+
+<div class="gallery-items fl-wrap mr-bot spad home-grid">
+    <!-- gallery-item gallery-item-second-->
+   
+    <!-- gallery-item end-->
+    @foreach (var item in Model)
+    {
+        <div class="gallery-item">
+            <div class="grid-item-holder">
+                <div class="listing-item-grid">
+                    <div class="listing-counter"><span>@item.KhachSans.Count()</span> khách sạn</div>
+                    <img style="max-height: 412px; object-fit: cover;" src="../assets/images/city/@item.AnhDaiDien" alt="">
+                    <div class="listing-item-cat">
+                        <h3><a href="/KhachSan/KhachSanTheoTinh?idtinhthanh=@item.Id">@item.TenTinh</a></h3>
+                        <div class="weather-grid" data-grcity="@item.TenTinh"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

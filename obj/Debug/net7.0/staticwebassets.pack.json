@@ -1,0 +1,841 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\DoAn_QLKhachSan.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoAn_QLKhachSan.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\color.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\cs-style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\cs-style.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\invoice.css",
+      "PackagePath": "staticwebassets\\assets\\css\\invoice.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\reset.css",
+      "PackagePath": "staticwebassets\\assets\\css\\reset.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\11.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\12.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\8.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api.png",
+      "PackagePath": "staticwebassets\\assets\\images\\api.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\avatar-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar-bg.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\13.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\22.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\23.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\24.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city.png",
+      "PackagePath": "staticwebassets\\assets\\images\\city.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\city7.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\22-1_XJUR(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\22-1_XJUR(1).jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\22-1_XJUR.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\22-1_XJUR.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\Cau_Trang_tien_ve_dem.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\Cau_Trang_tien_ve_dem.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\Program.cs",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\Program.cs"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\SonLa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\SonLa.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bac-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bac-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bds-vungtau-1514295777.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bds-vungtau-1514295777.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\croisiere-a-la-baie-d-halong1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\croisiere-a-la-baie-d-halong1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dalat-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dalat-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ha-noi.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ha-noi.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hagiang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hagiang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\nhung-cong-trinh-co-kien-truc-dac-trung-nhat-tai-son-la-1170x591.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\nhung-cong-trinh-co-kien-truc-dac-trung-nhat-tai-son-la-1170x591.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\sapa2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\sapa2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ve-ha-noi-da-nang-gia-re.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ve-ha-noi-da-nang-gia-re.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\8.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\518584365.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\518584365.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\59731225.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\59731225.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\1.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\3.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\4.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\5.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\map.png",
+      "PackagePath": "staticwebassets\\assets\\images\\map.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\1.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\3.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\4.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\5.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\6.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584117.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584117.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584324.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584324.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584337.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584337.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584353.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584353.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584380.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584380.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584449.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584449.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\wave.png",
+      "PackagePath": "staticwebassets\\assets\\images\\wave.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\video-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\video-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\vimeo-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\vimeo-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\youtube-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\youtube-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\charts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\dasboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dasboard.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\map-add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map-add.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\map-single.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map-single.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\mapplugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mapplugins.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\maps.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.DoAn_QLKhachSan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.DoAn_QLKhachSan.props",
+      "PackagePath": "build\\DoAn_QLKhachSan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DoAn_QLKhachSan.props",
+      "PackagePath": "buildMultiTargeting\\DoAn_QLKhachSan.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.DoAn_QLKhachSan.props",
+      "PackagePath": "buildTransitive\\DoAn_QLKhachSan.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

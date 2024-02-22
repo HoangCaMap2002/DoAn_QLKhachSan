@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace DoAn_QLKhachSan.Models;
+
+public partial class KhachSan
+{
+    public int Id { get; set; }
+
+    public int? IdTinhThanh { get; set; }
+
+    public string? TenKhachSan { get; set; }
+
+    public string? DiaChi { get; set; }
+
+    public string? GioiThieu { get; set; }
+
+    public string? TieuDe { get; set; }
+
+    public string? GhiChu { get; set; }
+
+    public string? AnhDaiDien { get; set; }
+
+    public int? SoSao { get; set; }
+
+    public string? NguoiQuanLy { get; set; }
+
+    public bool? IsDelete { get; set; }
+
+    public virtual TinhThanh? IdTinhThanhNavigation { get; set; }
+
+    public virtual TaiKhoan? NguoiQuanLyNavigation { get; set; }
+
+    public virtual ICollection<Phong> Phongs { get; set; } = new List<Phong>();
+}
