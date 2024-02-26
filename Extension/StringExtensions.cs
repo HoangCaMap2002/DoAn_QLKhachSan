@@ -15,5 +15,9 @@
                 throw new FormatException("Chuỗi không đúng định dạng ngày.");
             }
         }
+        public static string ToVND(this double amount)
+        {
+            return string.Format("{0:N0} VNĐ", amount);
+        }
     }
 }

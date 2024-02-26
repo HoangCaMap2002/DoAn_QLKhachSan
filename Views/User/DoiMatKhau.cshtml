@@ -10,24 +10,25 @@
                 <div class="box-widget-item-header">
                     <h3>Đổi mật khẩu</h3>
                 </div>
-                <form>
+                <form id="changePasswordForm" action="/User/DoiMatKhau" method="post">
                     <div class="custom-form no-icons">
                         <div class="pass-input-wrap fl-wrap">
                             <label>Mật khẩu hiện tại</label>
-                            <input type="password" class="pass-input" placeholder="" value="" />
-                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i> </span>
+                            <input type="password" name="MatKhauCu" class="pass-input" placeholder="" value="" required />
+                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i></span>
                         </div>
                         <div class="pass-input-wrap fl-wrap">
                             <label>Mật khẩu mới</label>
-                            <input type="password" class="pass-input" placeholder="" value="" />
-                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i> </span>
+                            <input type="password" class="pass-input" name="MatKhauMoi" id="MatKhauMoi" placeholder="" value="" required />
+                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i></span>
                         </div>
                         <div class="pass-input-wrap fl-wrap">
                             <label>Xác nhận mật khẩu mới</label>
-                            <input type="password" class="pass-input" placeholder="" value="" />
-                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i> </span>
+                            <input type="password" class="pass-input" id="XacNhanMatKhau" placeholder="" value="" required />
+                            <span class="eye"><i class="far fa-eye" aria-hidden="true"></i></span>
+                            <span id="message" style="color: red;"></span>
                         </div>
-                        <button class="btn  big-btn  color2-bg flat-btn float-btn">Lưu<i class="fal fa-save"></i></button>
+                        <button type="submit" class="btn big-btn color2-bg flat-btn float-btn">Lưu<i class="fal fa-save"></i></button>
                     </div>
                 </form>
             </div>
@@ -36,3 +37,18 @@
         <!-- dasboard-wrap end-->
     </div>
 </section>
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('#changePasswordForm').submit(function (event) {
+                var matKhauMoi = $('#MatKhauMoi').val();
+                var xacNhanMatKhau = $('#XacNhanMatKhau').val();
+
+                if (matKhauMoi != xacNhanMatKhau) {
+                    $('#message').text('Xác nhận mật khẩu mới không khớp với mật khẩu mới đã nhập.');
+                    event.preventDefault(); // Ngăn form gửi đi nếu validation không thành công
+                }
+            });
+        });
+    </script>
+}

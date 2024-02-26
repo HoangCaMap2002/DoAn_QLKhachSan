@@ -26,8 +26,8 @@ namespace DoAn_QLKhachSan.Services
                 }
                 string mkcu = model.MatKhauCu;
                 var passwordHasher = new PasswordHasher();
-                string hashedMkCu = passwordHasher.HashPassword(mkcu);
-                if (hashedMkCu != user.MatKhau)
+                var passwordVerification = passwordHasher.VerifyHashedPassword(user.MatKhau, model.MatKhauCu);
+                if (passwordVerification == Microsoft.AspNet.Identity.PasswordVerificationResult.Failed)
                 {
                     return false;
                 }

@@ -2,7 +2,8 @@
     Layout = null;
     ViewData["Title"] = "Phong theo khach san";
 }
-@using DoAn_QLKhachSan.ViewModels
+@using DoAn_QLKhachSan.ViewModels;
+@using DoAn_QLKhachSan.Extension;
 @model List<PhongModel>
 <!DOCTYPE HTML>
 <html lang="en">
@@ -361,7 +362,7 @@
                                                     </div>
                                                     <div class="rooms-details">
                                                         <div class="rooms-details-header fl-wrap">
-                                                            <span class="rooms-price">@item.Phong.GiaPhong.Value.ToString("N0")₫<strong> / đêm</strong></span>
+                                                            <span class="rooms-price">@item.Phong.GiaPhong.Value.ToVND()<strong> / đêm</strong></span>
                                                             <h3>Deluxe Single Room</h3>
                                                             <h5>Max Guests: <span>2 persons</span></h5>
                                                         </div>
