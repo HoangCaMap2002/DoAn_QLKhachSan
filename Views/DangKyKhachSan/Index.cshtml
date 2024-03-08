@@ -1,0 +1,445 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div id="steps" class="dashboard-content fl-wrap">
+                <form id="step1" action="ThemKhachSan" method="post" class="step" enctype="multipart/form-data">
+                    <div class="box-widget-item-header">
+                        <h3>Thông tin khách sạn</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>Tên khách sạn<i class="fal fa-briefcase"></i></label>
+                            <input name="TenKhachSan" type="text" placeholder="Tên khách sạn" required/>
+                            <input class="IdKhachSan" type="hidden" name="IdKhachSan" value=""/>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Loại khách sạn</label>
+                                    <div class="listsearch-input-item">
+                                        <select name="IdLoaiKhachSan" class="chosen-select no-search-select" required>
+                                            <option disabled selected data-placeholder="true"></option>
+                                             @foreach (var item in ViewBag.IdLoaiKhachSan)
+                                             {
+                                                  <option value="@item.Value">@item.Text</option>
+                                             }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Số sao</label>
+                                    <div class="listsearch-input-item">
+                                        <select name="SoSao" class="chosen-select no-search-select" required>
+                                            <option disabled selected data-placeholder="true"></option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header">
+                        <h3> Vị trí / Thông tin</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>Địa chỉ<i class="fal fa-map-marker"></i></label>
+                            <input name="DiaChi" type="text" placeholder="Địa chỉ khách sạn" required/>
+                            <label>Thành phố</label>
+                            <div class="listsearch-input-item">
+                                <select name="IdTinhThanh" class="chosen-select no-search-select" required>
+                                    <option disabled selected data-placeholder="true"></option>
+                                    @foreach (var item in ViewBag.IdTinhThanh)
+                                    {
+                                        <option value="@item.Value">@item.Text</option>
+                                    }
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Ảnh đại diện khách sạn</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="row">
+                                <!--col -->
+                                <div class="col-md-4">
+                                    <div class="add-list-media-wrap">
+                                        <div class="add-list-media-wrap">
+                                            <div class="fuzone">
+                                                <div class="fu-text">
+                                                    <span><i class="far fa-cloud-upload-alt"></i> Click here or drop files to upload</span>
+                                                    <div class="photoUpload-files fl-wrap"></div>
+                                                </div>
+                                                <input name="AnhDaiDien" type="file" class="upload">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--col end-->
+                                <!--col -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Chi tiết</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>ghi chú</label>
+                            <textarea name="GhiChu" cols="40" rows="3" placeholder="Ghi chú"></textarea>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Tiện ích</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <!-- Checkboxes -->
+                            <ul class="fl-wrap filter-tags">
+                                <li>
+                                    <input id="check-aaa5" type="checkbox" name="check" checked>
+                                    <label for="check-aaa5">Free WiFi</label>
+                                </li>
+                                <li>
+                                    <input id="check-bb5" type="checkbox" name="check" checked>
+                                    <label for="check-bb5">Bãi đậu xe</label>
+                                </li>
+                                <li>
+                                    <input id="check-dd5" type="checkbox" name="check">
+                                    <label for="check-dd5">Phòng gym</label>
+                                </li>
+                                <li>
+                                    <input id="check-cc5" type="checkbox" name="check">
+                                    <label for="check-cc5">Không hút thuốc</label>
+                                </li>
+                            </ul>
+                            <!-- Checkboxes end -->
+                        </div>
+                    </div>
+                    <input type="hidden" id="actionType" name="actionType" value="add"/>
+                    <span class="add-button color-bg" id="nextStepButton" onclick="nextStep()">Tiếp tục</span>
+                    <span class="add-button color-bg" id="update" action="CapNhatKhachSan" hidden onclick="Update()">Cập nhật</span>
+                </form>
+                <!-- profile-edit-container end-->
+                <form id="step2" action="ThemPhong" class="step" style="display: none;">
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Phòng</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="room-add-item">
+                                <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
+                                <input type="text" name="Phongs[0].TenPhong" placeholder="Standart Numder" value="" />
+                                <input class="IdKhachSan" type="hidden" name="IdKhachSan" value=""/>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Giá<i class="fal fa-dollar-sign"></i></label>
+                                        <input type="text" name="Phongs[0].GiaPhong" placeholder="56$" value="" />
+                                    </div>
+                                </div>
+                                <label>Chi tiết phòng</label>
+                                <textarea cols="40" rows="3" placeholder="Datails"></textarea>
+                                <div class="profile-edit-container" style="margin-top:30px">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label>Ảnh phòng</label>
+                                            <div class="add-list-media-wrap">
+                                                <div class="fuzone">
+                                                    <div class="fu-text">
+                                                        <span><i class="far fa-cloud-upload-alt"></i> Upload ảnh</span>
+                                                        <div class="photoUpload-files fl-wrap"></div>
+                                                    </div>
+                                                    <input type="file" name="Phongs[0].AnhDaiDien" class="upload">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <!-- Checkboxes -->
+                                            <ul class="fl-wrap filter-tags" style="margin-top:24px">
+                                                <li>
+                                                    <input id="check-aaa51" type="checkbox" name="check" checked>
+                                                    <label for="check-aaa51">Free WiFi</label>
+                                                </li>
+                                                <li>
+                                                    <input id="check-bb51" type="checkbox" name="check" checked>
+                                                    <label for="check-bb51">1 Bathroom</label>
+                                                </li>
+                                                <li>
+                                                    <input id="check-dd51" type="checkbox" name="check">
+                                                    <label for="check-dd51">Air conditioner</label>
+                                                </li>
+                                                <li>
+                                                    <input id="check-cc51" type="checkbox" name="check">
+                                                    <label for="check-cc51">Tv Inside</label>
+                                                </li>
+                                                <li>
+                                                    <input id="check-ff51" type="checkbox" name="check" checked>
+                                                    <label for="check-ff51">Breakfast</label>
+                                                </li>
+                                            </ul>
+                                            <!-- Checkboxes end -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="add-button color-bg" onclick="addRoom()">Add Room + </span>
+                    <span class="add-button color-bg" onclick="prevStep()">Quay lại</span>
+                    <span class="add-button color-bg" type="button" onclick="LuuPhong()">Lưu</span>
+                </form>
+                <!-- profile-edit-container end-->
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>
+
+<style>
+    .error {
+        border: 1px solid red !important;
+        background-color: #ffcccc !important;  
+    }
+
+</style>
+<script>
+    var currentStep = 1;
+    function nextStep() {
+        var isValid = true;
+        $('input[required]').each(function () {
+            var value = $(this).val();
+            console.log(value);
+             if (value == '') {
+                $(this).addClass('error');
+                isValid = false;
+             }
+            else {
+                $(this).removeClass('error');
+            }
+        });
+        $('div.chosen-select').each(function () {
+            var value = $(this).find('span').text();
+            console.log(value);
+            if (value=='') {
+                $(this).addClass('error');
+                isValid = false;
+            }
+            else {
+                $(this).removeClass('error');
+            }
+        });
+        $('#step1').find('div.fuzone').each(function () {
+            var value = $(this).find('div.photoUpload-files').text();
+            console.log(value);
+            if (value=='') {
+                $(this).addClass('error');
+                isValid = false;
+            }
+            else {
+                $(this).removeClass('error');
+            }
+        });
+        // Nếu form không hợp lệ, dừng lại và hiển thị thông báo lỗi
+        if (!isValid) {
+            alert("Vui lòng điền đầy đủ thông tin!");
+            return;
+        }
+        // Lấy dữ liệu của form
+        var formData = new FormData($("#step1")[0]);
+
+        // Lấy URL của action từ thuộc tính action của form
+        var url = $("#step1").attr('action');
+        alert(url);
+        // Gửi dữ liệu form đi bằng AJAX
+        $.ajax({    
+            type: "POST",
+            url: url,
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log(response); // Kiểm tra nội dung của phản hồi trong console log
+
+                if (response.success) {
+                    var idKhachSan = response.idKhachSan; 
+                    $(".IdKhachSan").val(idKhachSan);
+                    alert(idKhachSan);
+                    // Ẩn form step 1 và hiển thị form step 2
+                    if (currentStep < 2) {
+                        $("#step" + currentStep).hide();
+                        $("#step" + (currentStep + 1)).show();
+                        $("#nextStepButton").hide();
+                        currentStep++;
+                    }
+                } else {
+                    // Xử lý nếu có lỗi từ server
+                    console.error(response.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                // Xử lý lỗi nếu cần
+                console.error(error);
+            }
+        });
+    }
+    function Update() {
+        // Lấy dữ liệu của form
+
+        var formData = new FormData($("#step1")[0]);
+        var url = $("#update").attr('action');
+        // Lấy URL của action từ thuộc tính action của form
+        
+        // Gửi dữ liệu form đi bằng AJAX
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log(response); // Kiểm tra nội dung của phản hồi trong console log
+                if (response.success) {
+                    var idKhachSan = response.idKhachSan;
+                    $(".IdKhachSan").val(idKhachSan);
+                    alert(idKhachSan);
+                    // Ẩn form step 1 và hiển thị form step 2
+                    if (currentStep < 2) {
+                        $("#step" + currentStep).hide();
+                        $("#step" + (currentStep + 1)).show();
+                        $("#nextStepButton").hide();
+                        currentStep++;
+                    }
+                } else {
+                    // Xử lý nếu có lỗi từ server
+                    console.error(response.message);
+                }
+            },
+            error: function (xhr, status, error) {
+                // Xử lý lỗi nếu cần
+                console.error(error);
+            }
+        });
+    }
+
+    function prevStep() {
+        if (currentStep > 1) {
+            $("#step" + currentStep).hide();
+            $("#step" + (currentStep - 1)).show();
+            $("#update").show();
+            currentStep--;
+            $("#actionType").val("edit");
+
+        }
+    }
+
+    function addRoom() {
+        var index = $("#step2 .room-add-item").length; // Số lượng phòng hiện có
+        var newIndex = index; // Chỉ số của phòng mới sẽ được thêm vào
+        var html = '<div class="box-widget-item-header mat-top"><h3>Phòng '+index+'</h3></div>';
+        html += '<div class="profile-edit-container">' +
+            '<div class="custom-form">' +
+            '<div class="room-add-item">' +
+            '<label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>' +
+            '<input type="text" name="Phongs[' + index + '].TenPhong" placeholder="Tên phòng" value=""/>' +
+            '<div class="row">' +
+            '<div class="col-md-12">' +
+            '<label>Giá<i class="fal fa-dollar-sign"></i></label>' +
+            '<input type="text" name="Phongs[' + index + '].GiaPhong" placeholder="Giá phòng" value=""/>' +
+            '</div>' +
+            '</div>' +
+            '<label>Chi tiết phòng</label>' +
+            '<textarea cols="40" rows="3" name="Phongs[' + index + '].ChiTiet" placeholder="Chi tiết phòng"></textarea>' +
+            '<div class="profile-edit-container" style="margin-top:30px">' +
+            '<div class="row">' +
+            '<div class="col-md-4">' +
+            '<label>Ảnh phòng</label>' +
+            '<div class="add-list-media-wrap">' +
+            '<div class="fuzone">' +
+            '<div class="fu-text">' +
+            '<span><i class="far fa-cloud-upload-alt"></i> Upload ảnh</span>' +
+            '<div class="photoUpload-files fl-wrap"></div>' +
+            '</div>' +
+            '<input type="file" name="Phongs[' + index + '].AnhDaiDien" class="upload">' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '<div class="col-md-8">' +
+            '<!-- Checkboxes -->' +
+            '<ul class="fl-wrap filter-tags" style="margin-top:24px">' +
+            '<li>' +
+            '<input id="check-aaa' + newIndex + '" type="checkbox" name="check" checked>' +
+            '<label for="check-aaa' + newIndex + '">Free WiFi</label>' +
+            '</li>' +
+            '<li>' +
+            '<input id="check-bb' + newIndex + '" type="checkbox" name="check" checked>' +
+            '<label for="check-bb' + newIndex + '">1 Bathroom</label>' +
+            '</li>' +
+            '<li>' +
+            '<input id="check-dd' + newIndex + '" type="checkbox" name="check">' +
+            '<label for="check-dd' + newIndex + '">Air conditioner</label>' +
+            '</li>' +
+            '<li>' +
+            '<input id="check-cc' + newIndex + '" type="checkbox" name="check">' +
+            '<label for="check-cc' + newIndex + '">Tv Inside</label>' +
+            '</li>' +
+            '<li>' +
+            '<input id="check-ff' + newIndex + '" type="checkbox" name="check" checked>' +
+            '<label for="check-ff' + newIndex + '">Breakfast</label>' +
+            '</li>' +
+            '</ul>' +
+            '<!-- Checkboxes end -->' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+        // Thêm HTML mới vào cuối danh sách các phòng
+        $("#step2").append(html);
+        newIndex = index++; 
+    }
+    
+    function LuuPhong(){
+        var formData = new FormData($("#step2")[0]);
+
+        // Lấy URL của action từ thuộc tính action của form
+        var url = $("#step2").attr('action');
+        alert(url);
+        // Gửi dữ liệu form đi bằng AJAX
+        $.ajax({    
+            type: "POST",
+            url: url,
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+                console.log(response); 
+            },
+            error: function (xhr, status, error) {
+                // Xử lý lỗi nếu cần
+                console.error(error);
+            }
+        });
+    }
+</script>

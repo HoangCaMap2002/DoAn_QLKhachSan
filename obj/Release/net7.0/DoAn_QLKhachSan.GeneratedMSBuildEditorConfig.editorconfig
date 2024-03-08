@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DoAn_QLKhachSan
+build_property.RootNamespace = DoAn_QLKhachSan
+build_property.ProjectDir = D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Access/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Access/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/DangKyKhachSan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ0t5S2hhY2hTYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/DatPhong/ThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcVGhhbmhDb25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/DatPhong/ThongTinDatPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcVGhvbmdUaW5EYXRQaG9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/KhachSan/KhachSanTheoTinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hTYW5cS2hhY2hTYW5UaGVvVGluaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/KhachSan/KiemTraKhachSanConPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hTYW5cS2llbVRyYUtoYWNoU2FuQ29uUGhvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Phong/ChiTietPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ2hpVGlldFBob25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Phong/PhongTheoKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGhvbmdUaGVvS2hhY2hTYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/Components/Tinh/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGluaFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_LayoutKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRLaGFjaFNhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_LayoutMain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRNYWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_LayoutTrangCaNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFuZ0NhTmhhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxGb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/User/DoiMatKhau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxEb2lNYXRLaGF1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/User/TrangCaNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxUcmFuZ0NhTmhhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6o6j1hc1i1

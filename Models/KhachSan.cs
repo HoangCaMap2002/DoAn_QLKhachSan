@@ -27,6 +27,10 @@ public partial class KhachSan
 
     public bool? IsDelete { get; set; }
 
+    public int? IdLoaiKhachSan { get; set; }
+
+    public virtual LoaiKhachSan? IdLoaiKhachSanNavigation { get; set; }
+
     public virtual TinhThanh? IdTinhThanhNavigation { get; set; }
 
     public virtual TaiKhoan? NguoiQuanLyNavigation { get; set; }

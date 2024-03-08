@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/DangKyKhachSan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ0t5S2hhY2hTYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/DatPhong/ThanhCong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0UGhvbmdcVGhhbmhDb25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/KhachSan/KhachSanTheoTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hTYW5cS2hhY2hTYW5UaGVvVGFpS2hvYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/KhachSan/KhachSanTheoTinh.cshtml]

@@ -10,6 +10,4 @@ public partial class TienNghiPhong
     public string? TenTienNghi { get; set; }
 
     public string? ClassIcon { get; set; }
-
-    public virtual ICollection<Phong> Phongs { get; set; } = new List<Phong>();
 }

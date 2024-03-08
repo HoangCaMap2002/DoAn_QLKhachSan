@@ -17,7 +17,7 @@ namespace DoAn_QLKhachSan.Services
 
         public async Task<IEnumerable<PhongModel>> GetAllPhongByIdKhachSanAsync(int idkhachsan)
         {
-            var phong = await _context.Phongs.Where(x => x.IdKhachSan == idkhachsan).ToListAsync();
+            var phong = await _context.Phongs.Where(x => x.IdKhachSan == idkhachsan && x.IsDelete == false).ToListAsync();
             var phongViewModels = phong.Select(p => new PhongModel
             {
                 Phong = p,

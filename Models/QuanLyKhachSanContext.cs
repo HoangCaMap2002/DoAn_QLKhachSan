@@ -25,7 +25,7 @@ public partial class QuanLyKhachSanContext : DbContext
 
     public virtual DbSet<KhachSan> KhachSans { get; set; }
 
-    public virtual DbSet<LoaiPhong> LoaiPhongs { get; set; }
+    public virtual DbSet<LoaiKhachSan> LoaiKhachSans { get; set; }
 
     public virtual DbSet<PhanQuyen> PhanQuyens { get; set; }
 
@@ -40,8 +40,6 @@ public partial class QuanLyKhachSanContext : DbContext
     public virtual DbSet<TienNghiPhong> TienNghiPhongs { get; set; }
 
     public virtual DbSet<TinhThanh> TinhThanhs { get; set; }
-
-    public virtual DbSet<ViTri> ViTris { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
@@ -126,6 +124,10 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.Property(e => e.TenKhachSan).HasMaxLength(255);
             entity.Property(e => e.TieuDe).HasMaxLength(255);
 
+            entity.HasOne(d => d.IdLoaiKhachSanNavigation).WithMany(p => p.KhachSans)
+                .HasForeignKey(d => d.IdLoaiKhachSan)
+                .HasConstraintName("FK_KhachSan_LoaiKhachSan");
+
             entity.HasOne(d => d.IdTinhThanhNavigation).WithMany(p => p.KhachSans)
                 .HasForeignKey(d => d.IdTinhThanh)
                 .HasConstraintName("FK_KhachSan_TinhThanh");
@@ -135,11 +137,10 @@ public partial class QuanLyKhachSanContext : DbContext
                 .HasConstraintName("FK_KhachSan_TaiKhoan");
         });
 
-        modelBuilder.Entity<LoaiPhong>(entity =>
+        modelBuilder.Entity<LoaiKhachSan>(entity =>
         {
-            entity.ToTable("LoaiPhong");
+            entity.ToTable("LoaiKhachSan");
 
-            entity.Property(e => e.GhiChu).HasMaxLength(255);
             entity.Property(e => e.TenLoai).HasMaxLength(255);
         });
 
@@ -172,18 +173,6 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.HasOne(d => d.IdKhachSanNavigation).WithMany(p => p.Phongs)
                 .HasForeignKey(d => d.IdKhachSan)
                 .HasConstraintName("FK_Phong_KhachSan");
-
-            entity.HasOne(d => d.IdLoaiPhongNavigation).WithMany(p => p.Phongs)
-                .HasForeignKey(d => d.IdLoaiPhong)
-                .HasConstraintName("FK_Phong_LoaiPhong");
-
-            entity.HasOne(d => d.IdTienNghiPhongNavigation).WithMany(p => p.Phongs)
-                .HasForeignKey(d => d.IdTienNghiPhong)
-                .HasConstraintName("FK_Phong_TienNghiPhong");
-
-            entity.HasOne(d => d.IdViTriNavigation).WithMany(p => p.Phongs)
-                .HasForeignKey(d => d.IdViTri)
-                .HasConstraintName("FK_Phong_ViTri");
         });
 
         modelBuilder.Entity<Quyen>(entity =>
@@ -235,14 +224,6 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.Property(e => e.AnhDaiDien).HasMaxLength(255);
             entity.Property(e => e.GhiChu).HasMaxLength(255);
             entity.Property(e => e.TenTinh).HasMaxLength(255);
-        });
-
-        modelBuilder.Entity<ViTri>(entity =>
-        {
-            entity.ToTable("ViTri");
-
-            entity.Property(e => e.GhiChu).HasMaxLength(255);
-            entity.Property(e => e.TenViTri).HasMaxLength(255);
         });
 
         OnModelCreatingPartial(modelBuilder);

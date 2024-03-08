@@ -10,6 +10,4 @@ public partial class LoaiPhong
     public string? TenLoai { get; set; }
 
     public string? GhiChu { get; set; }
-
-    public virtual ICollection<Phong> Phongs { get; set; } = new List<Phong>();
 }

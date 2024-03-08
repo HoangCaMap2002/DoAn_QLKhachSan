@@ -34,5 +34,12 @@ namespace DoAn_QLKhachSan.Controllers
             var result = await _khachSanService.GetKhachSanPhongTrongAsync(start, end, city);
             return View(result);
         }
+        [Authorize]
+        public async Task<IActionResult> KhachSanTheoTaiKhoan()
+        {
+            var tendangnhap = HttpContext.Session.GetString("TenDangNhap");
+            var rs = await _khachSanService.GetAllKhachSanByUsernameAsync(tendangnhap);
+            return View(rs);
+        }
     }
 }
