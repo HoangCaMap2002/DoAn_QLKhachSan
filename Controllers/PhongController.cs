@@ -42,7 +42,7 @@ namespace DoAn_QLKhachSan.Controllers
                 {
                     Phong = phong,
                     // Gán các thuộc tính khác của PhongViewModel
-                    ImagePaths = phong.HinhAnhs.Select(filename => $"{{'src': '../assets/Images/phong/{filename.UrlHinhAnh}'}}").ToList(),
+                    ImagePaths = phong.HinhAnhs.Select(filename => filename.UrlHinhAnh).ToList(),
                 };
                 return PartialView(phongViewModels);
             }

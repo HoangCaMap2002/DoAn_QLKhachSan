@@ -9,7 +9,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
 {
     option.LoginPath = "/Access/Login";
-    option.ReturnUrlParameter = "urlRedirect";
     option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
 });
 builder.Services.AddAuthorization(options =>
@@ -32,6 +31,7 @@ builder.Services.AddScoped<ITinhThanhService, TinhThanhService>();
 builder.Services.AddScoped<IPhongService, PhongService>();
 builder.Services.AddScoped<IKhachSanService, KhachSanService>();
 builder.Services.AddScoped<ITaiKhoanService, TaiKhoanService>();
+builder.Services.AddSingleton<IVnPayService, VnPayService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

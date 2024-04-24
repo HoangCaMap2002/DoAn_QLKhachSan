@@ -1,8 +1,11 @@
-﻿using DoAn_QLKhachSan.Services;
+﻿using DoAn_QLKhachSan.Extension;
+using DoAn_QLKhachSan.Models;
+using DoAn_QLKhachSan.Services;
 using DoAn_QLKhachSan.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using WebBanGiay.Helper;
 
 namespace DoAn_QLKhachSan.Controllers
@@ -11,9 +14,14 @@ namespace DoAn_QLKhachSan.Controllers
     public class DatPhongController : Controller
     {
         private readonly IPhongService _phongService;
-        public DatPhongController(IPhongService phongService)
+        private readonly IVnPayService _vnPayService;
+        private readonly QuanLyKhachSanContext _context;
+
+        public DatPhongController(IPhongService phongService, IVnPayService vnPayService, QuanLyKhachSanContext context)
         {
             _phongService = phongService;
+            _vnPayService = vnPayService;
+            _context = context;
         }
 
         //Cart
@@ -47,15 +55,19 @@ namespace DoAn_QLKhachSan.Controllers
             {
                 var myCart = Carts;
                 var item = myCart.SingleOrDefault(p => p.Id == id);
+
                 if (item == null)
                 {
                     var phong = await _phongService.GetPhongById(id);
+                    var khachsan = _context.KhachSans.Where(x => x.Id == phong.IdKhachSanNavigation.Id).SingleOrDefault();
                     item = new CartItem
                     {
                         Id = phong.Id,
                         TenPhong = phong.TenPhong,
                         GiaPhong = phong.GiaPhong,
                         AnhDaiDien = phong.AnhDaiDien,
+                        SoSao = khachsan.SoSao,
+                        DiaChi  = khachsan.DiaChi,
                         BatDau = start,
                         KetThuc = end,
                     };
@@ -66,18 +78,34 @@ namespace DoAn_QLKhachSan.Controllers
             return RedirectToAction("ThongTinDatPhong");
         }
         [HttpPost]
-        public async Task<IActionResult> ThongTinDatPhong(ThongTinDatPhong tt)
+        public async Task<IActionResult> ThongTinDatPhong(ThongTinDatPhong tt, string payment = "COD")
         {
+            HttpContext.Session.SetString("SoDienThoai", tt.SoDienThoai);
+            HttpContext.Session.SetString("Email", tt.Email);
+            HttpContext.Session.SetString("HoVaTen", tt.HoVaTen);
+            HttpContext.Session.SetString("GhiChu", tt.GhiChu);
+            if (payment == "Thanh toán VNPay")
+            {
+                var vnPayModel = new VnPaymentRequestModel
+                {
+                    Amount = Carts.Sum(x => x.TongTien()),
+                    CreatedDate = DateTime.Now,
+                    Description = $"{tt.HoVaTen} {tt.SoDienThoai}",
+                    FullName = tt.HoVaTen,
+                };
+                return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
+            }
             var tdn = HttpContext.Session.GetString("TenDangNhap");
             var rs = await _phongService.DatPhong(Carts, tdn, tt);
             if (rs == true)
             {
                 return RedirectToAction("ThanhCong");
             }
-            return View();
+            return RedirectToAction("Thanhcong", "DatPhong");
         }
         public IActionResult Thanhcong()
         {
+            Carts.Clear();
             return View();
         }
     }

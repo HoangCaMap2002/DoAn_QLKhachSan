@@ -33,6 +33,8 @@ public partial class KhachSan
 
     public virtual TinhThanh? IdTinhThanhNavigation { get; set; }
 
+    public virtual ICollection<KhachSanTienNghi> KhachSanTienNghis { get; set; } = new List<KhachSanTienNghi>();
+
     public virtual TaiKhoan? NguoiQuanLyNavigation { get; set; }
 
     public virtual ICollection<Phong> Phongs { get; set; } = new List<Phong>();

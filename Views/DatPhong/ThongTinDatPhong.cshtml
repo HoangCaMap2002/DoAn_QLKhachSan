@@ -43,7 +43,7 @@
             <div class="content">
                 <div class="breadcrumbs-fs fl-wrap">
                     <div class="container">
-                        <div class="breadcrumbs fl-wrap"><a href="#">Home</a><a href="#">Pages</a><span>Booking Page</span></div>
+                        
                     </div>
                 </div>
                 <section class="middle-padding gre y-blue-bg">
@@ -54,17 +54,11 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <div class="bookiing-form-wrap">
-                                    <ul id="progressbar">
-                                        <li class="active"><span>01.</span>Personal Info</li>
-                                        <li><span>02.</span>Billing Address</li>
-                                        <li><span>03.</span>Payment Method</li>
-                                        <li><span>04.</span>Confirm</li>
-                                    </ul>
                                     <!--   list-single-main-item -->
                                     <div class="list-single-main-item fl-wrap hidden-section tr-sec">
                                         <div class="profile-edit-container">
                                             <div class="custom-form">
-                                                <form method="post">
+                                                <form method="post" asp-controller="DatPhong" asp-action="ThongTinDatPhong">
                                                     <fieldset class="fl-wrap book_mdf">
                                                         <div class="list-single-main-item-title fl-wrap">
                                                             <h3>Thông tin của bạn</h3>
@@ -90,112 +84,9 @@
                                                         </div>
                                                         <textarea cols="40" rows="3" name="GhiChu" placeholder="Notes"></textarea>
                                                         <span class="fw-separator"></span>
-                                                        <button type="submit" href="/DatPhong/ThongTinDatPhong" class="btn color-bg">Gửi yêu cầu đặt</button>
-                                                        <a href="#" class="next-form action-button btn no-shdow-btn color-bg hide">Billing Address <i class="fal fa-angle-right"></i></a>
-                                                    </fieldset>
-                                                    <fieldset class="fl-wrap book_mdf">
-                                                        <div class="list-single-main-item-title fl-wrap">
-                                                            <h3>Billing Address</h3>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-sm-6">
-                                                                <label>City <i class="fal fa-globe-asia"></i></label>
-                                                                <input type="text" placeholder="Your city" value="" />
-                                                            </div>
-                                                            <div class="col-sm-6">
-                                                                <label>Country </label>
-                                                                <div class="listsearch-input-item ">
-                                                                    <select data-placeholder="Your Country" class="chosen-select no-search-select">
-                                                                        <option>United states</option>
-                                                                        <option>Asia</option>
-                                                                        <option>Australia</option>
-                                                                        <option>Europe</option>
-                                                                        <option>South America</option>
-                                                                        <option>Africa</option>
-                                                                    </select>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-sm-12">
-                                                                <label>Street <i class="fal fa-road"></i> </label>
-                                                                <input type="text" placeholder="Your Street" value="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-sm-8">
-                                                                <label>State<i class="fal fa-street-view"></i></label>
-                                                                <input type="text" placeholder="Your State" value="" />
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <label>Postal code<i class="fal fa-barcode"></i> </label>
-                                                                <input type="text" placeholder="123456" value="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="list-single-main-item-title fl-wrap">
-                                                            <h3>Addtional Notes</h3>
-                                                        </div>
-                                                        <textarea cols="40" rows="3" placeholder="Notes"></textarea>
-                                                        <span class="fw-separator"></span>
-                                                        <a href="#" class="previous-form action-button back-form   color-bg"><i class="fal fa-angle-left"></i> Back</a>
-                                                        <a href="#" class="next-form back-form action-button btn no-shdow-btn color-bg">Payment Step <i class="fal fa-angle-right"></i></a>
-                                                    </fieldset>
-                                                    <fieldset class="fl-wrap book_mdf">
-                                                        <div class="list-single-main-item-title fl-wrap">
-                                                            <h3>Payment method</h3>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-sm-6">
-                                                                <label>Cardholder's Name<i class="far fa-user"></i></label>
-                                                                <input type="text" placeholder="" value="Adam Kowalsky" />
-                                                            </div>
-                                                            <div class="col-sm-6">
-                                                                <label>Card Number <i class="fal fa-credit-card-front"></i></label>
-                                                                <input type="text" placeholder="xxxx-xxxx-xxxx-xxxx" value="" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-sm-3">
-                                                                <label>Expiry Month<i class="fal fa-calendar"></i></label>
-                                                                <input type="text" placeholder="MM" value="" />
-                                                            </div>
-                                                            <div class="col-sm-3">
-                                                                <label>Expiry Year<i class="fal fa-calendar"></i></label>
-                                                                <input type="text" placeholder="YY" value="" />
-                                                            </div>
-                                                            <div class="col-sm-2">
-                                                                <label>CVV / CVC *<i class="fal fa-credit-card"></i></label>
-                                                                <input type="password" placeholder="***" value="" />
-                                                            </div>
-                                                            <div class="col-sm-4">
-                                                                <p style="padding-top:20px;">*Three digits number on the back of your card</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="log-separator fl-wrap"><span>or</span></div>
-                                                        <div class="soc-log fl-wrap">
-                                                            <p>Select Other Payment Method</p>
-                                                            <a href="#" class="paypal-log"><i class="fab fa-paypal"></i>Pay With Paypal</a>
-                                                        </div>
-                                                        <span class="fw-separator"></span>
-                                                        <a href="#" class="previous-form  back-form action-button    color-bg"><i class="fal fa-angle-left"></i> Back</a>
-                                                        <a href="#" class="next-form  action-button btn color2-bg no-shdow-btn">Confirm and Pay<i class="fal fa-angle-right"></i></a>
-                                                    </fieldset>
-                                                    <fieldset class="fl-wrap book_mdf">
-                                                        <div class="list-single-main-item-title fl-wrap">
-                                                            <h3>Confirmation</h3>
-                                                        </div>
-                                                        <div class="success-table-container">
-                                                            <div class="success-table-header fl-wrap">
-                                                                <i class="fal fa-check-circle decsth"></i>
-                                                                <h4>Thank you. Your reservation has been received.</h4>
-                                                                <div class="clearfix"></div>
-                                                                <p>Your payment has been processed successfully.</p>
-                                                                <a href="invoice.html" target="_blank" class="color-bg">View Invoice</a>
-                                                            </div>
-                                                        </div>
-                                                        <span class="fw-separator"></span>
-                                                        <a href="#" class="previous-form action-button  back-form   color-bg"><i class="fal fa-angle-left"></i> Back</a>
-                                                    </fieldset>
+                                                        <input type="submit" name="payment" class="btn color-bg" value="Đặt phòng (COD)"></input>
+                                                        <input type="submit" name="payment" class="btn color-bg" value="Thanh toán VNPay"></input>
+                                                    </fieldset> 
                                                 </form>
                                             </div>
                                         </div>
@@ -205,7 +96,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="box-widget-item-header">
-                                    <h3> Your  cart</h3>
+                                    <h3>Phòng đặt</h3>
                                 </div>
                                 <!--cart-details  -->
                                 @foreach(var item in Model){
@@ -215,15 +106,15 @@
                                             <a href="#" class="widget-posts-img"><img src="../assets/images/phong/@item.AnhDaiDien" class="respimg" alt=""></a>
                                             <div class="widget-posts-descr">
                                                 <a href="#" title="">@item.TenPhong</a>
-                                                <div class="listing-rating card-popup-rainingvis" data-starrating2="5"></div>
-                                                <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i> 40 JOURNAL SQUARE PLAZA, NJ, US</a></div>
+                                                <div class="listing-rating card-popup-rainingvis" data-starrating2="@item.SoSao"></div>
+                                                <div class="geodir-category-location fl-wrap"><a href="#"><i class="fas fa-map-marker-alt"></i>@item.DiaChi</a></div>
                                             </div>
                                         </div>
                                         <!--cart-details_header end-->
                                         <!--ccart-details_text-->
                                         <div class="cart-details_text">
                                             <ul class="cart_list">
-                                                <li>Room Type <span>Standard Family Room <strong>@item.GiaPhong.Value.ToVND()</strong></span></li>
+                                                <li>Giá phòng <span><strong>@item.GiaPhong.Value.ToVND()</strong></span></li>
                                                 <li>Bắt đầu: <span>@item.BatDau</span></li>
                                                 <li>Kết thúc: <span>@item.KetThuc</span></li>
                                             </ul>
@@ -234,8 +125,8 @@
                                 <!--cart-details end -->
                                 <!--cart-total -->
                                 <div class="cart-total">
-                                    <span class="cart-total_item_title">Total Cost</span>
-                                    <strong>@Model.Sum(x => x.GiaPhong).Value.ToString("N0")₫</strong>
+                                    <span class="cart-total_item_title">Tổng tiền</span>
+                                    <strong>@Model.Sum(x => x.TongTien()).Value.ToString("N0")₫</strong>
                                 </div>
                                 <!--cart-total end -->
                             </div>
@@ -250,71 +141,6 @@
         <!--footer -->
         @await Html.PartialAsync("_PatialFooter")
         <!--footer end -->
-        <!--register form -->
-        <div class="main-register-wrap modal">
-            <div class="reg-overlay"></div>
-            <div class="main-register-holder">
-                <div class="main-register fl-wrap">
-                    <div class="close-reg color-bg"><i class="fal fa-times"></i></div>
-                    <ul class="tabs-menu">
-                        <li class="current"><a href="#tab-1"><i class="fal fa-sign-in-alt"></i> Login</a></li>
-                        <li><a href="#tab-2"><i class="fal fa-user-plus"></i> Register</a></li>
-                    </ul>
-                    <!--tabs -->
-                    <div id="tabs-container">
-                        <div class="tab">
-                            <!--tab -->
-                            <div id="tab-1" class="tab-content">
-                                <h3>Sign In <span>Easy<strong>Book</strong></span></h3>
-                                <div class="custom-form">
-                                    <form method="post" name="registerform">
-                                        <label>Username or Email Address <span>*</span> </label>
-                                        <input name="email" type="text" onClick="this.select()" value="">
-                                        <label>Password <span>*</span> </label>
-                                        <input name="password" type="password" onClick="this.select()" value="">
-                                        <button type="submit" class="log-submit-btn"><span>Log In</span></button>
-                                        <div class="clearfix"></div>
-                                        <div class="filter-tags">
-                                            <input id="check-a12" type="checkbox" name="check">
-                                            <label for="check-a12">Remember me</label>
-                                        </div>
-                                    </form>
-                                    <div class="lost_password">
-                                        <a href="#">Lost Your Password?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--tab end -->
-                            <!--tab -->
-                            <div class="tab">
-                                <div id="tab-2" class="tab-content">
-                                    <h3>Sign Up <span>Easy<strong>Book</strong></span></h3>
-                                    <div class="custom-form">
-                                        <form method="post" name="registerform" class="main-register-form" id="main-register-form2">
-                                            <label>Full Name <span>*</span> </label>
-                                            <input name="name" type="text" onClick="this.select()" value="">
-                                            <label>Email Address <span>*</span></label>
-                                            <input name="email" type="text" onClick="this.select()" value="">
-                                            <label>Password <span>*</span></label>
-                                            <input name="password" type="password" onClick="this.select()" value="">
-                                            <button type="submit" class="log-submit-btn"><span>Register</span></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--tab end -->
-                        </div>
-                        <!--tabs end -->
-                        <div class="log-separator fl-wrap"><span>or</span></div>
-                        <div class="soc-log fl-wrap">
-                            <p>For faster login or register use your social account.</p>
-                            <a href="#" class="facebook-log"><i class="fab fa-facebook-f"></i>Connect with Facebook</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--register form end -->
         <a class="to-top"><i class="fas fa-caret-up"></i></a>
     </div>
     <!-- Main end -->

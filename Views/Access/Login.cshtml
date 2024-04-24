@@ -1,6 +1,7 @@
 ﻿@{
     Layout = null;
 }
+@model DoAn_QLKhachSan.ViewModels.DangNhapVM;
 <!DOCTYPE HTML>
 <html lang="en">
 
@@ -51,15 +52,18 @@
                                     </div>
                                     <div id="contact-form">
                                         <div id="message"></div>
-                                        <form class="custom-form" method="post" name="loginform" id="loginform">
+                                        <form class="custom-form" method="post" asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl">
+                                            <div class="text-danger" asp-validation-summary="All"></div>
                                             <fieldset>
-                                                <label for="username"><i class="fal fa-user"></i></label>
-                                                <input type="text" name="TenDangNhap" id="username" placeholder="Tài khoản" value="" required />
+                                                <label asp-for="@Model.TenDangNhap"><i class="fal fa-user"></i></label>
+                                                <input type="text" asp-for="@Model.TenDangNhap" placeholder="Tài khoản"/>
+                                                <span asp-validation-for="@Model.TenDangNhap" class="text-danger"></span>
                                                 <div class="clearfix"></div>
-                                                <label for="password"><i class="fal fa-lock"></i></label>
-                                                <input type="password" name="MatKhau" id="password" placeholder="Mật khẩu" value="" required />
+                                                <label asp-for="@Model.MatKhau"><i class="fal fa-lock"></i></label>
+                                                <input type="password" asp-for="@Model.MatKhau"/>
+                                                <span asp-validation-for="@Model.MatKhau" placeholder="Mặt khẩu" class="text-danger"></span>
                                             </fieldset>
-                                            <button href="/Access/Login" class="btn float-btn color2-bg" style="margin-top:15px;" type="submit">Đăng nhập <i class="fal fa-angle-right"></i></button>
+                                            <button class="btn float-btn color2-bg" style="margin-top:15px;" type="submit">Đăng nhập <i class="fal fa-angle-right"></i></button>
                                         </form>
                                     </div>
                                     <!-- contact form  end-->

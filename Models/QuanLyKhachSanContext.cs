@@ -15,6 +15,8 @@ public partial class QuanLyKhachSanContext : DbContext
     {
     }
 
+    public virtual DbSet<DanhGium> DanhGia { get; set; }
+
     public virtual DbSet<DatPhong> DatPhongs { get; set; }
 
     public virtual DbSet<DichVu> DichVus { get; set; }
@@ -25,19 +27,21 @@ public partial class QuanLyKhachSanContext : DbContext
 
     public virtual DbSet<KhachSan> KhachSans { get; set; }
 
+    public virtual DbSet<KhachSanTienNghi> KhachSanTienNghis { get; set; }
+
     public virtual DbSet<LoaiKhachSan> LoaiKhachSans { get; set; }
 
     public virtual DbSet<PhanQuyen> PhanQuyens { get; set; }
 
     public virtual DbSet<Phong> Phongs { get; set; }
 
+    public virtual DbSet<PhongTienNghi> PhongTienNghis { get; set; }
+
     public virtual DbSet<Quyen> Quyens { get; set; }
 
     public virtual DbSet<TaiKhoan> TaiKhoans { get; set; }
 
-    public virtual DbSet<TienNghiKhachSan> TienNghiKhachSans { get; set; }
-
-    public virtual DbSet<TienNghiPhong> TienNghiPhongs { get; set; }
+    public virtual DbSet<TienNghi> TienNghis { get; set; }
 
     public virtual DbSet<TinhThanh> TinhThanhs { get; set; }
 
@@ -47,6 +51,20 @@ public partial class QuanLyKhachSanContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<DanhGium>(entity =>
+        {
+            entity.HasKey(e => e.IdDanhGia);
+
+            entity.Property(e => e.NgayComment).HasColumnType("date");
+            entity.Property(e => e.TenDangNhap)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.TenDangNhapNavigation).WithMany(p => p.DanhGia)
+                .HasForeignKey(d => d.TenDangNhap)
+                .HasConstraintName("FK_DanhGia_TenDangNhap");
+        });
+
         modelBuilder.Entity<DatPhong>(entity =>
         {
             entity.ToTable("DatPhong");
@@ -137,6 +155,19 @@ public partial class QuanLyKhachSanContext : DbContext
                 .HasConstraintName("FK_KhachSan_TaiKhoan");
         });
 
+        modelBuilder.Entity<KhachSanTienNghi>(entity =>
+        {
+            entity.ToTable("KhachSan_TienNghi");
+
+            entity.HasOne(d => d.IdKhachSanNavigation).WithMany(p => p.KhachSanTienNghis)
+                .HasForeignKey(d => d.IdKhachSan)
+                .HasConstraintName("FK_KhachSan_TienNghi_KhachSan");
+
+            entity.HasOne(d => d.IdTienNghiNavigation).WithMany(p => p.KhachSanTienNghis)
+                .HasForeignKey(d => d.IdTienNghi)
+                .HasConstraintName("FK_KhachSan_TienNghi_TienNghiPhong_1");
+        });
+
         modelBuilder.Entity<LoaiKhachSan>(entity =>
         {
             entity.ToTable("LoaiKhachSan");
@@ -175,6 +206,19 @@ public partial class QuanLyKhachSanContext : DbContext
                 .HasConstraintName("FK_Phong_KhachSan");
         });
 
+        modelBuilder.Entity<PhongTienNghi>(entity =>
+        {
+            entity.ToTable("Phong_TienNghi");
+
+            entity.HasOne(d => d.IdPhongNavigation).WithMany(p => p.PhongTienNghis)
+                .HasForeignKey(d => d.IdPhong)
+                .HasConstraintName("FK_Phong_TienNghi_Phong_1");
+
+            entity.HasOne(d => d.IdTienNghiNavigation).WithMany(p => p.PhongTienNghis)
+                .HasForeignKey(d => d.IdTienNghi)
+                .HasConstraintName("FK_Phong_TienNghi_TienNghiPhong");
+        });
+
         modelBuilder.Entity<Quyen>(entity =>
         {
             entity.ToTable("Quyen");
@@ -192,6 +236,7 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.Property(e => e.TenDangNhap)
                 .HasMaxLength(100)
                 .IsUnicode(false);
+            entity.Property(e => e.HoVaTen).HasMaxLength(100);
             entity.Property(e => e.MatKhau)
                 .HasMaxLength(255)
                 .IsUnicode(false);
@@ -201,17 +246,11 @@ public partial class QuanLyKhachSanContext : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<TienNghiKhachSan>(entity =>
+        modelBuilder.Entity<TienNghi>(entity =>
         {
-            entity.ToTable("TienNghiKhachSan");
+            entity.HasKey(e => e.Id).HasName("PK_TienNghiPhong");
 
-            entity.Property(e => e.ClassIcon).HasMaxLength(255);
-            entity.Property(e => e.TenTienNghi).HasMaxLength(100);
-        });
-
-        modelBuilder.Entity<TienNghiPhong>(entity =>
-        {
-            entity.ToTable("TienNghiPhong");
+            entity.ToTable("TienNghi");
 
             entity.Property(e => e.ClassIcon).HasMaxLength(255);
             entity.Property(e => e.TenTienNghi).HasMaxLength(100);

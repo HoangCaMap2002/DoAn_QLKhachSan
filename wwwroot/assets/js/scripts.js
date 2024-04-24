@@ -1049,11 +1049,12 @@ function initparallax() {
     }
     if (trueMobile) $(".bgvid , .background-vimeo , .background-youtube-wrapper ").remove();
 }
-$('.fuzone input').each(function () {
-    $(this).on('change', function () {
-        var pufzone = $(this).parents(".fuzone").find('.photoUpload-files');
+$('.fuzone input[type="file"]').each(function () {
+    var input = $(this);
+    input.on('change', function () {
+        var pufzone = input.siblings('.fu-text').find('.photoUpload-files');
         pufzone.empty();
-        var files = $(this)[0].files;
+        var files = input[0].files;
         for (var i = 0; i < files.length; i++) {
             $("<span></span>").text(files[i].name).appendTo(pufzone);
         }

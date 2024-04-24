@@ -1,14 +1,19 @@
-﻿<header class="main-header">
+﻿@{
+    var claims = User.Claims.ToList();
+    // Tìm claim cụ thể bằng kiểu hoặc tên claim
+    var anhClaim = claims.FirstOrDefault(c => c.Type == "Anh");
+}
+<header class="main-header">
     <!-- header-top-->
     <div class="header-top fl-wrap">
         <div class="container">
             <div class="logo-holder">
                 <a href="/Home/Index"><img src="../assets/images/logo.png" alt=""></a>
             </div>
-            <a href="dashboard-add-listing.html" class="add-hotel">Add Your Hotel <span><i class="far fa-plus"></i></span></a>
+            <a href="/DangKyKhachSan/Index" class="add-hotel">Thêm khách sạn<span><i class="far fa-plus"></i></span></a>
             @if (!User.Identity.IsAuthenticated)
             {
-                <a href="/Access/Login" class="show-reg-form"><i class="fa fa-sign-in"></i>Sign In</a>
+                <a href="/Access/Login" class="show-reg-form"><i class="fa fa-sign-in"></i>Đăng nhập</a>
             }
         </div>
     </div>
@@ -16,20 +21,21 @@
     <!-- header-inner-->
     <div class="header-inner fl-wrap">
         <div class="container">
-            <div class="show-search-button"><span>Search</span> <i class="fas fa-search"></i> </div>
+            <div class="show-search-button"><span>Tìm kiếm</span> <i class="fas fa-search"></i> </div>
             <div class="wishlist-link"><i class="fal fa-heart"></i><span class="wl_counter">3</span></div>
             @if(User.Identity.IsAuthenticated){
                 <div class="header-user-menu">
                     <div class="header-user-name">
-                        <span><img src="../assets/images/avatar/4.jpg" alt=""></span>
-                        My account
+                        <span><img src="../assets/images/avatar/@anhClaim.Value" alt=""></span>
+                        Tài khoản
                     </div>
                     <ul>
-                        <li><a href="/User/TrangCaNhan"> Edit profile</a></li>
-                        <li><a href="dashboard-add-listing.html"> Add Listing</a></li>
-                        <li><a href="dashboard-bookings.html">  Bookings  </a></li>
-                        <li><a href="dashboard-review.html"> Reviews </a></li>
-                        <li><a href="/Access/Logout">Log Out</a></li>
+                        <li><a href="/User/TrangCaNhan">Thông tin cá nhân</a></li>
+                        <li><a href="/DangKyKhachSan/Index">Thêm khách sạn</a></li>
+                        <li><a href="/QLKhachSan/KhachSanTheoTaiKhoan">Quản lý khách sạn</a></li>
+                        <li><a href="dashboard-bookings.html">  Đặt phòng  </a></li>
+                        <li><a href="dashboard-review.html"> Đánh giá </a></li>
+                        <li><a href="/Access/Logout">Đăng xuất</a></li>
                     </ul>
                 </div>
             }
@@ -46,7 +52,7 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" class="act-link">Home <i class="fas fa-caret-down"></i></a>
+                            <a href="#" class="act-link">Trang chủ <i class="fas fa-caret-down"></i></a>
                             <!--second level -->
                             <ul>
                                 <li><a href="#">Parallax Image</a></li>
@@ -57,7 +63,7 @@
                             <!--second level end-->
                         </li>
                         <li>
-                            <a href="#">Listings <i class="fas fa-caret-down"></i></a>
+                            <a href="#">Danh sách <i class="fas fa-caret-down"></i></a>
                             <!--second level -->
                             <ul>
                                 <li><a href="#">Column map</a></li>
@@ -81,25 +87,25 @@
                             <!--second level end-->
                         </li>
                         <li>
-                            <a href="blog.html">News</a>
+                            <a href="#">Tin</a>
                         </li>
                         <li>
-                            <a href="#">Pages <i class="fas fa-caret-down"></i></a>
+                            <a href="#">Trang<i class="fas fa-caret-down"></i></a>
                             <!--second level -->
                             <ul>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
-                                <li><a href="author-single.html">User single</a></li>
-                                <li><a href="help.html">Help FAQ</a></li>
-                                <li><a href="pricing-tables.html">Pricing</a></li>
-                                <li><a href="booking-single.html">Booking</a></li>
-                                <li><a href="dashboard.html">User Dashboard</a></li>
-                                <li><a href="blog2.html">Blog Classik</a></li>
-                                <li><a href="blog-single.html">Blog Single</a></li>
-                                <li><a href="dashboard-add-listing.html">Add Listing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="invoice.html">Invoice</a></li>
-                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                <li><a href="#">Về chúng tôi</a></li>
+                                <li><a href="#">Liên lạc</a></li>
+                                <li><a href="#">User single</a></li>
+                                <li><a href="#">Help FAQ</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Booking</a></li>
+                                <li><a href="#">User Dashboard</a></li>
+                                <li><a href="#">Blog Classik</a></li>
+                                <li><a href="#">Blog Single</a></li>
+                                <li><a href="#">Add Listing</a></li>
+                                <li><a href="#">404</a></li>
+                                <li><a href="#">Invoice</a></li>
+                                <li><a href="#">Coming Soon</a></li>
                             </ul>
                             <!--second level end-->
                         </li>

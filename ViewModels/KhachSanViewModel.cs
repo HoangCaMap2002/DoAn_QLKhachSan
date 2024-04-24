@@ -5,6 +5,7 @@
         public int Id { get; set; }
 
         public int? IdTinhThanh { get; set; }
+        public int? IdLoaiKhachSan { get; set; }
 
         public string? TenKhachSan { get; set; }
 
@@ -16,7 +17,8 @@
 
         public string? GhiChu { get; set; }
 
-        public string? AnhDaiDien { get; set; }
+        public IFormFile? AnhDaiDien { get; set; }
+        public List<int> IdTienNghis { get; set; }
 
         public int? SoSao { get; set; }
 

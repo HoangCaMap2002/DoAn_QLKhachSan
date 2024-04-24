@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "SuaPhong";
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+@model DoAn_QLKhachSan.Models.Phong
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div id="steps" class="dashboard-content fl-wrap">
+                <form id="step2" asp-action="SuaPhong" method="post" enctype="multipart/form-data" class="step">
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Phòng</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="room-add-item">
+                                <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
+                                <input type="text" asp-for="@Model.TenPhong"/>
+                                <input asp-for="Id" class="IdPhong" type="text" hidden />
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Giá<i class="fal fa-dollar-sign"></i></label>
+                                        <input type="text" asp-for="@Model.GiaPhong"/>
+                                    </div>
+                                </div>
+                                <label>Chi tiết phòng</label>
+                                <textarea cols="40" rows="3" placeholder="Datails"></textarea>
+                                <div class="profile-edit-container" style="margin-top:30px">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label>Ảnh phòng</label>
+                                            <div class="add-list-media-wrap">
+                                                <div class="fuzone">
+                                                    <div class="fu-text">
+                                                        <span><i class="far fa-cloud-upload-alt"></i> Upload ảnh</span>
+                                                        <div class="photoUpload-files fl-wrap">@Model.AnhDaiDien</div>
+                                                    </div>
+                                                    <input type="file" asp-for="AnhDaiDien" class="upload">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <!-- Checkboxes -->
+                                            <ul class="fl-wrap filter-tags" style="margin-top:24px">
+                                                @foreach (var item in ViewBag.IdTienNghi)
+                                                {
+                                                    int? itemId = null; // Khởi tạo itemId với giá trị null
+
+                                                    // Chuyển đổi giá trị của item.Value từ chuỗi sang số nguyên và gán cho itemId
+                                                    if (int.TryParse(item.Value, out int parsedId))
+                                                    {
+                                                        itemId = parsedId;
+                                                    }
+
+                                                        // Kiểm tra nếu danh sách IdTienNghiTonTai không null và itemId không null thì mới sử dụng Contains
+                                                    <li>
+                                                        @if (ViewBag.IdTienNghiTonTai != null && itemId != null && ViewBag.IdTienNghiTonTai.Contains(itemId))
+                                                        {
+                                                            <input type="checkbox" value="@item.Value" name="IdTienNghiPhong" checked>
+                                                        }
+                                                        else
+                                                        {
+                                                            <input type="checkbox" value="@item.Value" name="IdTienNghiPhong">
+                                                        }
+                                                        <label for="">@item.Text</label>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <!-- Checkboxes end -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-button color-bg" type="submit">Cập nhật</button>
+                </form>
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>

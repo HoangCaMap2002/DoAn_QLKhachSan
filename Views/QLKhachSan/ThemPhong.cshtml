@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+@model DoAn_QLKhachSan.ViewModels.PhongViewModel
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div id="steps" class="dashboard-content fl-wrap">
+                <form id="step2" asp-action="ThemPhong" method="post" enctype="multipart/form-data" class="step">
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Phòng</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="room-add-item">
+                                <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
+                                <input type="text" asp-for="@Model.TenPhong" required/>
+                                <input asp-for="@Model.IdKhachSan" class="IdPhong" type="text" value="@ViewBag.IdKhachSan" hidden />
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Giá<i class="fal fa-dollar-sign"></i></label>
+                                        <input type="text" asp-for="@Model.GiaPhong" required/>
+                                    </div>
+                                </div>
+                                <label>Chi tiết phòng</label>
+                                <textarea cols="40" rows="3" placeholder="Chi tiết"></textarea>
+                                <div class="profile-edit-container" style="margin-top:30px">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label>Ảnh phòng</label>
+                                            <div class="add-list-media-wrap">
+                                                <div class="fuzone">
+                                                    <div class="fu-text">
+                                                        <span><i class="far fa-cloud-upload-alt"></i> Upload ảnh</span>
+                                                        <div class="photoUpload-files fl-wrap"></div>
+                                                    </div>
+                                                    <input type="file" asp-for="AnhDaiDien" class="upload">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <!-- Checkboxes -->
+                                            <ul class="fl-wrap filter-tags" style="margin-top:24px">
+                                                @foreach (var item in ViewBag.IdTienNghi)
+                                                {
+                                                    <li>
+                                                        <input type="checkbox" value="@item.Value" name="IdTienNghiPhong">
+                                                        <label for="">@item.Text</label>
+                                                    </li>
+                                                }
+                                            </ul>
+                                            <!-- Checkboxes end -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-button color-bg" type="submit">Thêm</button>
+                </form>
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>

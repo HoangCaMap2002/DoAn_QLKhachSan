@@ -24,4 +24,6 @@ public partial class Phong
     public virtual ICollection<HinhAnh> HinhAnhs { get; set; } = new List<HinhAnh>();
 
     public virtual KhachSan? IdKhachSanNavigation { get; set; }
+
+    public virtual ICollection<PhongTienNghi> PhongTienNghis { get; set; } = new List<PhongTienNghi>();
 }

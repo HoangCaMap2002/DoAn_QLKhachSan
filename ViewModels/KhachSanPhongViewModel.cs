@@ -22,6 +22,8 @@
 
         public string? NguoiQuanLy { get; set; }
 
+        public List<int> IdTienNghis { get; set; }
+
         public List<PhongViewModel> Phongs { get; set; }
 
         public KhachSanPhongViewModel()

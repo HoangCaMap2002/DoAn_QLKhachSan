@@ -1,5 +1,7 @@
 ﻿@{
     Layout = null;
+    QuanLyKhachSanContext db = new QuanLyKhachSanContext();
+    var loai = new SelectList(db.LoaiKhachSans.ToList(), "Id", "TenLoai");
 }
 <!DOCTYPE HTML>
 <html lang="en">
@@ -51,7 +53,7 @@
                     <div class="container">
                         <div class="section-title center-align big-title">
                             <div class="section-title-separator"><span></span></div>
-                            <h2><span>New York Hotels</span></h2>
+                            <h2><span>Khách sạn tại New York</span></h2>
                             <span class="section-separator"></span>
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec tincidunt arcu, sit amet fermentum sem.</h4>
                         </div>
@@ -60,56 +62,58 @@
                         <div class="container"><a href="#sec1" class="custom-scroll-link color-bg"><i class="fal fa-angle-double-down"></i></a></div>
                     </div>
                 </section>
-                <!--  section  end-->
-                <div class="breadcrumbs-fs fl-wrap">
-                    <div class="container">
-                        <div class="breadcrumbs fl-wrap"><a href="#">Home</a><a href="#">Listing </a><span>Fullwidth Map</span></div>
-                    </div>
-                </div>
-                <!--  section-->
+                
                 <section class="grey-blue-bg small-padding" id="sec1">
                     <div class="container">
                         <div class="row">
                             <!--filter sidebar -->
                             <div class="col-md-4">
                                 <div class="mobile-list-controls fl-wrap">
-                                    <div class="mlc show-list-wrap-search fl-wrap"><i class="fal fa-filter"></i> Filter</div>
+                                    <div class="mlc show-list-wrap-search fl-wrap"><i class="fal fa-filter"></i> Lọc</div>
                                 </div>
                                 <div class="fl-wrap filter-sidebar_item fixed-bar">
                                     <div class="filter-sidebar fl-wrap lws_mobile">
                                         <!--col-list-search-input-item -->
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item -->
-                                        <div class="col-list-search-input-item fl-wrap location autocomplete-container">
-                                            <label>Destination</label>
-                                            <span class="header-search-input-item-icon"><i class="fal fa-map-marker-alt"></i></span>
-                                            <input type="text" placeholder="Destination or Hotel Name" class="autocomplete-input" id="autocompleteid3" value="" />
-                                            <a href="#"><i class="fal fa-dot-circle"></i></a>
-                                        </div>
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item -->
+                                        
                                         <div class="col-list-search-input-item in-loc-dec date-container  fl-wrap">
-                                            <label>Date In-Out </label>
+                                            <label>Ngày đến - Ngày đi </label>
                                             <span class="header-search-input-item-icon"><i class="fal fa-calendar-check"></i></span>
-                                            <input type="text" placeholder="When" name="dates" value="" />
+                                            <input type="text" placeholder="Thời gian" name="dates" value="" />
                                         </div>
+                                        <div class="col-list-search-input-item in-loc-dec date-container  fl-wrap">
+                                            <label>Loại khách sạn </label>
+                                            <div class="listsearch-input-item">
+                                                <select name="IdLoaiKhachSan" class="chosen-select no-search-select" required>
+                                                    <option disabled selected data-placeholder="true"></option>
+                                                    @foreach (var item in loai)
+                                                    {
+                                                        <option value="@item.Value">@item.Text</option>
+                                                    }
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item -->
                                         <div class="col-list-search-input-item fl-wrap">
                                             <div class="quantity-item">
-                                                <label>Rooms</label>
+                                                <label>Số phòng</label>
                                                 <div class="quantity">
                                                     <input type="number" min="1" max="3" step="1" value="1">
                                                 </div>
                                             </div>
                                             <div class="quantity-item">
-                                                <label>Adults</label>
+                                                <label>Người lớn</label>
                                                 <div class="quantity">
                                                     <input type="number" min="1" max="5" step="1" value="1">
                                                 </div>
                                             </div>
                                             <div class="quantity-item">
-                                                <label>Children</label>
+                                                <label>Trẻ em</label>
                                                 <div class="quantity">
                                                     <input type="number" min="0" max="3" step="1" value="0">
                                                 </div>
@@ -118,29 +122,29 @@
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item -->
                                         <div class="col-list-search-input-item fl-wrap">
-                                            <div class="range-slider-title">Price range</div>
+                                            <div class="range-slider-title">Khoảng giá</div>
                                             <div class="range-slider-wrap fl-wrap">
-                                                <input class="range-slider" data-from="300" data-to="1200" data-step="50" data-min="50" data-max="2000" data-prefix="$">
+                                                <input id="price-range-slider" class="range-slider" data-from="300000" data-to="900000" data-step="50" data-min="50" data-max="1000000" data-prefix="$">
                                             </div>
                                         </div>
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item -->
                                         <div class="col-list-search-input-item fl-wrap">
-                                            <label>Star Rating</label>
+                                            <label>Số sao</label>
                                             <div class="search-opt-container fl-wrap">
                                                 <!-- Checkboxes -->
                                                 <ul class="fl-wrap filter-tags">
                                                     <li class="five-star-rating">
-                                                        <input id="check-aa2" type="checkbox" name="check" checked>
-                                                        <label for="check-aa2"><span class="listing-rating card-popup-rainingvis" data-starrating2="5"><span>5 Stars</span></span></label>
+                                                        <input id="check-aa2" type="checkbox" name="check-star">
+                                                        <label for="check-aa2"><span class="listing-rating card-popup-rainingvis" data-starrating2="5"><span>5 sao</span></span></label>
                                                     </li>
                                                     <li class="four-star-rating">
-                                                        <input id="check-aa3" type="checkbox" name="check">
-                                                        <label for="check-aa3"><span class="listing-rating card-popup-rainingvis" data-starrating2="5"><span>4 Star</span></span></label>
+                                                        <input id="check-aa3" type="checkbox" name="check-star">
+                                                        <label for="check-aa3"><span class="listing-rating card-popup-rainingvis" data-starrating2="4"><span>4 sao</span></span></label>
                                                     </li>
                                                     <li class="three-star-rating">
-                                                        <input id="check-aa4" type="checkbox" name="check">
-                                                        <label for="check-aa4"><span class="listing-rating card-popup-rainingvis" data-starrating2="5"><span>3 Star</span></span></label>
+                                                        <input id="check-aa4" type="checkbox" name="check-star">
+                                                        <label for="check-aa4"><span class="listing-rating card-popup-rainingvis" data-starrating2="3"><span>3 sao</span></span></label>
                                                     </li>
                                                 </ul>
                                                 <!-- Checkboxes end -->
@@ -155,15 +159,15 @@
                                                 <ul class="fl-wrap filter-tags half-tags">
                                                     <li>
                                                         <input id="check-aaa5" type="checkbox" name="check" checked>
-                                                        <label for="check-aaa5">Free WiFi</label>
+                                                        <label for="check-aaa5">WiFi</label>
                                                     </li>
                                                     <li>
                                                         <input id="check-bb5" type="checkbox" name="check">
-                                                        <label for="check-bb5">Parking</label>
+                                                        <label for="check-bb5">Bãi đỗ xe</label>
                                                     </li>
                                                     <li>
                                                         <input id="check-dd5" type="checkbox" name="check">
-                                                        <label for="check-dd5">Fitness Center</label>
+                                                        <label for="check-dd5">Phòng gym</label>
                                                     </li>
                                                 </ul>
                                                 <!-- Checkboxes end -->
@@ -175,11 +179,11 @@
                                                     </li>
                                                     <li>
                                                         <input id="check-cc5" type="checkbox" name="check" checked>
-                                                        <label for="check-cc5">Non-smoking Rooms</label>
+                                                        <label for="check-cc5">Không hút thuốc</label>
                                                     </li>
                                                     <li>
                                                         <input id="check-c4" type="checkbox" name="check" checked>
-                                                        <label for="check-c4">Air Conditioning</label>
+                                                        <label for="check-c4">Điều hoà</label>
                                                     </li>
                                                 </ul>
                                                 <!-- Checkboxes end -->
@@ -188,7 +192,7 @@
                                         <!--col-list-search-input-item end-->
                                         <!--col-list-search-input-item  -->
                                         <div class="col-list-search-input-item fl-wrap">
-                                            <button class="header-search-button" id="searchBody">Search <i class="far fa-search"></i></button>
+                                            <button class="header-search-button" id="searchBody">Tìm kiếm <i class="far fa-search"></i></button>
                                         </div>
                                         <!--col-list-search-input-item end-->
                                     </div>
@@ -203,18 +207,16 @@
                                     <div class="list-main-wrap fl-wrap card-listing">
                                         <!-- list-main-wrap-opt-->
                                         <div class="list-main-wrap-opt fl-wrap">
-                                            <div class="list-main-wrap-title fl-wrap col-title">
-                                                <h2>Results For : <span>New York </span></h2>
-                                            </div>
+                                            
                                             <!-- price-opt-->
                                             <div class="price-opt">
-                                                <span class="price-opt-title">Sort results by:</span>
+                                                <span class="price-opt-title">Sắp xếp:</span>
                                                 <div class="listsearch-input-item">
-                                                    <select data-placeholder="Popularity" class="chosen-select no-search-select">
-                                                        <option>Popularity</option>
-                                                        <option>Average rating</option>
-                                                        <option>Price: low to high</option>
-                                                        <option>Price: high to low</option>
+                                                    <select data-placeholder="Phổ biến" class="chosen-select no-search-select">
+                                                        <option>Phổ biến</option>
+                                                        <option>Giá trung bình</option>
+                                                        <option>Giá tăng dần</option>
+                                                        <option>Giá giảm dần</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -344,20 +346,27 @@
     <script type="text/javascript" src="../assets/js/map-single.js"></script>
     <script>
         $(document).ready(function () {
-            $("#searchHeader").on("click", function () {
-                // Lấy giá trị từ các trường input
-                var date = $("input[name='header-search']").val();
-                var dateArray = date.split(" - ");
-                var startDate = dateArray[0];
-                var endDate = dateArray[1];
-                // Gửi dữ liệu đến controller
+            $('input[name="check-star"], select[name="IdLoaiKhachSan"], #price-range-slider').change(function () {
+                var idkhachsan = $('select[name="IdLoaiKhachSan"]').val();
+                var fromString = $('.irs-from').text();
+                var toStr = $('.irs-to').text();
+                var from = parseFloat(fromString.replace(/\$| /g, ''));
+                var to = parseFloat(toStr.replace(/\$| /g, ''));
+                var ratings = [];
+                // Lặp qua tất cả các ô checkbox
+                $('input[name="check-star"]:checked').each(function () {
+                    // Lấy giá trị của thuộc tính data-starrating2 của ô checkbox hiện tại
+                    var rating = $(this).siblings('label').find('.listing-rating').attr('data-starrating2');
+
+                    // Kiểm tra xem giá trị rating đã tồn tại trong mảng chưa trước khi thêm vào
+                    if (rating !== undefined && ratings.indexOf(rating) === -1) {
+                        ratings.push(rating); // Thêm giá trị vào mảng
+                    }
+                });
+                var ratingString = ratings.join(",");
                 $.ajax({
                     type: "GET",
-                    url: "/KhachSan/KiemTraKhachSanConPhong",
-                    data: {
-                        start: startDate,
-                        end: endDate
-                    },
+                    url: "/Loc/LocKhachSan?loaikhachsan=" + idkhachsan + "&min=" + from + "&max=" + to + "&sao=" + ratingString,
                     success: function (response) {
                         // Xử lý kết quả thành công
                         $("#Result").html(response);
@@ -367,6 +376,7 @@
                     }
                 });
             });
+            
             $("#searchBody").on("click", function () {
                 // Lấy giá trị từ các trường input
                 var date = $("input[name='dates']").val();

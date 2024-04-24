@@ -18,7 +18,7 @@ namespace DoAn_QLKhachSan.Services
             throw new NotImplementedException();
         }
 
-        public async Task<List<KhachSan>> GetAllKhachSanByIdTinhAsync(int idtinhthanh)
+        public async Task<List<KhachSan>> GetAllKhachSanByIdTinhAsync(int? idtinhthanh)
         {
             var khachsan = await _context.KhachSans.Include(x => x.Phongs).Where(x => x.IdTinhThanh == idtinhthanh && x.IsDelete == false).ToListAsync();
             return khachsan;
@@ -28,6 +28,12 @@ namespace DoAn_QLKhachSan.Services
         {
             var khachsans = await _context.KhachSans.Where(x => x.NguoiQuanLy == tendangnhap && x.IsDelete == false).ToListAsync();
             return khachsans;
+        }
+
+        public async Task<KhachSan> GetKhachSanByIdAsync(int idkhachsan)
+        {
+            var khachsan = await _context.KhachSans.FindAsync(idkhachsan);
+            return khachsan;
         }
 
         public async Task<IEnumerable<KhachSan>> GetKhachSanPhongTrongAsync(string start, string end, int city)

@@ -1,0 +1,109 @@
+﻿@{
+    var diemtb = Model.Average(x => x.DiemTb);
+    var rounddiemtb = Math.Round((double)diemtb, 1);
+
+    var diemsach = Model.Average(x => x.DiemSachSe);
+    var rounddiemsach = Math.Round((double)diemsach * 100 / 5, 1);
+
+    var diemthom = Model.Average(x => x.DiemThom);
+    var rounddiemthom = Math.Round((double)diemthom * 100 / 5, 1);
+
+    var diemnhanvien = Model.Average(x => x.DiemNhanVien);
+    var rounddiemnhanvien = Math.Round((double)diemnhanvien * 100 / 5, 1);
+
+    var diemcosovatchat = Model.Average(x => x.DiemCoSoVatChat);
+    var rounddiemcosovatchat = Math.Round((double)diemcosovatchat * 100 / 5, 1);
+}
+@model List<DanhGium>
+<div class="reviews-score-wrap fl-wrap">
+    <div class="review-score-total">
+        <span>
+            @rounddiemtb
+            <strong>Điểm</strong>
+        </span>
+        <a href="#" class="color2-bg">Đánh giá</a>
+    </div>
+    <div class="review-score-detail">
+        <!-- review-score-detail-list-->
+        <div class="review-score-detail-list">
+            <!-- rate item-->
+            <div class="rate-item fl-wrap">
+                <div class="rate-item-title fl-wrap"><span>Sạch sẽ</span></div>
+                <div class="rate-item-bg" data-percent="@rounddiemsach%">
+                    <div class="rate-item-line color-bg"></div>
+                </div>
+                <div class="rate-item-percent">@Math.Round((double)diemsach, 1)</div>
+            </div>
+            <!-- rate item end-->
+            <!-- rate item-->
+            <div class="rate-item fl-wrap">
+                <div class="rate-item-title fl-wrap"><span>Thơm</span></div>
+                <div class="rate-item-bg" data-percent="@rounddiemthom%">
+                    <div class="rate-item-line color-bg"></div>
+                </div>
+                <div class="rate-item-percent">@Math.Round((double)diemthom, 1)</div>
+            </div>
+            <!-- rate item end-->
+            <!-- rate item-->
+            <div class="rate-item fl-wrap">
+                <div class="rate-item-title fl-wrap"><span>Nhân viên</span></div>
+                <div class="rate-item-bg" data-percent="@rounddiemnhanvien%">
+                    <div class="rate-item-line color-bg"></div>
+                </div>
+                <div class="rate-item-percent">@Math.Round((double)diemnhanvien, 1)</div>
+            </div>
+            <!-- rate item end-->
+            <!-- rate item-->
+            <div class="rate-item fl-wrap">
+                <div class="rate-item-title fl-wrap"><span>Cơ sở vật chất</span></div>
+                <div class="rate-item-bg" data-percent="@rounddiemcosovatchat%">
+                    <div class="rate-item-line color-bg"></div>
+                </div>
+                <div class="rate-item-percent">@Math.Round((double)diemcosovatchat, 1)</div> 
+            </div>
+            <!-- rate item end-->
+        </div>
+        <!-- review-score-detail-list end-->
+    </div>
+</div>
+<!-- reviews-score-wrap end -->
+<div class="reviews-comments-wrap" id="danhgiakhachsan">
+    @if(@Model.Count() > 0){
+    @foreach (var item in Model)
+    {
+    <div class="reviews-comments-item">
+        <div class="review-comments-avatar">
+            <img src="../assets/images/avatar/@item.TenDangNhapNavigation.Anh" alt="">
+        </div>
+        <div class="reviews-comments-item-text">
+            <h4><a href="#">@item.TenDangNhap</a></h4>
+            <div class="review-score-user">
+                <span>@item.DiemTb</span>
+                <strong>Điểm</strong>
+            </div>
+            <div class="clearfix"></div>
+            <p>
+                @item.Comment
+            </p>
+            <div class="reviews-comments-item-date"><span><i class="far fa-calendar-check"></i>@item.NgayComment</span><a href="#"><i class="fal fa-reply"></i> Trả lời</a></div>
+        </div>
+    </div>
+    }
+}
+else
+{
+    <h1>Không có đánh giá nào</h1>
+}
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $(".rate-item-bg").each(function () {
+            $(this).find(".rate-item-line").css({
+                width: $(this).attr("data-percent")
+            });
+        });
+        $("#diem-top").text(@rounddiemtb.ToString());
+    });
+</script>

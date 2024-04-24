@@ -1,0 +1,148 @@
+﻿@model DoAn_QLKhachSan.Models.KhachSan
+
+@{
+    ViewData["Title"] = "SuaKhachSan";
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div id="steps" class="dashboard-content fl-wrap">
+                <form id="step1" asp-action="SuaKhachSan" method="post" class="step" enctype="multipart/form-data">
+                    <div class="box-widget-item-header">
+                        <h3>Thông tin khách sạn</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>Tên khách sạn<i class="fal fa-briefcase"></i></label>
+                            <input asp-for="TenKhachSan" type="text" class="form-control"/>
+                            <input asp-for="Id" class="IdKhachSan" type="text" hidden/>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label>Loại khách sạn</label>
+                                    <div class="listsearch-input-item">
+                                        <select asp-for="IdLoaiKhachSan" class="form-control nice-select chosen-select no-search-select" asp-items="ViewBag.IdLoaiKhachSan"></select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Số sao</label>
+                                    <div class="listsearch-input-item">
+                                        <select asp-for="SoSao" class="chosen-select no-search-select" required>
+                                            <option disabled selected data-placeholder="true"></option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header">
+                        <h3> Vị trí / Thông tin</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>Địa chỉ<i class="fal fa-map-marker"></i></label>
+                            <input asp-for="DiaChi" type="text" placeholder="Địa chỉ khách sạn" class="form-control" />
+                            <label>Thành phố</label>
+                            <div class="listsearch-input-item">
+                                <select asp-for="IdTinhThanh" class="form-control nice-select chosen-select no-search-select" asp-items="ViewBag.IdTinhThanh"></select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Ảnh đại diện khách sạn</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="row">
+                                <!--col -->
+                                <div class="col-md-4">
+                                    <div class="add-list-media-wrap">
+                                        <div class="add-list-media-wrap">
+                                            <div class="fuzone">
+                                                <div class="fu-text">
+                                                    <span><i class="far fa-cloud-upload-alt"></i> Click here or drop files to upload</span>
+                                                    <div class="photoUpload-files fl-wrap">@Model.AnhDaiDien</div>
+                                                </div>
+                                                <input asp-for="AnhDaiDien" type="file" class="upload">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--col end-->
+                                <!--col -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Chi tiết</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <label>ghi chú</label>
+                            <textarea asp-for="GhiChu" name="GhiChu" cols="40" rows="3" placeholder="Ghi chú"></textarea>
+                        </div>
+                    </div>
+                    <!-- profile-edit-container end-->
+                    <!-- profile-edit-container end-->
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Tiện ích</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <!-- Checkboxes -->
+                            <ul class="fl-wrap filter-tags">
+                                @foreach (var item in ViewBag.IdTienNghi)
+                                {
+                                    int? itemId = null; // Khởi tạo itemId với giá trị null
+
+                                    // Chuyển đổi giá trị của item.Value từ chuỗi sang số nguyên và gán cho itemId
+                                    if (int.TryParse(item.Value, out int parsedId))
+                                    {
+                                        itemId = parsedId;
+                                    }
+
+                                    // Kiểm tra nếu danh sách IdTienNghiTonTai không null và itemId không null thì mới sử dụng Contains
+                                    <li>
+                                        @if (ViewBag.IdTienNghiTonTai != null && itemId != null && ViewBag.IdTienNghiTonTai.Contains(itemId))
+                                        {
+                                            <input type="checkbox" value="@item.Value" name="IdTienNghis" checked>
+                                        }
+                                        else
+                                        {
+                                            <input type="checkbox" value="@item.Value" name="IdTienNghis">
+                                        }
+                                        <label for="">@item.Text</label>
+                                    </li>
+                                }
+                            </ul>
+                            <!-- Checkboxes end -->
+                        </div>
+                    </div>
+                    
+                    <button class="add-button color-bg" type="submit">Cập nhật</button>
+                </form>
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

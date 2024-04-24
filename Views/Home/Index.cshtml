@@ -13,7 +13,7 @@
         <div class="gallery-item">
             <div class="grid-item-holder">
                 <div class="listing-item-grid">
-                    <div class="listing-counter"><span>@item.KhachSans.Count()</span> khách sạn</div>
+                    <div class="listing-counter"><span>@item.KhachSans.Where(x => x.IsDelete == false).Count()</span> khách sạn</div>
                     <img style="max-height: 412px; object-fit: cover;" src="../assets/images/city/@item.AnhDaiDien" alt="">
                     <div class="listing-item-cat">
                         <h3><a href="/KhachSan/KhachSanTheoTinh?idtinhthanh=@item.Id">@item.TenTinh</a></h3>

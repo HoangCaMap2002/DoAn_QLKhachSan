@@ -15,6 +15,12 @@ public partial class TaiKhoan
 
     public bool? IsDelete { get; set; }
 
+    public string? Anh { get; set; }
+
+    public string? HoVaTen { get; set; }
+
+    public virtual ICollection<DanhGium> DanhGia { get; set; } = new List<DanhGium>();
+
     public virtual ICollection<DatPhong> DatPhongs { get; set; } = new List<DatPhong>();
 
     public virtual ICollection<GiaoDich> GiaoDiches { get; set; } = new List<GiaoDich>();
