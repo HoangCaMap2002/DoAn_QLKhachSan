@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bl24Z4XjPPeF7L3P12x77cRyylpV0W3n1fNVm2aC9as=",
+  "Hash": "NYOVHpxpqdm4gGmj0SGR43/8OxHBV7/GBJh1CvoG7VY=",
   "Source": "DoAn_QLKhachSan",
   "BasePath": "_content/DoAn_QLKhachSan",
   "Mode": "Default",
@@ -4571,6 +4571,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\phong\\8804c90f-c8bb-4a7e-96e0-795ed91f3d5e_522202548.jpg"
+    },
+    {
+      "Identity": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8ab6a5b3-7383-421b-b3a8-36f0da4e5d43_425422344.jpg",
+      "SourceId": "DoAn_QLKhachSan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\",
+      "BasePath": "_content/DoAn_QLKhachSan",
+      "RelativePath": "assets/images/phong/8ab6a5b3-7383-421b-b3a8-36f0da4e5d43_425422344.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\phong\\8ab6a5b3-7383-421b-b3a8-36f0da4e5d43_425422344.jpg"
     },
     {
       "Identity": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8c365be5-a00a-43dc-92d6-c99dfd582e64_522202183.jpg",
