@@ -45,6 +45,7 @@ namespace DoAn_QLKhachSan.Controllers
                     SoSao = model.SoSao,
                     IdLoaiKhachSan = model.IdLoaiKhachSan,
                     AnhDaiDien = AnhChinhFileName,
+                    IsDelete = true
                 };
 
                 // Thêm KhachSan mới vào cơ sở dữ liệu
@@ -136,6 +137,7 @@ namespace DoAn_QLKhachSan.Controllers
                         GiaPhong = item.GiaPhong,
                         IdKhachSan = model.IdKhachSan,
                         AnhDaiDien = AnhChinhFileName,
+                        IsDelete = false
                     };
                     db.Phongs.Add(phong);
                     await db.SaveChangesAsync();

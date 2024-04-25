@@ -1,0 +1,72 @@
+﻿@using DoAn_QLKhachSan.Models;
+@{
+    ViewData["Title"] = "Danh sách khách sạn";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model List<KhachSan>
+<div class="col-lg-12 stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Danh sách khách sạn</h4>
+            
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th> # </th>
+                        <th>Tên khách sạn </th>
+                        <th>Địa chỉ</th>
+                        <th>Ảnh</th>
+                        <th>Trạng thái</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="table-info">
+                            <td> 1 </td>
+                            <td> @item.TenKhachSan </td>
+                            <td> @item.DiaChi </td>
+                            <td style="text-align: center;">
+                                <img style="width:150px; height: 150px;" src="/assets/images/hotels/@item.AnhDaiDien"></img>
+                            </td>
+                            <td>
+                                <select class="trangThaiSelect" data-itemid="@item.Id">
+                                    <option data-id="0" @(item.IsDelete == false ? "selected" : "")>Cho phép</option>
+                                    <option data-id="1" @(item.IsDelete == true ? "selected" : "")>Không cho phép</option>
+                                </select>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.trangThaiSelect').change(function () {
+            var idKhachSan = $(this).data('itemid');
+            var selectedOption = $(this).find(':selected');
+            var dataId = selectedOption.data('id');
+            var isDelete = dataId === 1; // Nếu data-id của option là 1, thì isDelete = true; ngược lại, isDelete = false
+
+            $.ajax({
+                url: '/Admin/HomeAdmin/SuaTrangThai',
+                type: 'POST',
+                data: { idkhachsan: idKhachSan, isdelete: isDelete },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        // Điều chỉnh giao diện hoặc thực hiện các hành động cần thiết sau khi cập nhật thành công
+                    } else {
+                        alert('Có lỗi xảy ra: ' + response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('Đã xảy ra lỗi: ' + error);
+                }
+            });
+        });
+    });
+</script>
