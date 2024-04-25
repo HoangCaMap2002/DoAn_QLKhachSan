@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Upload ảnh";
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div id="steps" class="dashboard-content fl-wrap">
+                <form asp-action="UploadImage" method="post" enctype="multipart/form-data" class="step">
+                    <div class="box-widget-item-header mat-top">
+                        <h3>Tải ảnh của phòng lên</h3>
+                    </div>
+                    <!-- profile-edit-container-->
+                    <div class="profile-edit-container">
+                        <div class="custom-form">
+                            <div class="room-add-item">
+                                <div class="profile-edit-container" style="margin-top:30px">
+                                    <input type="text" value="@ViewBag.IdPhong" name="IdPhong" hidden/>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <label>Ảnh phòng</label>
+                                            <div class="add-list-media-wrap">
+                                                <div class="fuzone">
+                                                    <div class="fu-text">
+                                                        <span><i class="far fa-cloud-upload-alt"></i> Upload ảnh</span>
+                                                        <div class="photoUpload-files fl-wrap"></div>
+                                                    </div>
+                                                    <input type="file" class="upload" name="DanhSachAnh" multiple>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="add-button color-bg" type="submit">Tải ảnh lên</button>
+                </form>
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>

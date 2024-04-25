@@ -25,36 +25,40 @@ namespace DoAn_QLKhachSan.Controllers
         public async Task<IActionResult> YourPartialAction()
         {
             string tendangnhap = HttpContext.Session.GetString("TenDangNhap");
-            var tk = await _taiKhoanService.LayTaiKhoanTheoTenTK(tendangnhap);
-            var sokhachsan = await _db.KhachSans.Where(x => x.NguoiQuanLy == tendangnhap && x.IsDelete == false).ToListAsync();
-            //Số lượt đặt
-            var total = 0;
-            var khacsans = await _khachSanService.GetAllKhachSanByUsernameAsync(tk.TenDangNhap);
-            foreach (var ks in khacsans)
+            if (tendangnhap != null)
             {
-                var phongs = await _phongService.GetAllPhongByIdKhachSanAsync(ks.Id);
-                foreach (var phong in phongs)
+                var tk = await _taiKhoanService.LayTaiKhoanTheoTenTK(tendangnhap);
+                var sokhachsan = await _db.KhachSans.Where(x => x.NguoiQuanLy == tendangnhap && x.IsDelete == false).ToListAsync();
+                //Số lượt đặt
+                var total = 0;
+                var khacsans = await _khachSanService.GetAllKhachSanByUsernameAsync(tendangnhap);
+                foreach (var ks in khacsans)
                 {
-                    var luotdat = _db.DatPhongs.Count(x => x.IdPhong == phong.Phong.Id);
-                    total = total + luotdat;
+                    var phongs = await _phongService.GetAllPhongByIdKhachSanAsync(ks.Id);
+                    foreach (var phong in phongs)
+                    {
+                        var luotdat = _db.DatPhongs.Count(x => x.IdPhong == phong.Phong.Id);
+                        total = total + luotdat;
+                    }
                 }
+                //Số lượt đánh giá
+                var totaldanhgia = 0;
+                foreach (var ks in khacsans)
+                {
+                    var danhgia = await _db.DanhGia.Where(x => x.IdKhachSan == ks.Id).ToListAsync();
+                    totaldanhgia = totaldanhgia + danhgia.Count();
+                }
+                var model = new ThongKeProfileViewModel
+                {
+                    HoVaTen = tk.HoVaTen,
+                    Anh = tk.Anh,
+                    SoKhachSan = sokhachsan.Count(),
+                    SoLuotDat = total,
+                    SoLuotDanhGia = totaldanhgia,
+                };
+                return PartialView("_PatialProfile", model);
             }
-            //Số lượt đánh giá
-            var totaldanhgia = 0;
-            foreach (var ks in khacsans)
-            {
-                var danhgia = await _db.DanhGia.Where(x => x.IdKhachSan == ks.Id).ToListAsync();
-                totaldanhgia = totaldanhgia + danhgia.Count();
-            }
-            var model = new ThongKeProfileViewModel
-            {
-                HoVaTen = tk.HoVaTen,
-                Anh = tk.Anh,
-                SoKhachSan = sokhachsan.Count(),
-                SoLuotDat = total,
-                SoLuotDanhGia= totaldanhgia,
-            };
-            return PartialView("_PatialProfile", model);
+            return View(); 
         }
         public async Task<IActionResult> TrangCaNhan()
         {

@@ -251,6 +251,73 @@ namespace DoAn_QLKhachSan.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction("DanhSachPhong", "QLKhachSan", new { idkhachsan = phong.IdKhachSan});
         }
+        [HttpGet]
+        public async Task<IActionResult> UploadImage(int idphong)
+        {
+            ViewBag.IdPhong = idphong;
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> UploadImage(int IdPhong, List<IFormFile?> DanhSachAnh)
+        {
+            if (DanhSachAnh != null)
+            {
+                foreach (var item in DanhSachAnh)
+                {
+                    string AnhFileName = Guid.NewGuid().ToString() + "_" + item.FileName;
+                    string mainImagePath = Path.Combine("wwwroot/assets/images/phong", AnhFileName);
+                    using (var mainImageStream = new FileStream(mainImagePath, FileMode.Create))
+                    {
+                        await item.CopyToAsync(mainImageStream);
+                    }
+                    var anh = new HinhAnh
+                    {
+                        IdPhong= IdPhong,
+                        UrlHinhAnh = AnhFileName,
+                        IsDelete = false,  
+                    };
+                    _db.HinhAnhs.Add(anh);
+                }
+                await _db.SaveChangesAsync();
+                return RedirectToAction("KhachSanTheoTaiKhoan", "QLKhachSan");
+            }
+           
+            return View();
+        }
+        [HttpGet]
+        public async Task<IActionResult> LichSuDat()
+        {
+            var tendangnhap = HttpContext.Session.GetString("TenDangNhap");
+            if (tendangnhap !=null)
+            {
+                var datphong = await _db.DatPhongs.Where(x => x.TenDangNhap == tendangnhap).ToListAsync();
+                List<LichSuDatVM> lichsu = new List<LichSuDatVM>();
+                foreach (var item in datphong)
+                {
+                    var phong = await _db.Phongs.Where(x => x.Id == item.IdPhong).FirstOrDefaultAsync();
+                    var khachsan = await _db.KhachSans.Where(x => x.Id == phong.IdKhachSan).FirstOrDefaultAsync();
+                    var ls = new LichSuDatVM
+                    {
+                        BatDau = item.BatDau,
+                        KetThuc = item.KetThuc,
+                        TenNguoiDat = item.HoVaTen,
+                        IdPhong = item.IdPhong,
+                        SoDienThoai= item.SoDienThoai,
+                        Email = item.Email,
+                        GhiChu = item.GhiChu,
+                        ThanhToan = item.ThanhToan,
+                        Status = item.Status,
+                        AnhDaiDien = phong.AnhDaiDien,
+                        TongTien = item.TongTien,
+                       TenKhachSan = khachsan.TenKhachSan
+                    };
+                    lichsu.Add(ls);
+                }
+                return View(lichsu);
+            }
+            
+            return View();
+        }
 
     }
 }

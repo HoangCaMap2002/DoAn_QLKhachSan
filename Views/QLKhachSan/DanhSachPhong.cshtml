@@ -1,4 +1,5 @@
 ﻿@using DoAn_QLKhachSan.ViewModels;
+@using DoAn_QLKhachSan.Extension;
 @{
     Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
 }
@@ -33,10 +34,11 @@
                                 </div>
                                 <div class="dashboard-listing-table-text">
                                     <h4><a href="">@item.Phong.TenPhong</a></h4>
-                                    <span class="dashboard-listing-table-address"><i class="far fa-map-marker"></i><a href="#">@item.Phong.GiaPhong</a></span>
+                                    <span class="dashboard-listing-table-address"><i class="far fa-map-marker"></i><a href="#">@item.Phong.GiaPhong.Value.ToVND()</a></span>
                                     <ul class="dashboard-listing-table-opt fl-wrap">
                                         <li><a href="/QLKhachSan/SuaPhong?idphong=@item.Phong.Id">Sửa<i class="fal fa-edit"></i></a></li>
                                         <li><a href="/QLKhachSan/XoaPhong?idphong=@item.Phong.Id" class="del-btn">Xoá<i class="fal fa-trash-alt"></i></a></li>
+                                        <li><a href="/QLKhachSan/UploadImage?Idphong=@item.Phong.Id">Upload ảnh<i class="fal fa-upload"></i></a></li>
                                     </ul>
                                 </div>
                             </div>

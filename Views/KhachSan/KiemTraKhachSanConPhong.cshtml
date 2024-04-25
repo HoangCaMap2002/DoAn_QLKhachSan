@@ -3,6 +3,23 @@
     ViewData["Title"] = "Khach San Theo Khu Vuc";
 }
 @model List<KhachSan>
+@functions {
+    QuanLyKhachSanContext db = new QuanLyKhachSanContext();
+    public List<TienNghi>getAllTienNghiOfKhachSan(int? idks)
+    {
+        
+    // Kiểm tra idP có giá trị không
+    if (idks == null) return new List<TienNghi>();  // Trả về danh sách rỗng nếu idP là null
+        var result = db.KhachSanTienNghis
+        .Where(ptn => ptn.IdKhachSan == idks) // Sử dụng tham số idP
+        .Join(db.TienNghis,
+        ptn => ptn.IdTienNghi,
+        tn => tn.Id,
+        (ptn, tn) => tn).Take(4)  // Trả về các đối tượng TienNghi
+        .ToList();  // Chuyển kết quả thành List
+        return result;
+        }
+}
 @if(Model.Count() == 0){
     <h1 class="bg-danger text-white">Không có khách sạn nào còn phòng vào ngày đã chọn</h1>
 }
@@ -24,10 +41,6 @@ else
                     <a href="/Phong/PhongTheoKhachSan?idkhachsan=@item.Id"><img src="../assets/images/hotels/@item.AnhDaiDien" alt=""></a>
                     <div class="geodir-category-opt">
                         <div class="listing-rating card-popup-rainingvis" data-starrating2="@item.SoSao"></div>
-                        <div class="rate-class-name">
-                            <div class="score"><strong> Good</strong>8 Reviews </div>
-                            <span>4.1</span>
-                        </div>
                     </div>
                 </div>
                 <div class="geodir-category-content fl-wrap title-sin_item">
@@ -39,10 +52,9 @@ else
                     </div>
                     <p>@item.GhiChu</p>
                     <ul class="facilities-list fl-wrap">
-                        <li><i class="fal fa-wifi"></i><span>Free WiFi</span></li>
-                        <li><i class="fal fa-parking"></i><span>Bãi đỗ xe</span></li>
-                        <li><i class="fal fa-smoking-ban"></i><span>Không hút thuốc</span></li>
-                        <li><i class="fal fa-utensils"></i><span>Nhà hàng</span></li>
+                         @foreach(var tnks in getAllTienNghiOfKhachSan(item.Id)){
+                            <li><i class="@tnks.ClassIcon"></i><span>@tnks.TenTienNghi</span></li>
+                        }
                     </ul>
                     <div class="geodir-category-footer fl-wrap">
                         <div class="geodir-opt-link">

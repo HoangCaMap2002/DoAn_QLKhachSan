@@ -294,13 +294,12 @@
                                                 <div class="rooms-item fl-wrap">
                                                     <div class="rooms-media">
                                                         <img src="../assets/images/phong/@item.Phong.AnhDaiDien" alt="">
-                                                        <div class="dynamic-gal more-photos-button" data-dynamicPath="[@rs]"> Ảnh phòng <span>4 ảnh</span> <i class="far fa-long-arrow-right"></i> </div>
+                                                        <div class="dynamic-gal more-photos-button" data-dynamicPath="[@rs]"> Ảnh phòng: @item.ImagePaths.Count() <span></span> <i class="far fa-long-arrow-right"></i> </div>
                                                     </div>
                                                     <div class="rooms-details">
                                                         <div class="rooms-details-header fl-wrap">
                                                             <span class="rooms-price">@item.Phong.GiaPhong.Value.ToVND()<strong> / đêm</strong></span>
                                                             <h3>@item.Phong.TenPhong</h3>
-                                                            <h5>Max Guests: <span>2 người</span></h5>
                                                         </div>
                                                         <div class="facilities-list fl-wrap">
                                                             <ul>

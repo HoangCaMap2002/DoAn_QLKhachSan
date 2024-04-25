@@ -72,6 +72,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxLaGFjaFNhblRoZW9UYWlLaG9hbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/LichSuDat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxMaWNoU3VEYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/SuaKhachSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxTdWFLaGFjaFNhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -82,6 +86,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/ThemPhong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxUaGVtUGhvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/UploadImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxVcGxvYWRJbWFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/Components/Tinh/Default.cshtml]

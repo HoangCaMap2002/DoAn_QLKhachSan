@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "SuaPhong";
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+
+@model List<DoAn_QLKhachSan.ViewModels.LichSuDatVM>;
+
+<style>
+    .dashboard-listing-table-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        max-height: 174px;
+        object-fit: cover;
+    }
+</style>
+
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div class="dashboard-content fl-wrap">
+                <div class="dashboard-list-box fl-wrap">
+                    <div class="dashboard-header fl-wrap">
+                        <h3>Lịch sử đặt phòng của bạn</h3>
+                    </div>
+                    <!-- dashboard-list  -->
+                        @foreach(var item in Model){
+                        <div class="dashboard-list">
+                            <div class="dashboard-message">
+                                <div class="dashboard-listing-table-image">
+                                    <a href=""><img src="../assets/images/phong/@item.AnhDaiDien" alt=""></a>
+                                </div>
+                                <div class="dashboard-listing-table-text">
+                                    <div class="dashboard-message-text">
+                                        <h4><span>Ngày đặt</span></h4>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Tên khách sạn :</span> :
+                                            <span class="booking-text"><a href="#">@item.TenKhachSan</a></span>
+                                        </div>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Người đặt :</span>
+                                            <span class="booking-text"><a href="#" target="_top">@item.TenNguoiDat</a></span>
+                                        </div>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Ngày đến - Ngày đi :</span>
+                                            <span class="booking-text">@item.BatDau  - @item.KetThuc</span>
+                                        </div>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Gmail :</span>
+                                            <span class="booking-text"><a href="#" target="_top">@item.Email</a></span>
+                                        </div>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Số điện thoại :</span>
+                                            <span class="booking-text"><a href="tel:+496170961709" target="_top">@item.SoDienThoai</a></span>
+                                        </div>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Phương thức thanh toán:</span>
+                                            <span class="booking-text"> <strong class="done-paid">Paid  </strong>VNpay</span>
+                                        </div>
+                                        <span class="fw-separator"></span>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere convallis purus non cursus. Cras metus neque, gravida sodales massa ut. </p>
+                                        <div class="booking-details fl-wrap">
+                                            <span class="booking-title">Trạng thái: đã thanh toán</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                </div>
+                <!-- pagination-->
+                <div class="pagination">
+                    <a href="#" class="prevposts-link"><i class="fa fa-caret-left"></i></a>
+                    <a href="#">1</a>
+                    <a href="#" class="current-page">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#" class="nextposts-link"><i class="fa fa-caret-right"></i></a>
+                </div>
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>
