@@ -22,7 +22,6 @@ public partial class DanhGium
     public int? DiemCoSoVatChat { get; set; }
 
     public int? DiemThom { get; set; }
-
     public double? DiemTb => Math.Round(((double)DiemNhanVien + (double)DiemSachSe + (double)DiemThom + (double)DiemCoSoVatChat) / 4.0, 1);
 
     public virtual TaiKhoan? TenDangNhapNavigation { get; set; }

@@ -29,7 +29,13 @@ public partial class DatPhong
 
     public string? GhiChu { get; set; }
 
+    public DateTime? NgayDat { get; set; }
+
+    public int? IdTrangThai { get; set; }
+
     public virtual Phong? IdPhongNavigation { get; set; }
+
+    public virtual TrangThai? IdTrangThaiNavigation { get; set; }
 
     public virtual TaiKhoan? TenDangNhapNavigation { get; set; }
 }

@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 function legendClickCallback(event) {
     event = event || window.event;
 

@@ -101,8 +101,8 @@
                     <!-- profile-edit-container-->
                     <div class="profile-edit-container">
                         <div class="custom-form">
-                            <label>ghi chú</label>
-                            <textarea name="GhiChu" cols="40" rows="3" placeholder="Ghi chú"></textarea>
+                            <label>Mô tả</label>
+                            <textarea name="GhiChu" cols="40" rows="3" placeholder="Mô tả"></textarea>
                         </div>
                     </div>
                     <!-- profile-edit-container end-->
@@ -114,7 +114,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <!-- Checkboxes -->
-                            <ul class="fl-wrap filter-tags">
+                            <ul class="fl-wrap filter-tags" style="display: inline-grid;">
                                 @foreach(var item in ViewBag.IdTienNghi){
                                     <li>
                                         <input type="checkbox" value="@item.Value" name="IdTienNghis">
@@ -139,12 +139,12 @@
                         <div class="custom-form">
                             <div class="room-add-item">
                                 <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
-                                <input type="text" name="Phongs[0].TenPhong" placeholder="Tên phòng" value="" />
+                                <input type="text" name="Phongs[0].TenPhong" placeholder="Tên phòng" value="" required/>
                                 <input class="IdKhachSan" type="hidden" name="IdKhachSan" value=""/>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label>Giá<i class="fal fa-dollar-sign"></i></label>
-                                        <input type="text" name="Phongs[0].GiaPhong" placeholder="giá" value="" />
+                                        <input type="text" name="Phongs[0].GiaPhong" placeholder="giá" value=""  required/>
                                     </div>
                                 </div>
                                 <label>Chi tiết phòng</label>
@@ -165,7 +165,7 @@
                                         </div>
                                         <div class="col-md-8">
                                             <!-- Checkboxes -->
-                                            <ul class="fl-wrap filter-tags" style="margin-top:24px">
+                                            <ul class="fl-wrap filter-tags" style="margin-top:24px; display: inline-grid;">
                                                  @foreach(var item in ViewBag.IdTienNghi){
                                                     <li>
                                                         <input type="checkbox" value="@item.Value" name="Phongs[0].IdTienNghiPhong">
@@ -191,7 +191,6 @@
         <!-- dasboard-wrap end-->
     </div>
 </section>
-
 <style>
     .error {
         border: 1px solid red !important;
@@ -203,7 +202,7 @@
     var currentStep = 1;
     function nextStep() {
         var isValid = true;
-        $('input[required]').each(function () {
+        $('#step1 input[required]').each(function () {
             var value = $(this).val();
             console.log(value);
              if (value == '') {
@@ -214,7 +213,7 @@
                 $(this).removeClass('error');
             }
         });
-        $('div.chosen-select').each(function () {
+        $('#step1 div.chosen-select').each(function () {
             var value = $(this).find('span').text();
             console.log(value);
             if (value=='') {
@@ -407,8 +406,32 @@
     }
     
     function LuuPhong(){
+        var isValid = true;
+        $('#step2 input[required]').each(function () {
+            var value = $(this).val();
+             if (value == '') {
+                $(this).addClass('error');
+                isValid = false;
+             }
+            else {
+                $(this).removeClass('error');
+            }
+        });
+        $('#step2').find('div.fuzone').each(function () {
+            var value = $(this).find('div.photoUpload-files').text();
+            if (value=='') {
+                $(this).addClass('error');
+                isValid = false;
+            }
+            else {
+                $(this).removeClass('error');
+            }
+        });
+        if (!isValid) {
+            alert("Vui lòng điền đầy đủ thông tin!");
+            return;
+        }
         var formData = new FormData($("#step2")[0]);
-
         // Lấy URL của action từ thuộc tính action của form
         var url = $("#step2").attr('action');
         alert(url);
@@ -420,12 +443,11 @@
             contentType: false,
             processData: false,
             success: function (response) {
-                console.log(response); 
+                $("#step2 .photoUpload-files").text("");
                 $("#step2")[0].reset();
             },
             error: function (xhr, status, error) {
                 // Xử lý lỗi nếu cần
-                
                 console.error(error);
             }
         });

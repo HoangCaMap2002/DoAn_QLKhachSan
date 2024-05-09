@@ -298,18 +298,22 @@ namespace DoAn_QLKhachSan.Controllers
                     var khachsan = await _db.KhachSans.Where(x => x.Id == phong.IdKhachSan).FirstOrDefaultAsync();
                     var ls = new LichSuDatVM
                     {
+                        Id = item.Id,
                         BatDau = item.BatDau,
                         KetThuc = item.KetThuc,
                         TenNguoiDat = item.HoVaTen,
                         IdPhong = item.IdPhong,
-                        SoDienThoai= item.SoDienThoai,
+                        SoDienThoai = item.SoDienThoai,
                         Email = item.Email,
                         GhiChu = item.GhiChu,
                         ThanhToan = item.ThanhToan,
                         Status = item.Status,
                         AnhDaiDien = phong.AnhDaiDien,
                         TongTien = item.TongTien,
-                       TenKhachSan = khachsan.TenKhachSan
+                        TenKhachSan = khachsan.TenKhachSan,
+                        NgayDat = item.NgayDat,
+                        TrangThai = _db.TrangThais.Where(x => x.Id == item.IdTrangThai).Select(t => t.TenTrangThai).FirstOrDefault(),
+                        IdTrangThai = item.IdTrangThai,
                     };
                     lichsu.Add(ls);
                 }
@@ -317,6 +321,86 @@ namespace DoAn_QLKhachSan.Controllers
             }
             
             return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> YeuCauKhachHang()
+        {
+            var tendangnhap = HttpContext.Session.GetString("TenDangNhap");
+            ViewBag.IdTrangThai  = new SelectList(await _db.TrangThais.ToListAsync(), "Id", "TenTrangThai");
+            if (tendangnhap != null)
+            {
+                var bookings = (from datPhong in _db.DatPhongs
+                               join phong in _db.Phongs on datPhong.IdPhong equals phong.Id
+                               join khachSan in _db.KhachSans on phong.IdKhachSan equals khachSan.Id
+                               where khachSan.NguoiQuanLy == tendangnhap
+                               select new LichSuDatVM { 
+                                    Id = datPhong.Id,
+                                    BatDau = datPhong.BatDau,
+                                    KetThuc = datPhong.KetThuc,
+                                    TenNguoiDat = datPhong.HoVaTen,
+                                    IdPhong = datPhong.IdPhong,
+                                    SoDienThoai = datPhong.SoDienThoai,
+                                    Email = datPhong.Email,
+                                    GhiChu = datPhong.GhiChu,
+                                    ThanhToan = datPhong.ThanhToan,
+                                    Status= datPhong.Status,
+                                    AnhDaiDien = phong.AnhDaiDien,
+                                    TongTien = datPhong.TongTien,
+                                    TenKhachSan = khachSan.TenKhachSan,
+                                    NgayDat = datPhong.NgayDat,
+                                    TrangThai = _db.TrangThais.Where(x => x.Id == datPhong.IdTrangThai).Select(t => t.TenTrangThai).FirstOrDefault(),
+                                    IdTrangThai = datPhong.IdTrangThai,
+                               }).ToList();
+                return View(bookings);
+            }
+                return View();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ThongKe(int? nam)
+        {
+            var tendangnhap = HttpContext.Session.GetString("TenDangNhap");
+            var bookings = from datPhong in _db.DatPhongs
+                        join phong in _db.Phongs on datPhong.IdPhong equals phong.Id
+                        join khachSan in _db.KhachSans on phong.IdKhachSan equals khachSan.Id
+                        where datPhong.NgayDat.Value.Year == nam && khachSan.NguoiQuanLy == tendangnhap && datPhong.IdTrangThai == 1
+                        select datPhong;
+
+            decimal[] monthlyRevenue = new decimal[12];
+
+            foreach (var booking in bookings)
+            {
+                if (booking.NgayDat != null)
+                {
+                    DateTime bookingDate = booking.NgayDat.Value;
+                    int month = bookingDate.Month;
+                    monthlyRevenue[month - 1] += (decimal)booking.TongTien;
+                }
+            }
+
+            var viewModel = new ThongKe
+            {
+                MonthlyRevenue = monthlyRevenue
+            };
+
+            return View(viewModel);
+        }
+
+        public async Task<IActionResult> ThayDoiTrangThai(int iddatphong, int idtrangthai)
+        {
+            var dp = await _db.DatPhongs.Where(x => x.Id == iddatphong).FirstOrDefaultAsync();
+            if (dp != null)
+            {
+                dp.IdTrangThai = idtrangthai;
+                var trangThai = await _db.TrangThais.Where(x => x.Id == idtrangthai).Select(t => t.TenTrangThai).FirstOrDefaultAsync();
+                await _db.SaveChangesAsync();
+                return Json(new { success = true, message = $"{trangThai} thành công" });
+            }
+            else
+            {
+                return Json(new { success = false, message = "Không tìm thấy dữ liệu" });
+            }
         }
 
     }

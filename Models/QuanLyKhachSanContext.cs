@@ -45,6 +45,8 @@ public partial class QuanLyKhachSanContext : DbContext
 
     public virtual DbSet<TinhThanh> TinhThanhs { get; set; }
 
+    public virtual DbSet<TrangThai> TrangThais { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=localhost,1433;Initial Catalog=QuanLyKhachSan;User ID=SA;Password=Password123;TrustServerCertificate=True");
@@ -73,6 +75,7 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.Property(e => e.Email).HasMaxLength(100);
             entity.Property(e => e.HoVaTen).HasMaxLength(100);
             entity.Property(e => e.KetThuc).HasColumnType("datetime");
+            entity.Property(e => e.NgayDat).HasColumnType("datetime");
             entity.Property(e => e.SoDienThoai)
                 .HasMaxLength(10)
                 .IsUnicode(false);
@@ -84,6 +87,10 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.HasOne(d => d.IdPhongNavigation).WithMany(p => p.DatPhongs)
                 .HasForeignKey(d => d.IdPhong)
                 .HasConstraintName("FK_DatPhong_Phong");
+
+            entity.HasOne(d => d.IdTrangThaiNavigation).WithMany(p => p.DatPhongs)
+                .HasForeignKey(d => d.IdTrangThai)
+                .HasConstraintName("FK_DatPhong_TrangThai");
 
             entity.HasOne(d => d.TenDangNhapNavigation).WithMany(p => p.DatPhongs)
                 .HasForeignKey(d => d.TenDangNhap)
@@ -263,6 +270,13 @@ public partial class QuanLyKhachSanContext : DbContext
             entity.Property(e => e.AnhDaiDien).HasMaxLength(255);
             entity.Property(e => e.GhiChu).HasMaxLength(255);
             entity.Property(e => e.TenTinh).HasMaxLength(255);
+        });
+
+        modelBuilder.Entity<TrangThai>(entity =>
+        {
+            entity.ToTable("TrangThai");
+
+            entity.Property(e => e.TenTrangThai).HasMaxLength(100);
         });
 
         OnModelCreatingPartial(modelBuilder);

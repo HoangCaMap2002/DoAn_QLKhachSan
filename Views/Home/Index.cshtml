@@ -3,7 +3,45 @@
     Layout = "~/Views/Shared/_LayoutMain.cshtml";
 }
 @model List<TinhThanh>
+<style>
+    .alert {
+        position: fixed;
+        bottom: 50px;
+        right: -100%; /* Bắt đầu từ ngoài cùng bên phải */
+        transition: right 0.5s ease-in-out; /* Sử dụng hiệu ứng transition */
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        z-index: 100;
+    }
+    .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+    /* CSS cho lớp hiển thị thông báo */
+    .show {
+        right: 20px; /* Hiển thị thông báo ở vị trí mong muốn */
+    }
+</style>
+@if (ViewBag.SuccessMessage != null)
+{
+    <div id="successAlert" class="alert alert-success" role="alert" style="display: none">
+        @ViewBag.SuccessMessage
+    </div>
+    <script>
+        // Sử dụng setTimeout() để kích hoạt hiệu ứng trượt sau 100 milliseconds
+        setTimeout(function () {
+            document.getElementById('successAlert').classList.add('show');
+        }, 100);
 
+        // Sử dụng setTimeout() để tự động ẩn đi thông báo sau 3 giây (3000 milliseconds)
+        setTimeout(function () {
+            document.getElementById('successAlert').classList.remove('show');
+        }, 3000);
+    </script>
+}
 <div class="gallery-items fl-wrap mr-bot spad home-grid">
     <!-- gallery-item gallery-item-second-->
    

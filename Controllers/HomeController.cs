@@ -24,7 +24,11 @@ namespace DoAn_QLKhachSan.Controllers
         public async Task<IActionResult> Index()
         {
             var khuvuc = await _tinhThanhService.GetAllTinhThanhAsync();
-            
+            if (TempData["SuccessMessage"] != null)
+            {
+                ViewBag.SuccessMessage = TempData["SuccessMessage"];
+            }
+
             return View(khuvuc);
         }
         public IActionResult Privacy()

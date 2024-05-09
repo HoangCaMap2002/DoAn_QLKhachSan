@@ -53,6 +53,8 @@ namespace DoAn_QLKhachSan.Controllers
                     HoVaTen = hovaten,
                     GhiChu= ghichu,
                     TongTien = item.TongTien(),
+                    NgayDat = DateTime.Now,
+                    IdTrangThai = 4
                 };
                 _context.Add(don);
             }

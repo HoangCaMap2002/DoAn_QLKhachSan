@@ -56,13 +56,15 @@ namespace DoAn_QLKhachSan.Controllers
                 var khachSanId = ks.Id;
 
                 // Tạo danh sách KhachSanTienNghi từ IdTienNghis
-                var khachSanTienNghis = model.IdTienNghis.Select(tiennghi => new KhachSanTienNghi
-                {
-                    IdTienNghi = tiennghi,
-                    IdKhachSan = khachSanId, // Sử dụng Id của KhachSan mới thêm vào
-                }).ToList();
-
+                var khachSanTienNghis = model.IdTienNghis != null
+                    ? model.IdTienNghis.Select(tiennghi => new KhachSanTienNghi
+                    {
+                        IdTienNghi = tiennghi,
+                        IdKhachSan = khachSanId, // Sử dụng Id của KhachSan mới thêm vào
+                    }).ToList()
+                    : new List<KhachSanTienNghi>();
                 // Thêm danh sách KhachSanTienNghi vào cơ sở dữ liệu
+
                 db.KhachSanTienNghis.AddRange(khachSanTienNghis);
                 await db.SaveChangesAsync();
 
@@ -143,11 +145,13 @@ namespace DoAn_QLKhachSan.Controllers
                     await db.SaveChangesAsync();
 
                     var idphong = phong.Id;
-                    var phongtiennghi = model.Phongs[0].IdTienNghiPhong.Select(tiennghi => new PhongTienNghi
-                    {
-                        IdTienNghi = tiennghi,
-                        IdPhong = idphong,
-                    }).ToList();
+                    var phongtiennghi = model.Phongs != null && model.Phongs.Count > 0 && model.Phongs[0].IdTienNghiPhong != null
+                        ? model.Phongs[0].IdTienNghiPhong.Select(tiennghi => new PhongTienNghi
+                        {
+                            IdTienNghi = tiennghi,
+                            IdPhong = idphong,
+                        }).ToList()
+                        : new List<PhongTienNghi>();
 
                     // Thêm danh sách KhachSanTienNghi vào cơ sở dữ liệu
                     db.PhongTienNghis.AddRange(phongtiennghi);

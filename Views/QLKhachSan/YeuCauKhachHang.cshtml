@@ -1,10 +1,9 @@
-﻿@{
+﻿@using DoAn_QLKhachSan.ViewModels;
+@{
     ViewData["Title"] = "SuaPhong";
     Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
-    DateTime ngayhomnay = DateTime.Now;
 }
-
-@model List<DoAn_QLKhachSan.ViewModels.LichSuDatVM>;
+@model List<LichSuDatVM>
 
 <style>
     .dashboard-listing-table-image img {
@@ -24,10 +23,11 @@
             <div class="dashboard-content fl-wrap">
                 <div class="dashboard-list-box fl-wrap">
                     <div class="dashboard-header fl-wrap">
-                        <h3>Lịch sử đặt phòng của bạn</h3>
+                        <h3>Yêu cầu đặt phòng</h3>
                     </div>
                     <!-- dashboard-list  -->
-                        @foreach(var item in Model){
+                    @foreach (var item in Model)
+                    {
                         <div class="dashboard-list">
                             <div class="dashboard-message">
                                 <div class="dashboard-listing-table-image">
@@ -63,23 +63,53 @@
                                         <span class="fw-separator"></span>
                                         <p>Ghi chú: @item.GhiChu</p>
                                         <div class="booking-details fl-wrap">
-                                            <span class="booking-title">Trạng thái: @item.TrangThai</span>
+                                            <span class="booking-title">Trạng thái:</span>
+                                           <select class="trangThaiSelect" data-itemid="@item.Id">
+                                                @foreach (var tt in ViewBag.IdTrangThai)
+                                                {
+                                                    int value = Convert.ToInt32(tt.Value); // Chuyển đổi từ string sang int
+                                                    <option data-id="@value" value="@tt.Value" selected="@(value == item.IdTrangThai ? "selected" : null)">@tt.Text</option>
+                                                }
+                                            </select>                                      
                                         </div>
-                                        @{
-                                            var timeDifference = item.BatDau - DateTime.Now;
-                                            var daysDifference = timeDifference.Value.Days;
-                                        }
-                                        @if(item.BatDau > DateTime.Now && item.IdTrangThai != 5 && daysDifference > 3){
-                                            <button data-itemid="@item.Id" class="add-button color-bg" type="submit">Huỷ phòng</button>
-                                        }
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        }
+                    }
                 </div>
+            </div>
             <!-- dashboard-list-box end-->
         </div>
         <!-- dasboard-wrap end-->
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.trangThaiSelect').change(function () {
+            var idDatPhong = $(this).data('itemid');
+            var selectedOption = $(this).find(':selected');
+            var dataId = selectedOption.data('id');
+            
+
+            $.ajax({
+                url: '/QLKhachSan/ThayDoiTrangThai',
+                type: 'POST',
+                data: { iddatphong: idDatPhong, idtrangthai: dataId },
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.message);
+                        // Điều chỉnh giao diện hoặc thực hiện các hành động cần thiết sau khi cập nhật thành công
+                    } else {
+                        alert('Có lỗi xảy ra: ' + response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    alert('Đã xảy ra lỗi: ' + error);
+                }
+            });
+        });
+    });
+</script>

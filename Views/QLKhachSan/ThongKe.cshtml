@@ -1,0 +1,105 @@
+﻿@using DoAn_QLKhachSan.ViewModels;
+@{
+    ViewData["Title"] = "Thong Ke";
+    Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
+}
+@model ThongKe
+
+<section class="middle-padding">
+    <div class="container">
+        <!--dasboard-wrap-->
+        <div class="dasboard-wrap fl-wrap">
+            <!-- dashboard-content-->
+            <div class="dashboard-content fl-wrap">
+                <div class="box-widget-item-header">
+                    <h3>Số liệu thống kê doanh thu</h3>
+                </div>
+                <!-- chart-wra-->
+                <div class="chart-wrap dashboard-item fl-wrap">
+                    <div class="chart-header fl-wrap">
+                        <div class="listsearch-input-item">
+                            <select id="time-period" data-placeholder="Năm" class="chosen-select no-search-select">
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2022">2021</option>
+                                <option value="2022">2020</option>
+                                <option value="2022">2019</option>
+                            </select>
+                        </div>
+                        <div id="myChartLegend"></div>
+                    </div>
+                    <canvas id="canvas-chart"></canvas>
+                </div>
+                <!--chart-wra end-->
+
+            </div>
+            <!-- dashboard-list-box end-->
+        </div>
+        <!-- dasboard-wrap end-->
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery -->
+<script src="../assets/js/charts.js"></script>
+<script>
+    function formatNumberToVND(number) {
+    return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + "₫";
+}
+    var ctx = document.getElementById("canvas-chart").getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12'],
+            datasets: [{
+                label: 'Doanh thu',
+                backgroundColor: '#3AACED',
+                borderColor: '#3AACED',
+                borderWidth: 1,
+                data: @Html.Raw(Json.Serialize(Model.MonthlyRevenue))
+                    }]
+        },
+        options: {
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        callback: function(value, index, values) {
+                        return formatNumberToVND(value);
+                    }
+                    }
+                }]
+            }
+        }
+    });
+    $(document).ready(function () {
+        // Lấy giá trị năm từ query string (nếu có)
+        var selectedYear = getUrlParameter("nam");
+
+        // Nếu có giá trị năm từ query string, đặt option tương ứng là được chọn
+        if (selectedYear !== null) {
+            $("#time-period").val(selectedYear);
+        }
+
+        // Bắt sự kiện onchange của select box
+        $("#time-period").change(function () {
+            // Lấy giá trị được chọn
+            var selectedYear = $(this).val();
+
+            // Tạo URL mới chứa giá trị được chọn
+            var newUrl = window.location.pathname + "?nam=" + selectedYear;
+
+            // Chuyển hướng trình duyệt đến URL mới
+            window.location.href = newUrl;
+        });
+    });
+
+    // Hàm để lấy giá trị của query parameter từ URL
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? null : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+</script>

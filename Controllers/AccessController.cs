@@ -49,8 +49,10 @@ namespace DoAn_QLKhachSan.Controllers
                     if (passwordVerification == Microsoft.AspNet.Identity.PasswordVerificationResult.Success)
                     {
                         HttpContext.Session.SetString("TenDangNhap", user.TenDangNhap);
+                        
                         if (quyen.Contains("Admin"))
                         {
+                            TempData["SuccessMessage"] = "Đăng nhập thành công!";
                             List<Claim> claims = new List<Claim>()
                               {
                               new Claim(ClaimTypes.NameIdentifier, user.TenDangNhap),
@@ -73,6 +75,7 @@ namespace DoAn_QLKhachSan.Controllers
                         }
                         if (quyen.Contains("Customer"))
                         {
+                            TempData["SuccessMessage"] = "Đăng nhập thành công!";
                             List<Claim> claims = new List<Claim>()
                               {
                               new Claim(ClaimTypes.NameIdentifier, user.TenDangNhap),
@@ -91,7 +94,11 @@ namespace DoAn_QLKhachSan.Controllers
                             };
                             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
                                 new ClaimsPrincipal(claimsIdentity), properties);
-                            if (Url.IsLocalUrl(returnurl))
+                            if (returnurl == "/admin/homeadmin/danhsachkhachsan")
+                            {
+                                return RedirectToAction("Index", "Home");
+                            }
+                            else if (Url.IsLocalUrl(returnurl))
                             {
                                 return Redirect(returnurl);
                             }
@@ -101,13 +108,17 @@ namespace DoAn_QLKhachSan.Controllers
                             }
                         }
                     }
+                    else
+                    {
+                        ModelState.AddModelError("MatKhau", "Sai mật khẩu");
+                    }
                 }
                 else
                 {
-                    ModelState.AddModelError("loi", "không có khách hàng này");
+                    ModelState.AddModelError("TenDangNhap", "User không tồn tại");
                 }
             }
-            return View();
+            return View(tk);
         }
         public IActionResult Register() { 
             return View();

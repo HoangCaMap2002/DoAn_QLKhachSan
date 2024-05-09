@@ -2,6 +2,7 @@
 {
     public class LichSuDatVM
     {
+        public int Id { get; set; }
         public int? IdPhong { get; set; }
         public string? TenNguoiDat { get; set; }
         public string? TenKhachSan { get; set; }
@@ -13,7 +14,9 @@
         public string? ThanhToan { get; set; }
         public bool? Status { get; set; }
         public string? AnhDaiDien { get; set; }
-
+        public DateTime? NgayDat { get; set; }
         public double? TongTien { get; set; }
+        public string? TrangThai { get; set; }
+        public int? IdTrangThai { get; set; }
     }
 }

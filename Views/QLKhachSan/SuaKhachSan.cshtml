@@ -19,7 +19,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Tên khách sạn<i class="fal fa-briefcase"></i></label>
-                            <input asp-for="TenKhachSan" type="text" class="form-control"/>
+                            <input asp-for="TenKhachSan" type="text" class="form-control" required/>
                             <input asp-for="Id" class="IdKhachSan" type="text" hidden/>
                             <div class="row">
                                 <div class="col-md-6">
@@ -31,7 +31,7 @@
                                 <div class="col-md-6">
                                     <label>Số sao</label>
                                     <div class="listsearch-input-item">
-                                        <select asp-for="SoSao" class="chosen-select no-search-select" required>
+                                        <select asp-for="SoSao" class="chosen-select no-search-select">
                                             <option disabled selected data-placeholder="true"></option>
                                             <option>1</option>
                                             <option>2</option>
@@ -52,7 +52,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Địa chỉ<i class="fal fa-map-marker"></i></label>
-                            <input asp-for="DiaChi" type="text" placeholder="Địa chỉ khách sạn" class="form-control" />
+                            <input asp-for="DiaChi" type="text" placeholder="Địa chỉ khách sạn" class="form-control" required/>
                             <label>Thành phố</label>
                             <div class="listsearch-input-item">
                                 <select asp-for="IdTinhThanh" class="form-control nice-select chosen-select no-search-select" asp-items="ViewBag.IdTinhThanh"></select>
@@ -143,6 +143,47 @@
         <!-- dasboard-wrap end-->
     </div>
 </section>
+<style>
+    .error {
+        border: 1px solid red !important;
+        background-color: #ffcccc !important;  
+    }
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $('#step1').submit(function (event) {
+        // Kiểm tra điều kiện validation
+        var isValid = true;
+
+        // Kiểm tra từng trường input
+        $('#step1 input[required]').each(function () {
+            var value = $(this).val();
+            if (value == '') {
+                $(this).addClass('error');
+                isValid = false;
+            } else {
+                $(this).removeClass('error');
+            }
+        });
+
+        // Kiểm tra các select
+        $('#step1 select[required]').each(function () {
+            var value = $(this).val();
+            if (value == '') {
+                $(this).addClass('error');
+                isValid = false;
+            } else {
+                $(this).removeClass('error');
+            }
+        });
+        // Nếu form không hợp lệ, ngăn chặn việc submit
+        if (!isValid) {
+            alert("Vui lòng điền đầy đủ thông tin!");
+            event.preventDefault(); // Ngăn chặn việc submit form
+        }
+    });
+</script>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
