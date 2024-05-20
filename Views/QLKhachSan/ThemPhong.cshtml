@@ -17,16 +17,16 @@
                         <div class="custom-form">
                             <div class="room-add-item">
                                 <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
-                                <input type="text" asp-for="@Model.TenPhong" required/>
+                                <input type="text" asp-for="@Model.TenPhong" maxlength="150" required/>
                                 <input asp-for="@Model.IdKhachSan" class="IdPhong" type="text" value="@ViewBag.IdKhachSan" hidden />
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label>Giá<i class="fal fa-dollar-sign"></i></label>
-                                        <input type="text" asp-for="@Model.GiaPhong" required/>
+                                        <input type="text" asp-for="@Model.GiaPhong" maxlength="50" required/>
                                     </div>
                                 </div>
                                 <label>Chi tiết phòng</label>
-                                <textarea cols="40" rows="3" placeholder="Chi tiết"></textarea>
+                                <textarea cols="40" rows="3" placeholder="Chi tiết" maxlength="1024"></textarea>
                                 <div class="profile-edit-container" style="margin-top:30px">
                                     <div class="row">
                                         <div class="col-md-4">
@@ -43,7 +43,7 @@
                                         </div>
                                         <div class="col-md-8">
                                             <!-- Checkboxes -->
-                                            <ul class="fl-wrap filter-tags" style="margin-top:24px">
+                                            <ul class="fl-wrap filter-tags" style="margin-top:24px; display: inline-grid;">
                                                 @foreach (var item in ViewBag.IdTienNghi)
                                                 {
                                                     <li>

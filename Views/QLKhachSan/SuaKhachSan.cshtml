@@ -19,7 +19,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Tên khách sạn<i class="fal fa-briefcase"></i></label>
-                            <input asp-for="TenKhachSan" type="text" class="form-control" required/>
+                            <input asp-for="TenKhachSan" type="text" class="form-control" maxlength="150" required/>
                             <input asp-for="Id" class="IdKhachSan" type="text" hidden/>
                             <div class="row">
                                 <div class="col-md-6">
@@ -52,7 +52,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Địa chỉ<i class="fal fa-map-marker"></i></label>
-                            <input asp-for="DiaChi" type="text" placeholder="Địa chỉ khách sạn" class="form-control" required/>
+                            <input asp-for="DiaChi" type="text" placeholder="Địa chỉ khách sạn" class="form-control" maxlength="150" required/>
                             <label>Thành phố</label>
                             <div class="listsearch-input-item">
                                 <select asp-for="IdTinhThanh" class="form-control nice-select chosen-select no-search-select" asp-items="ViewBag.IdTinhThanh"></select>
@@ -94,7 +94,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>ghi chú</label>
-                            <textarea asp-for="GhiChu" name="GhiChu" cols="40" rows="3" placeholder="Ghi chú"></textarea>
+                            <textarea asp-for="GhiChu" name="GhiChu" cols="40" rows="3" placeholder="Ghi chú" maxlength="1024"></textarea>
                         </div>
                     </div>
                     <!-- profile-edit-container end-->
@@ -106,7 +106,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <!-- Checkboxes -->
-                            <ul class="fl-wrap filter-tags">
+                            <ul class="fl-wrap filter-tags" style="display: inline-grid;">
                                 @foreach (var item in ViewBag.IdTienNghi)
                                 {
                                     int? itemId = null; // Khởi tạo itemId với giá trị null

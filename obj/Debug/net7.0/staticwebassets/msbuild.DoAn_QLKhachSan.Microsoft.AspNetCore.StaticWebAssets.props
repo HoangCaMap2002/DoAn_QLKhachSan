@@ -2768,6 +2768,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\hotels\2c07e32e-7f17-4f75-af14-23b2c4e5a7ae_506989111.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\hotels\2cba92de-43af-44a6-9a82-302f5c16c3a1_530289935.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAn_QLKhachSan</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAn_QLKhachSan</BasePath>
+      <RelativePath>assets/images/hotels/2cba92de-43af-44a6-9a82-302f5c16c3a1_530289935.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\hotels\2cba92de-43af-44a6-9a82-302f5c16c3a1_530289935.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\hotels\309866e5-2ed3-4fea-b607-a0ec87f654c5_thay-ong-noi-meme-1440_722.webp))">
       <SourceType>Package</SourceType>
       <SourceId>DoAn_QLKhachSan</SourceId>
@@ -4655,6 +4671,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\phong\9ce6f086-840f-44aa-92a3-a07301ad24aa_508900819.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\phong\a05c6f33-e4cb-4387-bfc7-eac5149869e5_522866268.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>DoAn_QLKhachSan</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DoAn_QLKhachSan</BasePath>
+      <RelativePath>assets/images/phong/a05c6f33-e4cb-4387-bfc7-eac5149869e5_522866268.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\phong\a05c6f33-e4cb-4387-bfc7-eac5149869e5_522866268.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\images\phong\a3101873-0dad-4f20-8426-5580fd8642ae_497698292.jpg))">
       <SourceType>Package</SourceType>

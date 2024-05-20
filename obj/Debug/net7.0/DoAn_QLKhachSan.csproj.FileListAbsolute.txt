@@ -82,13 +82,8 @@ D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.EntityFram
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.AspNet.Identity.Core.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
-D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
-D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Build.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Build.Framework.dll
@@ -267,3 +262,5 @@ D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\ru\Microsoft.CodeAna
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll

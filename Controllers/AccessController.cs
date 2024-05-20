@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Runtime.Intrinsics.Arm;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace DoAn_QLKhachSan.Controllers
 {

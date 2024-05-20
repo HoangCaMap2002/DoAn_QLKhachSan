@@ -80,10 +80,11 @@ namespace DoAn_QLKhachSan.Controllers
         [HttpPost]
         public async Task<IActionResult> ThongTinDatPhong(ThongTinDatPhong tt, string payment = "COD")
         {
-            HttpContext.Session.SetString("SoDienThoai", tt.SoDienThoai);
-            HttpContext.Session.SetString("Email", tt.Email);
-            HttpContext.Session.SetString("HoVaTen", tt.HoVaTen);
-            HttpContext.Session.SetString("GhiChu", tt.GhiChu);
+            HttpContext.Session.SetString("SoDienThoai", tt.SoDienThoai ?? "");
+            HttpContext.Session.SetString("Email", tt.Email ?? "");
+            HttpContext.Session.SetString("HoVaTen", tt.HoVaTen ?? "");
+            HttpContext.Session.SetString("GhiChu", tt.GhiChu ?? "");
+            HttpContext.Session.SetString("PhuongThuc", payment);
             if (payment == "Thanh toán VNPay")
             {
                 var vnPayModel = new VnPaymentRequestModel
@@ -91,11 +92,22 @@ namespace DoAn_QLKhachSan.Controllers
                     Amount = Carts.Sum(x => x.TongTien()),
                     CreatedDate = DateTime.Now,
                     Description = $"{tt.HoVaTen} {tt.SoDienThoai}",
-                    FullName = tt.HoVaTen,
+                    FullName = tt.HoVaTen ?? "",
                 };
                 return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
             }
-            var tdn = HttpContext.Session.GetString("TenDangNhap");
+            else if (payment == "Thanh toán cọc")
+            {
+                var vnPayModel = new VnPaymentRequestModel
+                {
+                    Amount = Carts.Sum(x => x.TongTien()) * 40 /100,
+                    CreatedDate = DateTime.Now,
+                    Description = $"{tt.HoVaTen} {tt.SoDienThoai}",
+                    FullName = tt.HoVaTen ?? "",
+                };
+                return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, vnPayModel));
+            }
+            var tdn = HttpContext.Session.GetString("TenDangNhap") ?? "";
             var rs = await _phongService.DatPhong(Carts, tdn, tt);
             if (rs == true)
             {

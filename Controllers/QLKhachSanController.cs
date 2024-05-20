@@ -334,6 +334,7 @@ namespace DoAn_QLKhachSan.Controllers
                                join phong in _db.Phongs on datPhong.IdPhong equals phong.Id
                                join khachSan in _db.KhachSans on phong.IdKhachSan equals khachSan.Id
                                where khachSan.NguoiQuanLy == tendangnhap
+                               orderby datPhong.NgayDat descending
                                select new LichSuDatVM { 
                                     Id = datPhong.Id,
                                     BatDau = datPhong.BatDau,
@@ -358,7 +359,7 @@ namespace DoAn_QLKhachSan.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> ThongKe(int? nam)
+        public async Task<IActionResult> ThongKe(int? nam = 2024)
         {
             var tendangnhap = HttpContext.Session.GetString("TenDangNhap");
             var bookings = from datPhong in _db.DatPhongs
@@ -400,6 +401,21 @@ namespace DoAn_QLKhachSan.Controllers
             else
             {
                 return Json(new { success = false, message = "Không tìm thấy dữ liệu" });
+            }
+        }
+
+        public async Task<IActionResult> HuyPhong(int iddatphong)
+        {
+            var datphong = await _db.DatPhongs.Where(x => x.Id == iddatphong).FirstOrDefaultAsync();
+            if (datphong != null)
+            {
+                datphong.IdTrangThai = 5;
+                await _db.SaveChangesAsync();
+                return Json(new { success = true, message = "Huỷ phòng thành công" });
+            }
+            else
+            {
+                return Json(new { success = false, message = "Huỷ phòng không thành công" });
             }
         }
 

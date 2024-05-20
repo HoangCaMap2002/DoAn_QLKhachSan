@@ -1,0 +1,2073 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\DoAn_QLKhachSan.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DoAn_QLKhachSan.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\color.css",
+      "PackagePath": "staticwebassets\\assets\\css\\color.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\cs-style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\cs-style.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\invoice.css",
+      "PackagePath": "staticwebassets\\assets\\css\\invoice.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\reset.css",
+      "PackagePath": "staticwebassets\\assets\\css\\reset.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-light-300d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd41d.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\fonts\\lgd641.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\lgd641.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\11.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\12.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\8.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\all\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\all\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api.png",
+      "PackagePath": "staticwebassets\\assets\\images\\api.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\api\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\api\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\0730f9f3-3c8e-43a2-9256-b67dd35da97d_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\0730f9f3-3c8e-43a2-9256-b67dd35da97d_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\138553a9-08ef-48e1-b4a3-f7b5efd42383_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\138553a9-08ef-48e1-b4a3-f7b5efd42383_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\30d18028-0e3b-4922-a874-b1b7b668dbe9_default.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\30d18028-0e3b-4922-a874-b1b7b668dbe9_default.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\5833c63b-73fe-46ee-b960-4b243980ae18_sapas.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\5833c63b-73fe-46ee-b960-4b243980ae18_sapas.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\71f02a0c-3f58-44a4-b492-0d244993a68d_khanh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\71f02a0c-3f58-44a4-b492-0d244993a68d_khanh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\99069e17-ccf8-4a58-a9ae-4ec1503dca30_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\99069e17-ccf8-4a58-a9ae-4ec1503dca30_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\a346cc38-57b3-4dfd-b7c5-1a62cac50e1f_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\a346cc38-57b3-4dfd-b7c5-1a62cac50e1f_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\avatar-bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\avatar-bg.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\b94660bd-a75b-43b2-a731-36ae79c35d8c_default.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\b94660bd-a75b-43b2-a731-36ae79c35d8c_default.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\default.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\default.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\avatar\\f1770c15-6a22-4c72-ac69-b12b67356b9b_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar\\f1770c15-6a22-4c72-ac69-b12b67356b9b_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\13.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\22.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\23.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\24.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\bg\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city.png",
+      "PackagePath": "staticwebassets\\assets\\images\\city.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\city7.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\22-1_XJUR(1).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\22-1_XJUR(1).jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\22-1_XJUR.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\22-1_XJUR.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\Cau_Trang_tien_ve_dem.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\Cau_Trang_tien_ve_dem.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\Program.cs",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\Program.cs"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\SonLa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\SonLa.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\an-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\an-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ba-ria-vung-tau.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ba-ria-vung-tau.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bac-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bac-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bac-kan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bac-kan.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bac-lieu.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bac-lieu.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bac-ninh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bac-ninh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\bds-vungtau-1514295777.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\bds-vungtau-1514295777.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ben-tre.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ben-tre.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\binh-dinh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\binh-dinh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\binh-duong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\binh-duong.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\binh-phuoc.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\binh-phuoc.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\binh-thuan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\binh-thuan.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ca-mau.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ca-mau.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\can-tho.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\can-tho.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\cao-bang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\cao-bang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\croisiere-a-la-baie-d-halong1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\croisiere-a-la-baie-d-halong1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dak-lak.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dak-lak.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dak-nong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dak-nong.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dalat-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dalat-2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dien-bien.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dien-bien.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dong-nai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dong-nai.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\dong-thap.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\dong-thap.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\gia-lai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\gia-lai.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ha-nam.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ha-nam.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ha-noi.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ha-noi.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ha-tinh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ha-tinh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hagiang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hagiang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hai-duong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hai-duong.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hai-phong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hai-phong.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hau-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hau-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hcm.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hcm.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hoa-binh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hoa-binh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hoian.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hoian.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\hung-yen.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\hung-yen.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\khanh-hoa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\khanh-hoa.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\kien-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\kien-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\kon-tum.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\kon-tum.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\lai-chau.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\lai-chau.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\lam-dong.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\lam-dong.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\lang-son.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\lang-son.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\lao-cai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\lao-cai.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\long-an.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\long-an.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\nam-dinh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\nam-dinh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\nghe-an.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\nghe-an.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\nhung-cong-trinh-co-kien-truc-dac-trung-nhat-tai-son-la-1170x591.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\nhung-cong-trinh-co-kien-truc-dac-trung-nhat-tai-son-la-1170x591.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ninh-thuan.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ninh-thuan.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ninhbinh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ninhbinh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\phu-tho.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\phu-tho.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\phu-yen.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\phu-yen.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\quang-binh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\quang-binh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\quang-nam.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\quang-nam.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\quang-ngai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\quang-ngai.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\quang-ninh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\quang-ninh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\quang-tri.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\quang-tri.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\sapa2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\sapa2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\soc-trang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\soc-trang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\tay-ninh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\tay-ninh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\thai-binh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\thai-binh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\thai-nguyen.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\thai-nguyen.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\thanh-hoa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\thanh-hoa.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\tien-giang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\tien-giang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\tra-vinh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\tra-vinh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\tuyen-quang.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\tuyen-quang.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\ve-ha-noi-da-nang-gia-re.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\ve-ha-noi-da-nang-gia-re.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\vinh-long.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\vinh-long.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\vinh-phuc.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\vinh-phuc.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\city\\yen-bai.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\city\\yen-bai.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\8.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\gal\\9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\gal\\9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\03423f3e-3ebe-45da-9070-cbe71818f1dd_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\03423f3e-3ebe-45da-9070-cbe71818f1dd_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\0b9e4502-0062-435e-8259-7e94c179dd91_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\0b9e4502-0062-435e-8259-7e94c179dd91_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\0bcc0e86-7dd6-4798-8cea-de1642e5ad40_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\0bcc0e86-7dd6-4798-8cea-de1642e5ad40_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\17e362e9-e59f-458d-a0c3-ab8f969a0705_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\17e362e9-e59f-458d-a0c3-ab8f969a0705_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\1898c241-06c6-4ffa-9126-875642deb64e_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\1898c241-06c6-4ffa-9126-875642deb64e_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\228869ce-8e3d-4799-8dce-a710b290f3db_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\228869ce-8e3d-4799-8dce-a710b290f3db_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\29cefc87-3548-43aa-95cf-7195e4eead4e_529933390.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\29cefc87-3548-43aa-95cf-7195e4eead4e_529933390.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\2c07e32e-7f17-4f75-af14-23b2c4e5a7ae_506989111.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\2c07e32e-7f17-4f75-af14-23b2c4e5a7ae_506989111.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\309866e5-2ed3-4fea-b607-a0ec87f654c5_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\309866e5-2ed3-4fea-b607-a0ec87f654c5_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\33c98729-f75f-4665-84d0-241fdb9ad3f5_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\33c98729-f75f-4665-84d0-241fdb9ad3f5_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\3743914c-50c7-4970-b1a5-e5c68f1de71f_506989111.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\3743914c-50c7-4970-b1a5-e5c68f1de71f_506989111.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\3815717b-faeb-48ff-acfc-a21031bd763e_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\3815717b-faeb-48ff-acfc-a21031bd763e_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\3870b42e-bb9b-4bc2-a394-96a33762aa94_506989111.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\3870b42e-bb9b-4bc2-a394-96a33762aa94_506989111.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\40e131dc-2ae0-4c31-a8f9-605a051858eb_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\40e131dc-2ae0-4c31-a8f9-605a051858eb_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\435d210d-1e36-4eb7-b2b7-a5bfca57a50c_420802642.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\435d210d-1e36-4eb7-b2b7-a5bfca57a50c_420802642.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\4542dd13-895f-4903-8788-d49ed3719a0e_254941274.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\4542dd13-895f-4903-8788-d49ed3719a0e_254941274.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\470f4222-3975-4c83-be18-a9a76bbb4c11_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\470f4222-3975-4c83-be18-a9a76bbb4c11_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\4e409b29-b42c-4942-b736-c4b4ef20fb9b_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\4e409b29-b42c-4942-b736-c4b4ef20fb9b_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\4f64623b-f012-47b8-8d63-3a31b3f6b459_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\4f64623b-f012-47b8-8d63-3a31b3f6b459_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\518584365.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\518584365.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\52a5c6d4-7387-4534-8a7d-d1d2963cd4f4_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\52a5c6d4-7387-4534-8a7d-d1d2963cd4f4_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\5399fc20-c073-4815-aee2-538e4555d9ad_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\5399fc20-c073-4815-aee2-538e4555d9ad_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\570fa0ed-c203-485e-994d-df86bd5ffd5c_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\570fa0ed-c203-485e-994d-df86bd5ffd5c_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\59731225.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\59731225.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\5c19858a-0185-4183-9de1-6ff6d4a22f76_anh9.jfif",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\5c19858a-0185-4183-9de1-6ff6d4a22f76_anh9.jfif"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\5ed7c4c5-df3a-4260-a28c-6aff29e5721e_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\5ed7c4c5-df3a-4260-a28c-6aff29e5721e_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\5ee330ae-b44e-4e7f-9576-c0d4e18895eb_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\5ee330ae-b44e-4e7f-9576-c0d4e18895eb_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\65a44641-7fa8-4ba9-ab1e-826af03748d4_483560023.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\65a44641-7fa8-4ba9-ab1e-826af03748d4_483560023.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\7356cc54-9485-4232-8080-9e9721b76726_540208426.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\7356cc54-9485-4232-8080-9e9721b76726_540208426.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\76030ade-91d9-4c3c-92b0-d4b6a4b9d87f_522201294.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\76030ade-91d9-4c3c-92b0-d4b6a4b9d87f_522201294.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\7c5c79bf-2018-40d0-868e-2effcd336002_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\7c5c79bf-2018-40d0-868e-2effcd336002_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\80e1a57f-a275-442a-829f-6a509a261958_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\80e1a57f-a275-442a-829f-6a509a261958_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\81cf4711-5bb6-4359-a968-d06fbcf65cb4_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\81cf4711-5bb6-4359-a968-d06fbcf65cb4_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\84b4fd56-fb69-40a3-bc95-9abccf147b34_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\84b4fd56-fb69-40a3-bc95-9abccf147b34_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\885ade7e-e4c6-424e-a8ff-e39bb17e13c6_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\885ade7e-e4c6-424e-a8ff-e39bb17e13c6_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\89acaca5-78ca-4150-8f97-433e34811511_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\89acaca5-78ca-4150-8f97-433e34811511_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\91f86b95-6e68-4fdb-b37e-b1f290b51699_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\91f86b95-6e68-4fdb-b37e-b1f290b51699_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\93cf4721-2c0e-489b-b335-4a8b0e93901a_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\93cf4721-2c0e-489b-b335-4a8b0e93901a_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\9409e0d2-c90e-4c42-8bb9-ab9e0cca2bfa_anh7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\9409e0d2-c90e-4c42-8bb9-ab9e0cca2bfa_anh7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\9504e75e-aefe-47ba-8942-33e9d08d1f5c_506989111.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\9504e75e-aefe-47ba-8942-33e9d08d1f5c_506989111.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\98d30dd4-51bf-4c22-ae5c-4bb0bfa9d7e3_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\98d30dd4-51bf-4c22-ae5c-4bb0bfa9d7e3_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\9eca3a62-371c-4c80-b79b-c3beadd33f7b_anh13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\9eca3a62-371c-4c80-b79b-c3beadd33f7b_anh13.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\a1ebfb1b-31d0-4a1b-b8cd-df8da7a09abc_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\a1ebfb1b-31d0-4a1b-b8cd-df8da7a09abc_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\a33ca787-b3c1-4fe8-8c44-9dca07ce1128_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\a33ca787-b3c1-4fe8-8c44-9dca07ce1128_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\a54eb83b-34a9-41cb-914e-7259af9b2f2f_khanh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\a54eb83b-34a9-41cb-914e-7259af9b2f2f_khanh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\a9427163-ecad-48e4-acac-a5a27666b1a3_484175421.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\a9427163-ecad-48e4-acac-a5a27666b1a3_484175421.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\b375d900-6b0b-4df4-8a05-eeb04d52b836_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\b375d900-6b0b-4df4-8a05-eeb04d52b836_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\b65058bf-928b-4c72-b17a-070ebe349dbf_506989111.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\b65058bf-928b-4c72-b17a-070ebe349dbf_506989111.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\b67b234d-bdfc-439b-865f-ecc1721c7136_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\b67b234d-bdfc-439b-865f-ecc1721c7136_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\b91539ba-815b-4328-90cb-73cc1d31dbb3_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\b91539ba-815b-4328-90cb-73cc1d31dbb3_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\be2e8d1a-f25b-408b-bf65-3f69a49c1091_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\be2e8d1a-f25b-408b-bf65-3f69a49c1091_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\bf79172f-d3e2-487a-a343-f6cfd5c6f047_538365719.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\bf79172f-d3e2-487a-a343-f6cfd5c6f047_538365719.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\c7529c4a-80aa-4d53-b2b8-fec953be826b_453483630.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\c7529c4a-80aa-4d53-b2b8-fec953be826b_453483630.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\cade6d0e-8db7-4de1-811f-a4c7e0886815_484727385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\cade6d0e-8db7-4de1-811f-a4c7e0886815_484727385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\d145c26a-7aa5-4895-b9cd-e67436bd7907_484175421.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\d145c26a-7aa5-4895-b9cd-e67436bd7907_484175421.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\d71169b3-f84e-474f-a449-6ec6406e5443_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\d71169b3-f84e-474f-a449-6ec6406e5443_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\da8141e9-b81c-4476-afdb-e70373b7d8ee_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\da8141e9-b81c-4476-afdb-e70373b7d8ee_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\db9b8307-70e7-440c-ac6b-e6f23db281fd_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\db9b8307-70e7-440c-ac6b-e6f23db281fd_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\dc27f124-beaf-459b-8d43-f9f5d0817138_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\dc27f124-beaf-459b-8d43-f9f5d0817138_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\e56486cd-e728-4476-8caa-115b2d5a8588_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\e56486cd-e728-4476-8caa-115b2d5a8588_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\e5a4c273-8eb3-4c53-8a27-6d65e52504d1_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\e5a4c273-8eb3-4c53-8a27-6d65e52504d1_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\e676c39f-208a-4909-8297-94f1ccdb8158_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\e676c39f-208a-4909-8297-94f1ccdb8158_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\ebfd91b4-4a14-490b-9750-7c7d6a5a96be_411367929.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\ebfd91b4-4a14-490b-9750-7c7d6a5a96be_411367929.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\ee8eea22-cc1f-4add-91d8-72830d9c0c58_483560023.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\ee8eea22-cc1f-4add-91d8-72830d9c0c58_483560023.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\eea47dac-9cd3-45c4-a7b8-ee90223dc75a_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\eea47dac-9cd3-45c4-a7b8-ee90223dc75a_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\eee0fe27-f25d-4d63-adfa-74c3e3862a98_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\eee0fe27-f25d-4d63-adfa-74c3e3862a98_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\f3462bb6-05bb-4271-8b0b-9e45274c0cfa_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\f3462bb6-05bb-4271-8b0b-9e45274c0cfa_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\f39bea56-de51-47a7-969b-c880f186fa75_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\f39bea56-de51-47a7-969b-c880f186fa75_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\f6c46579-660b-470f-abe6-cdfa375b5e0d_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\f6c46579-660b-470f-abe6-cdfa375b5e0d_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\fbd51ae3-c979-4240-aa2b-3b49d7017f33_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\fbd51ae3-c979-4240-aa2b-3b49d7017f33_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\ff445161-c8c8-48dc-922e-a3219cb8a1d9_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\ff445161-c8c8-48dc-922e-a3219cb8a1d9_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\khanh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\khanh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\instagram\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram\\6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\1.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\3.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\4.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\lan\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\lan\\5.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\map.png",
+      "PackagePath": "staticwebassets\\assets\\images\\map.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\1.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\3.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\4.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\5.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\partners\\6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\partners\\6.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\0a68e51b-c523-4498-a810-95774c6c732f_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\0a68e51b-c523-4498-a810-95774c6c732f_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\0ca91e26-cb16-4456-a4b9-d9464aad8932_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\0ca91e26-cb16-4456-a4b9-d9464aad8932_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\22e56452-3968-4cd2-a9b9-b38d201b8b0f_256587829.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\22e56452-3968-4cd2-a9b9-b38d201b8b0f_256587829.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\25493211-ac6b-42f1-bb81-9ad244ab1373_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\25493211-ac6b-42f1-bb81-9ad244ab1373_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\25d27b06-f724-40bb-9a83-57da28648da9_523269673.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\25d27b06-f724-40bb-9a83-57da28648da9_523269673.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\2fdbf2de-da26-48a2-8934-1d7cc00ee68b_484727385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\2fdbf2de-da26-48a2-8934-1d7cc00ee68b_484727385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\2feabd77-6c0c-43c3-8971-47a60f296eb5_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\2feabd77-6c0c-43c3-8971-47a60f296eb5_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\38dd3722-89bf-4b6d-9729-cb02b5cf407f_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\38dd3722-89bf-4b6d-9729-cb02b5cf407f_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\4efd9388-d8d9-419e-91cf-c95dbbb96590_295740198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\4efd9388-d8d9-419e-91cf-c95dbbb96590_295740198.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\4f6dc6fd-e32a-440e-ab35-680703edd98e_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\4f6dc6fd-e32a-440e-ab35-680703edd98e_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584117.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584117.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584324.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584324.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584337.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584337.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584353.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584353.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584380.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584380.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\518584449.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\518584449.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\574bae1d-63b1-4bad-95c1-174f24956ac5_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\574bae1d-63b1-4bad-95c1-174f24956ac5_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\5b1428d4-4993-4938-9c44-5a7851c598ca_176833257.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\5b1428d4-4993-4938-9c44-5a7851c598ca_176833257.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\66bbf2cf-093d-4e22-a279-fa84a60c5d1e_295740198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\66bbf2cf-093d-4e22-a279-fa84a60c5d1e_295740198.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\670b6561-ed65-4265-88a8-f1ee97de1a16_483560023.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\670b6561-ed65-4265-88a8-f1ee97de1a16_483560023.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\6b7e724c-2e89-487b-bea5-048c6e18b11a_547515385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\6b7e724c-2e89-487b-bea5-048c6e18b11a_547515385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\71dd4920-aafe-4da1-8e7d-2109dd33dbcd_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\71dd4920-aafe-4da1-8e7d-2109dd33dbcd_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\77a022f3-de12-46c6-8fcd-d9c18af2e2c3_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\77a022f3-de12-46c6-8fcd-d9c18af2e2c3_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\78e4f4ed-5c6d-4045-b8e8-36adb0897b13_541019220.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\78e4f4ed-5c6d-4045-b8e8-36adb0897b13_541019220.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\7a2acece-5bad-4ba1-a615-a58447b07495_506555493.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\7a2acece-5bad-4ba1-a615-a58447b07495_506555493.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\7ec96760-bbed-4a40-a681-451d13362507_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\7ec96760-bbed-4a40-a681-451d13362507_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8804c90f-c8bb-4a7e-96e0-795ed91f3d5e_522202548.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\8804c90f-c8bb-4a7e-96e0-795ed91f3d5e_522202548.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8ab6a5b3-7383-421b-b3a8-36f0da4e5d43_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\8ab6a5b3-7383-421b-b3a8-36f0da4e5d43_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8c365be5-a00a-43dc-92d6-c99dfd582e64_522202183.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\8c365be5-a00a-43dc-92d6-c99dfd582e64_522202183.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\8cad2901-547a-4853-b860-27da84a52577_484727385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\8cad2901-547a-4853-b860-27da84a52577_484727385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\9790b1c5-d632-4344-8d97-968627d9aef3_497694194.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\9790b1c5-d632-4344-8d97-968627d9aef3_497694194.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\9ce6f086-840f-44aa-92a3-a07301ad24aa_508900819.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\9ce6f086-840f-44aa-92a3-a07301ad24aa_508900819.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\a3101873-0dad-4f20-8426-5580fd8642ae_497698292.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\a3101873-0dad-4f20-8426-5580fd8642ae_497698292.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\a41073b9-dbe6-4b90-a3fc-92d8ee783b37_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\a41073b9-dbe6-4b90-a3fc-92d8ee783b37_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\ac58a60c-9f0a-4f27-b4eb-1ae56f825494_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\ac58a60c-9f0a-4f27-b4eb-1ae56f825494_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\b27055b8-fb48-49a0-a334-3daf2ff74823_thay-ong-noi-meme-1440_722.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\b27055b8-fb48-49a0-a334-3daf2ff74823_thay-ong-noi-meme-1440_722.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\bd6af2de-0aeb-42ae-bece-4a1e711a5bd3_484727385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\bd6af2de-0aeb-42ae-bece-4a1e711a5bd3_484727385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\cec68013-ce05-4005-a99d-4b966a8ced5e_khanh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\cec68013-ce05-4005-a99d-4b966a8ced5e_khanh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\cef2d2d3-3d43-457c-b2b6-66874fa3638f_497697921.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\cef2d2d3-3d43-457c-b2b6-66874fa3638f_497697921.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\df492924-63d1-4bb1-a58e-e653aa2fe3f8_295740179.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\df492924-63d1-4bb1-a58e-e653aa2fe3f8_295740179.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\e51ee70c-9bb7-4ad9-a3ce-3c9045018648_506555493.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\e51ee70c-9bb7-4ad9-a3ce-3c9045018648_506555493.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\ee3571e5-802e-4a98-8e37-2b45ba979450_484727385.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\ee3571e5-802e-4a98-8e37-2b45ba979450_484727385.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\f0541b31-829b-4dbc-8329-5ed06891df68_26283b00-2ddb-48b2-b46c-e2499952937d.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\f0541b31-829b-4dbc-8329-5ed06891df68_26283b00-2ddb-48b2-b46c-e2499952937d.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\f09a0693-88d7-44c6-b493-aae27749ebe4_409333479.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\f09a0693-88d7-44c6-b493-aae27749ebe4_409333479.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\f4c58f8d-b796-4511-98be-54c7d465a6e4_540208426.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\f4c58f8d-b796-4511-98be-54c7d465a6e4_540208426.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\f68d7e74-f515-491b-b9ae-dd6d26d858bf_541018248.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\f68d7e74-f515-491b-b9ae-dd6d26d858bf_541018248.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\fb408af5-a4ce-4bc3-b79d-bf99cd744b13_242040955.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\fb408af5-a4ce-4bc3-b79d-bf99cd744b13_242040955.webp"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\fc402e0e-de25-42c7-84f1-b69b9baa43f3_khanh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\fc402e0e-de25-42c7-84f1-b69b9baa43f3_khanh.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\fc61e766-222b-4f27-98ce-97bc4d181d58_425422344.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\fc61e766-222b-4f27-98ce-97bc4d181d58_425422344.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\wave.png",
+      "PackagePath": "staticwebassets\\assets\\images\\wave.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\video-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\video-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\vimeo-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\vimeo-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\img\\youtube-play.html",
+      "PackagePath": "staticwebassets\\assets\\img\\youtube-play.html"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\charts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\charts.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\dasboard.js",
+      "PackagePath": "staticwebassets\\assets\\js\\dasboard.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\map-add.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map-add.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\map-single.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map-single.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\mapplugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mapplugins.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\maps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\maps.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\css\\style.css",
+      "PackagePath": "staticwebassets\\assetsadmin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\assetsadmin\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.eot",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.ttf",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.woff",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.woff2",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Bold.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.eot",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.ttf",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.woff",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.woff2",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Light.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.eot",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.ttf",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.woff",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.woff2",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Medium.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.eot",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.ttf",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.woff",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
+      "PackagePath": "staticwebassets\\assetsadmin\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\circle.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\circle.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\circle.svg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\circle.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\blue.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\blue.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\dark.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\dark.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\flag.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\flag.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\green.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\green.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\jsgrid-icons.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\jsgrid-icons.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\red.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\red.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\images\\sprites\\yellow.png",
+      "PackagePath": "staticwebassets\\assetsadmin\\images\\sprites\\yellow.png"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\chart.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\file-upload.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\misc.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\misc.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\off-canvas.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\todo.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\todo.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\js\\todolist.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\js\\todolist.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_dashboard.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_demo.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_footer.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_misc.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_reset.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_typography.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_vertical-wrapper.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_vertical-wrapper.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\_widget-grid.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\_widget-grid.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\components\\_todo-list.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\components\\_todo-list.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\landing-screens\\_auth.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\landing-screens\\_auth.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_background.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_background.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_popovers.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_popovers.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_text.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_text.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\mixins\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\mixins\\_tooltips.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\assetsadmin\\scss\\style.scss"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\css\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\css\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\js\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\js\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\assetsadmin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.DoAn_QLKhachSan.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.DoAn_QLKhachSan.props",
+      "PackagePath": "build\\DoAn_QLKhachSan.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.DoAn_QLKhachSan.props",
+      "PackagePath": "buildMultiTargeting\\DoAn_QLKhachSan.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.DoAn_QLKhachSan.props",
+      "PackagePath": "buildTransitive\\DoAn_QLKhachSan.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

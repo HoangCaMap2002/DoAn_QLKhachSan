@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.net\DoAn_QLKhachSan\DoAn_QLKhachSan
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Areas/Admin/Views/HomeAdmin/DanhSachKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhTYWNoS2hhY2hTYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,12 +64,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hTYW5cS2llbVRyYUtoYWNoU2FuQ29uUGhvbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Payment/PaymentFail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQYXltZW50RmFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Phong/ChiTietPhong.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcQ2hpVGlldFBob25nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Phong/PhongTheoKhachSan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdcUGhvbmdUaGVvS2hhY2hTYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/DanhSachPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxEYW5oU2FjaFBob25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/KhachSanTheoTaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxLaGFjaFNhblRoZW9UYWlLaG9hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/LichSuDat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxMaWNoU3VEYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/SuaKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxTdWFLaGFjaFNhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/SuaPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxTdWFQaG9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/ThemPhong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxUaGVtUGhvbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/ThongKe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxUaG9uZ0tlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/UploadImage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxVcGxvYWRJbWFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/QLKhachSan/YeuCauKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUxLaGFjaFNhblxZZXVDYXVLaGFjaEhhbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/Components/Tinh/Default.cshtml]
@@ -80,12 +132,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRUcmFuZ0NhTmhhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialDanhGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxEYW5oR2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialFooter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxGb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialHeader.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialKhachSan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxLaGFjaFNhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_PatialProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXRpYWxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.net/DoAn_QLKhachSan/DoAn_QLKhachSan/Views/Shared/_ValidationScriptsPartial.cshtml]

@@ -14,6 +14,7 @@
             @if (!User.Identity.IsAuthenticated)
             {
                 <a href="/Access/Login" class="show-reg-form"><i class="fa fa-sign-in"></i>Đăng nhập</a>
+                <a href="/Access/Register" class="show-reg-form"><i class="fa fa-sign-in"></i>Đăng ký</a>
             }
         </div>
     </div>
@@ -33,8 +34,6 @@
                         <li><a href="/User/TrangCaNhan">Thông tin cá nhân</a></li>
                         <li><a href="/DangKyKhachSan/Index">Thêm khách sạn</a></li>
                         <li><a href="/QLKhachSan/KhachSanTheoTaiKhoan">Quản lý khách sạn</a></li>
-                        <li><a href="dashboard-bookings.html">  Đặt phòng  </a></li>
-                        <li><a href="dashboard-review.html"> Đánh giá </a></li>
                         <li><a href="/Access/Logout">Đăng xuất</a></li>
                     </ul>
                 </div>

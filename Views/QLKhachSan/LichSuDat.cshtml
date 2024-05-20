@@ -70,7 +70,7 @@
                                             var daysDifference = timeDifference.Value.Days;
                                         }
                                         @if(item.BatDau > DateTime.Now && item.IdTrangThai != 5 && daysDifference > 3){
-                                            <button data-itemid="@item.Id" class="add-button color-bg" type="submit">Huỷ phòng</button>
+                                            <button data-itemid="@item.Id" class="btn-huy btn btn-primary color-bg" type="submit">Huỷ phòng</button>
                                         }
                                     </div>
                                 </div>
@@ -83,3 +83,33 @@
         <!-- dasboard-wrap end-->
     </div>
 </section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.btn-huy').click(function () {
+            var idDatPhong = $(this).data('itemid');
+            var confirmed = confirm("Bạn có chắc chắn muốn huỷ phòng không?");
+            // Nếu người dùng xác nhận, thực hiện AJAX request
+            if (confirmed) {
+                $.ajax({
+                    url: '/QLKhachSan/HuyPhong',
+                    type: 'POST',
+                    data: { iddatphong: idDatPhong },
+                    success: function (response) {
+                        if (response.success) {
+                            location.reload();
+                            alert(response.message);
+                            // Điều chỉnh giao diện hoặc thực hiện các hành động cần thiết sau khi cập nhật thành công
+                        } else {
+                            alert('Có lỗi xảy ra: ' + response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Đã xảy ra lỗi: ' + error);
+                    }
+                });
+            }
+        });
+    });
+</script>

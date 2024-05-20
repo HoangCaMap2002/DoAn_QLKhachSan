@@ -15,7 +15,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Tên khách sạn<i class="fal fa-briefcase"></i></label>
-                            <input name="TenKhachSan" type="text" placeholder="Tên khách sạn" required/>
+                            <input name="TenKhachSan" type="text" placeholder="Tên khách sạn" maxlength="150" required/>
                             <input class="IdKhachSan" type="hidden" name="IdKhachSan" value=""/>
                             <div class="row">
                                 <div class="col-md-6">
@@ -54,7 +54,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Địa chỉ<i class="fal fa-map-marker"></i></label>
-                            <input name="DiaChi" type="text" placeholder="Địa chỉ khách sạn" required/>
+                            <input name="DiaChi" type="text" placeholder="Địa chỉ khách sạn" maxlength="150" required/>
                             <label>Thành phố</label>
                             <div class="listsearch-input-item">
                                 <select name="IdTinhThanh" class="chosen-select no-search-select" required>
@@ -102,7 +102,7 @@
                     <div class="profile-edit-container">
                         <div class="custom-form">
                             <label>Mô tả</label>
-                            <textarea name="GhiChu" cols="40" rows="3" placeholder="Mô tả"></textarea>
+                            <textarea name="GhiChu" cols="40" rows="3" placeholder="Mô tả" maxlength="1024"></textarea>
                         </div>
                     </div>
                     <!-- profile-edit-container end-->
@@ -139,16 +139,16 @@
                         <div class="custom-form">
                             <div class="room-add-item">
                                 <label>Tên phòng<i class="fal fa-warehouse-alt"></i></label>
-                                <input type="text" name="Phongs[0].TenPhong" placeholder="Tên phòng" value="" required/>
+                                <input type="text" name="Phongs[0].TenPhong" placeholder="Tên phòng" value="" maxlength="150" required/>
                                 <input class="IdKhachSan" type="hidden" name="IdKhachSan" value=""/>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label>Giá<i class="fal fa-dollar-sign"></i></label>
-                                        <input type="text" name="Phongs[0].GiaPhong" placeholder="giá" value=""  required/>
+                                        <input type="text" name="Phongs[0].GiaPhong" placeholder="giá" value="" maxlength="50"  required/>
                                     </div>
                                 </div>
                                 <label>Chi tiết phòng</label>
-                                <textarea cols="40" rows="3" placeholder="Chi tiết"></textarea>
+                                <textarea cols="40" rows="3" placeholder="Chi tiết" maxlength="1024"></textarea>
                                 <div class="profile-edit-container" style="margin-top:30px">
                                     <div class="row">
                                         <div class="col-md-4">

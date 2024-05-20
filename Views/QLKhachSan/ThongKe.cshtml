@@ -1,9 +1,36 @@
 ﻿@using DoAn_QLKhachSan.ViewModels;
+@using DoAn_QLKhachSan.Extension;
 @{
     ViewData["Title"] = "Thong Ke";
     Layout = "~/Views/Shared/_LayoutTrangCaNhan.cshtml";
 }
 @model ThongKe
+
+<style>
+    .revenue-container {
+        text-align: center;
+    }
+
+    h1{
+        color: #333;
+    }
+
+    .revenue-box {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        margin: 20px;
+    }
+
+    .revenue-amount {
+        font-size: 24px;
+        font-weight: bold;
+        color: #3AACED;
+    }
+</style>
 
 <section class="middle-padding">
     <div class="container">
@@ -15,6 +42,12 @@
                     <h3>Số liệu thống kê doanh thu</h3>
                 </div>
                 <!-- chart-wra-->
+                <div class="revenue-container">
+                            <h1>Tổng Doanh Thu</h1>
+                            <div class="revenue-box">
+                                <span class="revenue-amount">@Convert.ToDouble(@Model.MonthlyRevenue.Sum()).ToVND()</span>
+                            </div>
+                        </div>
                 <div class="chart-wrap dashboard-item fl-wrap">
                     <div class="chart-header fl-wrap">
                         <div class="listsearch-input-item">

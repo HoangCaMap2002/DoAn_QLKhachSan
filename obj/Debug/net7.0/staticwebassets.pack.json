@@ -697,6 +697,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\hotels\\2c07e32e-7f17-4f75-af14-23b2c4e5a7ae_506989111.webp"
     },
     {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\2cba92de-43af-44a6-9a82-302f5c16c3a1_530289935.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\hotels\\2cba92de-43af-44a6-9a82-302f5c16c3a1_530289935.webp"
+    },
+    {
       "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\hotels\\309866e5-2ed3-4fea-b607-a0ec87f654c5_thay-ong-noi-meme-1440_722.webp",
       "PackagePath": "staticwebassets\\assets\\images\\hotels\\309866e5-2ed3-4fea-b607-a0ec87f654c5_thay-ong-noi-meme-1440_722.webp"
     },
@@ -1167,6 +1171,10 @@
     {
       "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\9ce6f086-840f-44aa-92a3-a07301ad24aa_508900819.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\phong\\9ce6f086-840f-44aa-92a3-a07301ad24aa_508900819.jpg"
+    },
+    {
+      "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\a05c6f33-e4cb-4387-bfc7-eac5149869e5_522866268.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\phong\\a05c6f33-e4cb-4387-bfc7-eac5149869e5_522866268.jpg"
     },
     {
       "Id": "D:\\ASP.net\\DoAn_QLKhachSan\\DoAn_QLKhachSan\\wwwroot\\assets\\images\\phong\\a3101873-0dad-4f20-8426-5580fd8642ae_497698292.jpg",

@@ -1,2 +1,80 @@
-﻿
-<h1>Lỗi</h1>
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE HTML>
+<html lang="en">
+
+<!-- Mirrored from easybook.kwst.net/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:19:51 GMT -->
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>Easybook - Hotel Booking Directory Listing Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="../assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/style.css">
+    <link type="text/css" rel="stylesheet" href="../assets/css/color.css">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    <!--loader-->
+    <div class="loader-wrap">
+        <div class="pin">
+            <div class="pulse"></div>
+        </div>
+    </div>
+    <!--loader end-->
+    <!-- Main  -->
+    <div id="main">
+        <!-- header-->
+        @await Html.PartialAsync("_PatialHeader")
+        <!--  header end -->
+        <!--  wrapper  -->
+        <div id="wrapper">
+            <!-- content-->
+            <div class="content">
+                <!--  section  -->
+                <section class="color-bg parallax-section">
+                    <div class="city-bg"></div>
+                    <div class="cloud-anim cloud-anim-bottom x1"><i class="fal fa-cloud"></i></div>
+                    <div class="cloud-anim cloud-anim-top x2"><i class="fal fa-cloud"></i></div>
+                    <div class="overlay op1 color3-bg"></div>
+                    <div class="container">
+                        <div class="error-wrap">
+                            <h2>Lỗi</h2>
+                            <p>Thanh toán không thành công</p>
+                            <div class="clearfix"></div>
+                            <form action="#">
+                                <input name="se" id="se" type="text" class="search" placeholder="Search.." value="">
+                                <button class="search-submit color-bg" id="submit_btn"><i class="fal fa-search"></i> </button>
+                            </form>
+                            <div class="clearfix"></div>
+                            <p>Or</p>
+                            <a href="/Home/Index" class="btn color2-bg flat-btn">Về trang chủ<i class="fal fa-home"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <!--  section  end-->
+            </div>
+            <!-- content end-->
+        </div>
+        <!--wrapper end -->
+        <!--footer -->
+        @await Html.PartialAsync("_PatialFooter")
+        <!--footer end -->
+        <a class="to-top"><i class="fas fa-caret-up"></i></a>
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins.js"></script>
+    <script type="text/javascript" src="../assets/js/scripts.js"></script>
+</body>
+
+<!-- Mirrored from easybook.kwst.net/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 09:19:51 GMT -->
+</html>
